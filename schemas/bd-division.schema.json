@@ -3,7 +3,22 @@
   "$id": "https://geo-vault.local/schemas/bd-division.schema.json",
   "title": "Bangladesh Division",
   "type": "object",
-  "required": ["id", "name", "bn_name", "url"],
+  "required": [
+    "id",
+    "name",
+    "bn_name",
+    "slug",
+    "country_code",
+    "admin_level",
+    "pcode",
+    "area_sqkm",
+    "center_lat",
+    "center_lon",
+    "url",
+    "district_count",
+    "upazila_count",
+    "union_count"
+  ],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -15,7 +30,37 @@
     "bn_name": {
       "type": "string"
     },
+    "slug": {
+      "type": "string"
+    },
+    "country_code": {
+      "type": "string"
+    },
+    "admin_level": {
+      "type": "string"
+    },
+    "pcode": {
+      "type": "string"
+    },
+    "area_sqkm": {
+      "type": "string"
+    },
+    "center_lat": {
+      "type": "string"
+    },
+    "center_lon": {
+      "type": "string"
+    },
     "url": {
+      "type": "string"
+    },
+    "district_count": {
+      "type": "string"
+    },
+    "upazila_count": {
+      "type": "string"
+    },
+    "union_count": {
       "type": "string"
     }
   }

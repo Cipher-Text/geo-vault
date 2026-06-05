@@ -19,18 +19,33 @@ The original project states that information, content, and spelling were collect
 - Wikipedia
 - Google Maps
 
-### Upazila Coordinates, P-Codes, and Area
+### P-Codes, Area, and Center Coordinates
 
-Upazila `lat`, `lon`, `pcode`, and `area_sqkm` fields were joined from the HDX Bangladesh COD-AB gazetteer:
+Division, district, and upazila p-code, area, and center coordinate fields were joined from the HDX Bangladesh COD-AB gazetteer:
 
 - Dataset: Bangladesh - Subnational Administrative Boundaries (`cod-ab-bgd`)
 - Source: Bangladesh Bureau of Statistics (BBS)
 - Publisher/maintainer: OCHA Field Information Services Section / HDX
-- Fields: `center_lat`, `center_lon`, `adm3_pcode`, and `area_sqkm` from the `bgd_admin3` sheet
+- Division fields: `adm1_pcode`, `center_lat`, `center_lon`, and `area_sqkm` from the `bgd_admin1` sheet
+- District fields: `adm2_pcode`, `adm1_pcode`, `center_lat`, `center_lon`, and `area_sqkm` from the `bgd_admin2` sheet
+- Upazila fields: `adm3_pcode`, `adm2_pcode`, `adm1_pcode`, `center_lat`, `center_lon`, and `area_sqkm` from the `bgd_admin3` sheet
 - License: Creative Commons Attribution for Intergovernmental Organisations (CC BY 3.0 IGO)
 - Dataset URL: https://data.humdata.org/dataset/cod-ab-bgd
 
 The coordinates represent administrative center coordinates from the gazetteer, not surveyed upazila office locations.
+
+### Derived Fields
+
+These fields are derived from repository data:
+
+- `slug`
+- `country_code`
+- `admin_level`
+- Parent IDs on child records
+- Parent p-codes on child records
+- `district_count`
+- `upazila_count`
+- `union_count`
 
 Population has not been added yet. Add it only from a source with clear census year, licensing, and upazila-level identifiers or parent district fields suitable for a reliable join.
 

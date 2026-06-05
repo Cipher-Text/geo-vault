@@ -6,9 +6,9 @@ Geo Vault combines datasets from multiple sources. Check source notes before red
 
 The initial Bangladesh division, district, upazila, and union records are adapted from the MIT-licensed Bangladesh GeoCode project.
 
-## Bangladesh Upazila Coordinates, P-Codes, and Area
+## Bangladesh P-Codes, Area, and Center Coordinates
 
-The `lat`, `lon`, `pcode`, and `area_sqkm` fields in `data/bd/upazilas.json` are joined from the HDX Bangladesh COD-AB gazetteer, sourced from the Bangladesh Bureau of Statistics (BBS) and maintained/published by OCHA/HDX.
+The p-code, area, and center coordinate fields in Bangladesh division, district, and upazila datasets are joined from the HDX Bangladesh COD-AB gazetteer, sourced from the Bangladesh Bureau of Statistics (BBS) and maintained/published by OCHA/HDX.
 
 License: Creative Commons Attribution for Intergovernmental Organisations (CC BY 3.0 IGO)
 

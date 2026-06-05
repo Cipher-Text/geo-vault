@@ -1,17 +1,19 @@
-# Bangladesh Upazila Metadata Enrichment
+# Bangladesh Metadata Enrichment
 
-`data/bd/upazilas.json` was enriched with `lat`, `lon`, `pcode`, and `area_sqkm` values from the HDX Bangladesh COD-AB gazetteer.
+Bangladesh division, district, and upazila datasets were enriched with p-codes, area, and center coordinate values from the HDX Bangladesh COD-AB gazetteer.
+
+The union dataset was enriched only with derived parent IDs, parent p-codes, slugs, country code, and admin level. Union p-codes and coordinates were not added because the available external union-level source requires a separate reconciliation pass against this repository's 4540 union records.
 
 ## Source
 
 - Dataset: Bangladesh - Subnational Administrative Boundaries (`cod-ab-bgd`)
-- Sheet: `bgd_admin3`
-- Fields: `center_lat`, `center_lon`, `adm3_pcode`, `area_sqkm`
+- Sheets: `bgd_admin1`, `bgd_admin2`, `bgd_admin3`
+- Fields: `center_lat`, `center_lon`, administrative p-code fields, and `area_sqkm`
 - Source agency: Bangladesh Bureau of Statistics (BBS)
 - Publisher/maintainer: OCHA / HDX
 - License: CC BY 3.0 IGO
 
-## Match Summary
+## Upazila Match Summary
 
 - Total repo upazilas enriched: 494
 - Exact district-scoped name matches: 388
