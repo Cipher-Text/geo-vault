@@ -26,11 +26,14 @@ Worldwide datasets are planned under [`data/world`](data/world):
 
 | File | Description |
 | --- | --- |
-| `countries.json` | Countries and country-level metadata. |
-| `states.json` | States, provinces, or equivalent administrative regions. |
-| `cities.json` | Cities and populated places. |
+| `countries.json` | Countries and territories from GeoNames country metadata, enriched with Natural Earth region and label-coordinate fields where available. |
+| `admin1.json` | First-level administrative regions from Natural Earth, such as states, provinces, divisions, and departments. |
+| `states.json` | Alias copy of `admin1.json` for package consumers that expect a states/provinces filename. |
+| `cities.json` | GeoNames populated places with population greater than 15000. |
+| `geojson/countries.geojson` | Simplified Natural Earth country geometries with compact properties. |
+| `geojson/admin1.geojson` | Natural Earth admin-1 geometries with compact properties. |
 
-These files currently start as empty arrays until data sources and schema coverage are added.
+World country and city records use GeoNames attribution-required data. Natural Earth country and admin-1 geometry data is public domain.
 
 ## Structure
 
@@ -45,9 +48,11 @@ geo-vault/
 │   │   ├── geojson/
 │   │   └── formats/
 │   └── world/
+│       ├── admin1.json
 │       ├── countries.json
 │       ├── states.json
-│       └── cities.json
+│       ├── cities.json
+│       └── geojson/
 ├── schemas/
 ├── docs/
 ├── README.md

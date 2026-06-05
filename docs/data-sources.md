@@ -51,4 +51,37 @@ Population has not been added yet. Add it only from a source with clear census y
 
 ## World
 
-Worldwide datasets are planned but not yet populated. Add source notes here when country, state/province, and city datasets are introduced.
+### Countries
+
+`data/world/countries.json` is generated from GeoNames `countryInfo.txt` and enriched with Natural Earth country metadata where available.
+
+- Primary source: GeoNames country info
+- Natural Earth enrichment fields: region, subregion, label coordinates, official name, Wikidata ID
+- GeoNames URL: https://download.geonames.org/export/dump/countryInfo.txt
+- Natural Earth URL: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
+- GeoNames license: Creative Commons Attribution 4.0
+- Natural Earth license: Public domain
+
+### Admin-1 Regions
+
+`data/world/admin1.json`, `data/world/states.json`, and `data/world/geojson/admin1.geojson` are generated from Natural Earth Admin 1 - States, Provinces.
+
+- Source: Natural Earth Admin 1 - States, Provinces
+- URL: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
+- License: Public domain
+
+### Cities
+
+`data/world/cities.json` is generated from GeoNames `cities15000`.
+
+- Source: GeoNames cities with population greater than 15000
+- URL: https://download.geonames.org/export/dump/cities15000.zip
+- License: Creative Commons Attribution 4.0
+
+### Country Geometry
+
+`data/world/geojson/countries.geojson` is generated from Natural Earth Admin 0 - Countries.
+
+- Source: Natural Earth Admin 0 - Countries
+- URL: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
+- License: Public domain
