@@ -3,7 +3,7 @@
   "$id": "https://geo-vault.local/schemas/bd-upazila.schema.json",
   "title": "Bangladesh Upazila",
   "type": "object",
-  "required": ["id", "district_id", "name", "bn_name", "url"],
+  "required": ["id", "district_id", "name", "bn_name", "url", "lat", "lon", "pcode", "area_sqkm"],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -19,6 +19,18 @@
       "type": "string"
     },
     "url": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "string"
+    },
+    "lon": {
+      "type": "string"
+    },
+    "pcode": {
+      "type": "string"
+    },
+    "area_sqkm": {
       "type": "string"
     }
   }

@@ -2,7 +2,7 @@
 
 A curated collection of geolocation datasets for Bangladesh and the world.
 
-Geo Vault provides structured geolocation data for administrative regions, including Bangladesh divisions, districts, upazilas, unions, district coordinates, and related metadata. The repository is organized so it can grow into a broader vault of worldwide geolocation datasets.
+Geo Vault provides structured geolocation data for administrative regions, including Bangladesh divisions, districts, upazilas, unions, coordinates, and related metadata. The repository is organized so it can grow into a broader vault of worldwide geolocation datasets.
 
 ## Datasets
 
@@ -14,7 +14,7 @@ Primary JSON datasets live in [`data/bd`](data/bd):
 | --- | --- |
 | `divisions.json` | Bangladesh divisions with English name, Bangla name, and government website. |
 | `districts.json` | Districts mapped to divisions, including latitude, longitude, Bangla name, and government website. |
-| `upazilas.json` | Upazilas mapped to districts, including English name, Bangla name, and government website. |
+| `upazilas.json` | Upazilas mapped to districts, including English name, Bangla name, government website, latitude, longitude, p-code, and area. |
 | `unions.json` | Unions mapped to upazilas, including English name, Bangla name, and government website. |
 | `geojson/districts.geojson` | GeoJSON boundaries for Bangladesh districts. |
 
@@ -83,12 +83,30 @@ Example district:
 }
 ```
 
+Example upazila:
+
+```json
+{
+  "id": "1",
+  "district_id": "1",
+  "name": "Debidwar",
+  "bn_name": "দেবিদ্বার",
+  "url": "debidwar.comilla.gov.bd",
+  "lat": "23.5797482",
+  "lon": "90.99808648",
+  "pcode": "BD201927",
+  "area_sqkm": "238.36"
+}
+```
+
 ## Sources
 
-The initial Bangladesh datasets are adapted from the MIT-licensed Bangladesh GeoCode dataset. The original project notes that information was collected from Bangladesh government websites, Wikipedia, and Google Maps.
+The initial Bangladesh administrative datasets are adapted from the MIT-licensed Bangladesh GeoCode dataset. Upazila latitude, longitude, p-code, and area values are joined from the HDX Bangladesh COD-AB gazetteer, sourced from the Bangladesh Bureau of Statistics and OCHA.
 
 See [`docs/data-sources.md`](docs/data-sources.md) for attribution and source notes.
 
 ## License
 
-MIT. See [`LICENSE`](LICENSE).
+Code and MIT-sourced Bangladesh administrative data use the MIT license. Some enriched data fields have separate attribution requirements, including upazila coordinates from HDX/BBS/OCHA under CC BY 3.0 IGO.
+
+See [`LICENSE`](LICENSE) and [`LICENSE-DATA.md`](LICENSE-DATA.md).
