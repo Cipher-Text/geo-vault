@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo-vault.local/schemas/bd-union.schema.json",
+  "title": "Bangladesh Union",
+  "type": "object",
+  "required": ["id", "upazilla_id", "name", "bn_name", "url"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "upazilla_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "bn_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

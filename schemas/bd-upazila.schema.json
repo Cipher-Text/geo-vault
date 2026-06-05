@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo-vault.local/schemas/bd-upazila.schema.json",
+  "title": "Bangladesh Upazila",
+  "type": "object",
+  "required": ["id", "district_id", "name", "bn_name", "url"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "district_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "bn_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

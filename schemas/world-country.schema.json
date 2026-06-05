@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo-vault.local/schemas/world-country.schema.json",
+  "title": "World Country",
+  "type": "object",
+  "required": ["name", "iso2", "iso3"],
+  "additionalProperties": true,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "iso2": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 2
+    },
+    "iso3": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "capital": {
+      "type": "string"
+    },
+    "lat": {
+      "type": ["number", "string"]
+    },
+    "lon": {
+      "type": ["number", "string"]
+    }
+  }
+}
