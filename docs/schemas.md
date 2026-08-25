@@ -25,6 +25,6 @@ India uses country-specific filenames, `data/in/states.json` and `data/in/distri
 
 ## Notes
 
-- All field values are strings, matching the original source datasets.
+- Core source fields generally remain strings, matching the original source datasets. Country `metadata` fields use typed values where appropriate, such as integer estimates and arrays.
 - `additionalProperties` is `false` on all schemas to catch unexpected fields.
 - When adding a new country with deeper admin levels, create country-specific schemas under `schemas/{cc}/`.

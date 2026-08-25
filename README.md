@@ -63,13 +63,12 @@ Every country folder follows the same pattern:
 | `country.json` | Single country record extracted from the master list. |
 | `administrative.json` | Country-specific nested administrative hierarchy, where available. |
 | `admin1.json` | First-level divisions for countries using the generic flat layout. |
-| `admin2.json` | Second-level divisions, such as districts, where available. |
+| `states.json` | India-specific state and union-territory records. |
+| `districts.json` | India-specific district/zila records. |
 | `cities.json` | GeoNames populated places with population greater than 15,000. |
 | `geojson/` | Boundary geometries, if available. |
 
-Some country records may include an optional `metadata` object for country-specific enrichment. The U.S. record currently includes Census-based population, area, language, and time-zone metadata.
-
-The USA, India, and China country records include this optional metadata enrichment.
+Some country records may include an optional `metadata` object for country-specific enrichment. The USA, India, and China records currently include population, area, language, time-zone, and country-identifier metadata.
 
 India uses country-specific administrative filenames: `states.json` and `districts.json`.
 
