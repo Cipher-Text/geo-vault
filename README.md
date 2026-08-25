@@ -1,69 +1,122 @@
 # Geo Vault
 
-A curated collection of geolocation datasets for Bangladesh and the world.
+A curated collection of geolocation datasets organized by country.
 
-Geo Vault provides structured geolocation data for administrative regions, including Bangladesh divisions, districts, upazilas, unions, coordinates, and related metadata. The repository is organized so it can grow into a broader vault of worldwide geolocation datasets.
+Geo Vault provides structured geolocation data for administrative regions, cities, coordinates, and related metadata. Data is organized per country under ISO 3166-1 alpha-2 codes, with a master country list at the root.
 
-## Datasets
+## Countries
 
-### Bangladesh
-
-Primary JSON datasets live in [`data/bd`](data/bd):
-
-| File | Description |
-| --- | --- |
-| `divisions.json` | Bangladesh divisions with names, slug, p-code, area, center coordinates, website, and child counts. |
-| `districts.json` | Districts mapped to divisions, including names, slug, p-code, area, center coordinates, source coordinates, website, and child counts. |
-| `upazilas.json` | Upazilas mapped to districts and divisions, including names, slug, p-code, area, center coordinates, website, and union count. |
-| `unions.json` | Unions mapped to upazilas, districts, and divisions, including names, slug, parent IDs, parent p-codes, and website. |
-| `geojson/districts.geojson` | GeoJSON boundaries for Bangladesh districts. |
-
-Original alternate formats are preserved in [`data/bd/formats`](data/bd/formats), including CSV, SQL, XML, PHP arrays, and the original phpMyAdmin JSON exports.
-
-### World
-
-Worldwide datasets are planned under [`data/world`](data/world):
-
-| File | Description |
-| --- | --- |
-| `countries.json` | Countries and territories from GeoNames country metadata, enriched with Natural Earth region and label-coordinate fields where available. |
-| `admin1.json` | First-level administrative regions from Natural Earth, such as states, provinces, divisions, and departments. |
-| `states.json` | Alias copy of `admin1.json` for package consumers that expect a states/provinces filename. |
-| `cities.json` | GeoNames populated places with population greater than 15000. |
-| `geojson/countries.geojson` | Simplified Natural Earth country geometries with compact properties. |
-| `geojson/admin1.geojson` | Natural Earth admin-1 geometries with compact properties. |
-
-World country and city records use GeoNames attribution-required data. Natural Earth country and admin-1 geometry data is public domain.
+| Code | Country | Admin Levels | Cities | Notes |
+| --- | --- | --- | --- | --- |
+| `bd` | Bangladesh | 4 (divisions, districts, upazilas, unions) | 137 | Deep coverage with p-codes, area, coordinates, GeoJSON |
+| `us` | United States | 1 (states) | 3,399 | |
+| `in` | India | 1 (states, union territories) | 3,776 | |
+| `pk` | Pakistan | 1 (provinces, territories) | 363 | |
+| `cn` | China | 1 (provinces, municipalities, autonomous regions) | 2,093 | |
 
 ## Structure
 
 ```txt
 geo-vault/
 ├── data/
+│   ├── countries.json          Master list of 252 countries
 │   ├── bd/
-│   │   ├── divisions.json
-│   │   ├── districts.json
-│   │   ├── upazilas.json
-│   │   ├── unions.json
+│   │   ├── country.json        Country record
+│   │   ├── admin1.json         Divisions (8)
+│   │   ├── admin2.json         Districts (64)
+│   │   ├── admin3.json         Upazilas (494)
+│   │   ├── admin4.json         Unions (4,540)
+│   │   ├── cities.json         Cities (137)
 │   │   ├── geojson/
-│   │   └── formats/
-│   └── world/
-│       ├── admin1.json
-│       ├── countries.json
-│       ├── states.json
-│       ├── cities.json
-│       └── geojson/
+│   │   └── formats/            Legacy CSV, SQL, XML, PHP
+│   ├── us/
+│   │   ├── country.json
+│   │   ├── admin1.json         States (51)
+│   │   └── cities.json         Cities (3,399)
+│   ├── in/
+│   │   ├── country.json
+│   │   ├── admin1.json         States & UTs (36)
+│   │   └── cities.json         Cities (3,776)
+│   ├── pk/
+│   │   ├── country.json
+│   │   ├── admin1.json         Provinces (8)
+│   │   └── cities.json         Cities (363)
+│   └── cn/
+│       ├── country.json
+│       ├── admin1.json         Provinces (32)
+│       └── cities.json         Cities (2,093)
 ├── schemas/
+│   ├── country.schema.json
+│   ├── admin1.schema.json
+│   ├── city.schema.json
+│   └── bd/
+│       ├── admin1.schema.json
+│       ├── admin2.schema.json
+│       ├── admin3.schema.json
+│       └── admin4.schema.json
 ├── docs/
 ├── README.md
 └── LICENSE
 ```
 
+## Per-Country Layout
+
+Every country folder follows the same pattern:
+
+| File | Description |
+| --- | --- |
+| `country.json` | Single country record extracted from the master list. |
+| `admin1.json` | First-level administrative divisions (states, provinces, divisions, departments). |
+| `admin2.json` | Second-level divisions, if available. |
+| `admin3.json` | Third-level divisions, if available. |
+| `admin4.json` | Fourth-level divisions, if available. |
+| `cities.json` | GeoNames populated places with population greater than 15,000. |
+| `geojson/` | Boundary geometries, if available. |
+
 ## Data Shape
 
-Bangladesh JSON files are plain arrays of objects.
+### Country
 
-Example division:
+```json
+{
+  "id": "bd",
+  "name": "Bangladesh",
+  "official_name": "People's Republic of Bangladesh",
+  "slug": "bangladesh",
+  "iso2": "BD",
+  "iso3": "BGD",
+  "continent": "Asia",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Dhaka",
+  "area_sqkm": "144000",
+  "population": "164689383",
+  "currency_code": "BDT",
+  "phone_code": "+880",
+  "lat": "23.684994",
+  "lon": "90.356331"
+}
+```
+
+### Admin Level 1 (example: US state)
+
+```json
+{
+  "id": "ne-usa-3514",
+  "name": "California",
+  "name_en": "California",
+  "slug": "california",
+  "country_code": "US",
+  "country_iso3": "USA",
+  "admin_level": "admin1",
+  "type": "State",
+  "iso_3166_2": "US-CA",
+  "lat": "37.1841",
+  "lon": "-119.271"
+}
+```
+
+### Admin Level 1 (example: BD division)
 
 ```json
 {
@@ -77,89 +130,49 @@ Example division:
   "area_sqkm": "32833.07733648",
   "center_lat": "22.70130794",
   "center_lon": "91.70586117",
-  "url": "www.chittagongdiv.gov.bd",
   "district_count": "11",
   "upazila_count": "104",
   "union_count": "950"
 }
 ```
 
-Example district:
+### City
 
 ```json
 {
-  "id": "1",
-  "division_id": "1",
-  "name": "Comilla",
-  "bn_name": "কুমিল্লা",
-  "slug": "comilla",
+  "id": "geonames-1185241",
+  "geoname_id": "1185241",
+  "name": "Dhaka",
+  "ascii_name": "Dhaka",
+  "slug": "dhaka",
   "country_code": "BD",
-  "admin_level": "district",
-  "pcode": "BD2019",
-  "division_pcode": "BD20",
-  "lat": "23.4682747",
-  "lon": "91.1788135",
-  "center_lat": "23.43704815",
-  "center_lon": "91.03297863",
-  "area_sqkm": "3097.33937792",
-  "url": "www.comilla.gov.bd",
-  "upazila_count": "17",
-  "union_count": "192"
+  "lat": "23.7104",
+  "lon": "90.40744",
+  "population": "10356500",
+  "timezone": "Asia/Dhaka"
 }
 ```
 
-Example upazila:
+## Documentation
 
-```json
-{
-  "id": "1",
-  "division_id": "1",
-  "district_id": "1",
-  "name": "Debidwar",
-  "bn_name": "দেবিদ্বার",
-  "slug": "debidwar",
-  "country_code": "BD",
-  "admin_level": "upazila",
-  "pcode": "BD20190040",
-  "division_pcode": "BD20",
-  "district_pcode": "BD2019",
-  "lat": "23.5797482",
-  "lon": "90.99808648",
-  "area_sqkm": "239.26585137",
-  "url": "debidwar.comilla.gov.bd",
-  "union_count": "15"
-}
-```
-
-Example union:
-
-```json
-{
-  "id": "1",
-  "division_id": "1",
-  "district_id": "1",
-  "upazila_id": "1",
-  "upazilla_id": "1",
-  "name": "Subil",
-  "bn_name": "সুবিল",
-  "slug": "subil",
-  "country_code": "BD",
-  "admin_level": "union",
-  "division_pcode": "BD20",
-  "district_pcode": "BD2019",
-  "upazila_pcode": "BD20190040",
-  "url": "subilup.comilla.gov.bd"
-}
-```
+| Doc | Description |
+| --- | --- |
+| [`docs/data-sources.md`](docs/data-sources.md) | Full source attribution and licensing per dataset. |
+| [`docs/schemas.md`](docs/schemas.md) | Schema layout and which schema validates which data file. |
+| [`docs/contributing.md`](docs/contributing.md) | Guidelines for data changes and adding new countries. |
+| [`docs/bd-enrichment.md`](docs/bd-enrichment.md) | Bangladesh metadata enrichment process and match details. |
 
 ## Sources
 
-The initial Bangladesh administrative datasets are adapted from the MIT-licensed Bangladesh GeoCode dataset. Division, district, and upazila p-codes, area values, and center coordinates are joined from the HDX Bangladesh COD-AB gazetteer, sourced from the Bangladesh Bureau of Statistics and OCHA. Slugs, parent IDs, parent p-codes, country codes, admin levels, and child counts are derived from repository data.
+- **Bangladesh administrative data**: Adapted from the MIT-licensed Bangladesh GeoCode dataset. P-codes, area, and center coordinates from the HDX Bangladesh COD-AB gazetteer (BBS/OCHA, CC BY 3.0 IGO).
+- **World countries**: GeoNames countryInfo enriched with Natural Earth metadata (GeoNames CC BY 4.0, Natural Earth public domain).
+- **Admin-1 regions**: Natural Earth Admin 1 - States, Provinces (public domain).
+- **Cities**: GeoNames cities15000 (CC BY 4.0).
 
-See [`docs/data-sources.md`](docs/data-sources.md) for attribution and source notes.
+See [`docs/data-sources.md`](docs/data-sources.md) for full attribution.
 
 ## License
 
-Code and MIT-sourced Bangladesh administrative data use the MIT license. Some enriched data fields have separate attribution requirements, including p-codes, area, and center coordinates from HDX/BBS/OCHA under CC BY 3.0 IGO.
+Code and MIT-sourced Bangladesh administrative data use the MIT license. Some enriched data fields have separate attribution requirements.
 
 See [`LICENSE`](LICENSE) and [`LICENSE-DATA.md`](LICENSE-DATA.md).

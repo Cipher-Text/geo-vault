@@ -1,0 +1,40 @@
+{
+  "id": "pk",
+  "name": "Pakistan",
+  "official_name": "Islamic Republic of Pakistan",
+  "slug": "pakistan",
+  "iso2": "PK",
+  "iso3": "PAK",
+  "numeric_code": "586",
+  "fips_code": "PK",
+  "geoname_id": "1168579",
+  "continent_code": "AS",
+  "continent": "Asia",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Islamabad",
+  "area_sqkm": "803940",
+  "population": "212215030",
+  "population_source": "GeoNames countryInfo",
+  "currency_code": "PKR",
+  "currency_name": "Rupee",
+  "phone_code": "+92",
+  "tld": ".pk",
+  "languages": [
+    "ur-PK",
+    "en-PK",
+    "pa",
+    "sd",
+    "ps",
+    "brh"
+  ],
+  "neighbours": [
+    "CN",
+    "AF",
+    "IR",
+    "IN"
+  ],
+  "lat": "29.328389",
+  "lon": "68.545632",
+  "wikidata_id": "Q843"
+}

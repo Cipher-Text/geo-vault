@@ -1,0 +1,37 @@
+{
+  "id": "us",
+  "name": "United States",
+  "official_name": "United States of America",
+  "slug": "united-states",
+  "iso2": "US",
+  "iso3": "USA",
+  "numeric_code": "840",
+  "fips_code": "US",
+  "geoname_id": "6252001",
+  "continent_code": "NA",
+  "continent": "North America",
+  "region": "Americas",
+  "subregion": "Northern America",
+  "capital": "Washington",
+  "area_sqkm": "9629091",
+  "population": "327167434",
+  "population_source": "GeoNames countryInfo",
+  "currency_code": "USD",
+  "currency_name": "Dollar",
+  "phone_code": "+1",
+  "tld": ".us",
+  "languages": [
+    "en-US",
+    "es-US",
+    "haw",
+    "fr"
+  ],
+  "neighbours": [
+    "CA",
+    "MX",
+    "CU"
+  ],
+  "lat": "39.538479",
+  "lon": "-97.482602",
+  "wikidata_id": "Q30"
+}

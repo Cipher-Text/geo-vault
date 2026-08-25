@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo-vault.local/schemas/bd/admin3.schema.json",
+  "title": "Bangladesh Upazila (Admin Level 3)",
+  "type": "object",
+  "required": [
+    "id",
+    "division_id",
+    "district_id",
+    "name",
+    "bn_name",
+    "slug",
+    "country_code",
+    "admin_level",
+    "pcode",
+    "division_pcode",
+    "district_pcode",
+    "lat",
+    "lon",
+    "area_sqkm",
+    "url",
+    "union_count"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "division_id": { "type": "string" },
+    "district_id": { "type": "string" },
+    "name": { "type": "string" },
+    "bn_name": { "type": "string" },
+    "slug": { "type": "string" },
+    "country_code": { "type": "string" },
+    "admin_level": { "type": "string" },
+    "pcode": { "type": "string" },
+    "division_pcode": { "type": "string" },
+    "district_pcode": { "type": "string" },
+    "lat": { "type": "string" },
+    "lon": { "type": "string" },
+    "area_sqkm": { "type": "string" },
+    "url": { "type": "string" },
+    "union_count": { "type": "string" }
+  }
+}

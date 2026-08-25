@@ -6,12 +6,12 @@ The initial Bangladesh datasets are adapted from the MIT-licensed Bangladesh Geo
 
 Included data:
 
-- Divisions
-- Districts
-- Upazilas
-- Unions
-- District GeoJSON boundaries
-- Alternate dataset formats: CSV, SQL, JSON, PHP, and XML
+- Divisions (`data/bd/admin1.json`)
+- Districts (`data/bd/admin2.json`)
+- Upazilas (`data/bd/admin3.json`)
+- Unions (`data/bd/admin4.json`)
+- District GeoJSON boundaries (`data/bd/geojson/districts.geojson`)
+- Alternate dataset formats: CSV, SQL, JSON, PHP, and XML (`data/bd/formats/`)
 
 The original project states that information, content, and spelling were collected from:
 
@@ -49,11 +49,9 @@ These fields are derived from repository data:
 
 Population has not been added yet. Add it only from a source with clear census year, licensing, and upazila-level identifiers or parent district fields suitable for a reliable join.
 
-## World
+## Countries
 
-### Countries
-
-`data/world/countries.json` is generated from GeoNames `countryInfo.txt` and enriched with Natural Earth country metadata where available.
+`data/countries.json` and per-country `country.json` files are generated from GeoNames `countryInfo.txt` and enriched with Natural Earth country metadata where available.
 
 - Primary source: GeoNames country info
 - Natural Earth enrichment fields: region, subregion, label coordinates, official name, Wikidata ID
@@ -62,26 +60,18 @@ Population has not been added yet. Add it only from a source with clear census y
 - GeoNames license: Creative Commons Attribution 4.0
 - Natural Earth license: Public domain
 
-### Admin-1 Regions
+## Admin-1 Regions
 
-`data/world/admin1.json`, `data/world/states.json`, and `data/world/geojson/admin1.geojson` are generated from Natural Earth Admin 1 - States, Provinces.
+Per-country `admin1.json` files (for US, IN, PK, CN) are generated from Natural Earth Admin 1 - States, Provinces.
 
 - Source: Natural Earth Admin 1 - States, Provinces
 - URL: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
 - License: Public domain
 
-### Cities
+## Cities
 
-`data/world/cities.json` is generated from GeoNames `cities15000`.
+Per-country `cities.json` files are generated from GeoNames `cities15000`.
 
 - Source: GeoNames cities with population greater than 15000
 - URL: https://download.geonames.org/export/dump/cities15000.zip
 - License: Creative Commons Attribution 4.0
-
-### Country Geometry
-
-`data/world/geojson/countries.geojson` is generated from Natural Earth Admin 0 - Countries.
-
-- Source: Natural Earth Admin 0 - Countries
-- URL: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
-- License: Public domain

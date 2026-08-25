@@ -14,24 +14,30 @@ License: Creative Commons Attribution for Intergovernmental Organisations (CC BY
 
 Dataset: https://data.humdata.org/dataset/cod-ab-bgd
 
-## World Countries and Cities
+## Countries
 
-`data/world/countries.json` and `data/world/cities.json` include data from GeoNames.
+`data/countries.json` and per-country `country.json` files include data from GeoNames and Natural Earth.
 
-License: Creative Commons Attribution 4.0
+GeoNames license: Creative Commons Attribution 4.0
+Natural Earth license: Public domain
 
 Dataset URLs:
 
 - https://download.geonames.org/export/dump/countryInfo.txt
-- https://download.geonames.org/export/dump/cities15000.zip
+- https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
 
-## World Boundaries and Admin-1 Regions
+## Admin-1 Regions
 
-`data/world/admin1.json`, `data/world/states.json`, `data/world/geojson/countries.geojson`, and `data/world/geojson/admin1.geojson` include data from Natural Earth.
+Per-country `admin1.json` files (for US, IN, PK, CN) include data from Natural Earth.
 
 License: Public domain
 
-Dataset URLs:
+Dataset URL: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
 
-- https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
-- https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
+## Cities
+
+Per-country `cities.json` files include data from GeoNames.
+
+License: Creative Commons Attribution 4.0
+
+Dataset URL: https://download.geonames.org/export/dump/cities15000.zip
