@@ -2,7 +2,9 @@
 
 Bangladesh division, district, and upazila datasets were enriched with p-codes, area, and center coordinate values from the HDX Bangladesh COD-AB gazetteer.
 
-The union dataset was enriched only with derived parent IDs, parent p-codes, slugs, country code, and admin level. Union p-codes and coordinates were not added because the available external union-level source requires a separate reconciliation pass against this repository's 4540 union records.
+The union dataset now includes ADM4 p-codes and polygon-centroid coordinates for 2,629 unambiguous reconciliations against the Bangladesh DGHS `All_Union` boundary service. The remaining 1,911 records are intentionally left without these fields until their spelling aliases and source-code conflicts are reconciled.
+
+The source contains 4,714 features and duplicated ADM4 codes. Matching used the existing repository upazila p-code to normalize the source's ADM4 code layout, then required an exact union-name match within that upazila. Duplicate source codes and duplicate repository name/parent keys were excluded from enrichment.
 
 ## Source
 
@@ -12,6 +14,14 @@ The union dataset was enriched only with derived parent IDs, parent p-codes, slu
 - Source agency: Bangladesh Bureau of Statistics (BBS)
 - Publisher/maintainer: OCHA / HDX
 - License: CC BY 3.0 IGO
+
+## Union Boundary Metadata
+
+- Service: Bangladesh DGHS `All_Union` FeatureServer layer
+- URL: https://gis.dghs.gov.bd/server/rest/services/Hosted/All_Union/FeatureServer/0
+- Fields used: `adm4_pcode`, division, district, upazila, union name, and polygon centroid
+- Spatial reference: WGS84 / EPSG:4326
+- Retrieved: 2026-08-26
 
 ## Upazila Match Summary
 

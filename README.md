@@ -25,7 +25,7 @@ geo-vault/
 │   │   ├── admin1.json         Divisions (8)
 │   │   ├── admin2.json         Districts (64)
 │   │   ├── admin3.json         Upazilas (494)
-│   │   ├── admin4.json         Unions (4,540)
+│   │   ├── admin4.json         Unions (4,540; 2,629 with reconciled ADM4 p-codes and centroids)
 │   │   ├── cities.json         Cities (137)
 │   │   ├── geojson/
 │   │   └── formats/            Legacy CSV, SQL, XML, PHP

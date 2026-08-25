@@ -34,6 +34,18 @@
     "division_pcode": { "type": "string" },
     "district_pcode": { "type": "string" },
     "upazila_pcode": { "type": "string" },
+    "pcode": {
+      "type": "string",
+      "description": "ADM4 p-code from the Bangladesh DGHS All_Union boundary service; present for unambiguous reconciliations."
+    },
+    "center_lat": {
+      "type": "string",
+      "description": "Polygon centroid latitude in WGS84; present for unambiguous reconciliations."
+    },
+    "center_lon": {
+      "type": "string",
+      "description": "Polygon centroid longitude in WGS84; present for unambiguous reconciliations."
+    },
     "url": { "type": "string" }
   }
 }
