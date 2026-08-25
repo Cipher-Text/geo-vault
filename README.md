@@ -69,6 +69,8 @@ Every country folder follows the same pattern:
 
 Some country records may include an optional `metadata` object for country-specific enrichment. The U.S. record currently includes Census-based population, area, language, and time-zone metadata.
 
+The USA, India, and China country records include this optional metadata enrichment.
+
 India uses country-specific administrative filenames: `states.json` and `districts.json`.
 
 ## Data Shape

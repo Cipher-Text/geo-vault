@@ -88,6 +88,17 @@ The optional `metadata` block in `data/in/country.json` adds India-specific coun
 
 The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
 
+### China Country Metadata
+
+The optional `metadata` block in `data/cn/country.json` adds China-specific country facts:
+
+- Population estimate: National Bureau of Statistics of China, year-end 2025
+- Area: World Bank World Development Indicators
+- Language policy and language context: national standard-language policy and commonly reported regional/minority languages
+- Time zone: IANA `Asia/Shanghai`, UTC+08:00
+
+The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
+
 ## Admin-1 Regions
 
 Per-country `admin1.json` files for the US, Pakistan, and China are generated from Natural Earth Admin 1 - States, Provinces. India uses the country-specific `states.json` filename while retaining the same Natural Earth state and union-territory source data.

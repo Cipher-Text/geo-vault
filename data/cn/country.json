@@ -46,5 +46,40 @@
   ],
   "lat": "32.498178",
   "lon": "106.337289",
-  "wikidata_id": "Q148"
+  "wikidata_id": "Q148",
+  "metadata": {
+    "population_estimate": 1404890000,
+    "population_estimate_year": 2025,
+    "population_estimate_source": "National Bureau of Statistics of China, 2025 Statistical Communiqué",
+    "area_total_sqkm": 9562910,
+    "area_source": "World Bank World Development Indicators",
+    "official_languages": [
+      "Standard Chinese (Putonghua)"
+    ],
+    "language_policy": "Putonghua and standardized Chinese characters are the national standard spoken and written language.",
+    "primary_language": "Mandarin Chinese",
+    "common_languages": [
+      "Mandarin Chinese",
+      "Wu Chinese",
+      "Yue Chinese",
+      "Min Chinese",
+      "Jin Chinese",
+      "Hakka Chinese",
+      "Xiang Chinese",
+      "Gan Chinese",
+      "Tibetan",
+      "Uyghur",
+      "Mongolian",
+      "Zhuang"
+    ],
+    "language_data_source": "National standard-language policy and commonly reported Sinitic and minority languages",
+    "time_zones": [
+      "Asia/Shanghai"
+    ],
+    "time_zone_count": 1,
+    "utc_offset": "+08:00",
+    "driving_side": "right",
+    "calling_code": "+86",
+    "internet_country_code": ".cn"
+  }
 }
