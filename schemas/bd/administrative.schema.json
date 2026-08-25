@@ -3,10 +3,11 @@
   "$id": "https://geo-vault.local/schemas/bd/administrative.schema.json",
   "title": "Bangladesh Administrative Hierarchy",
   "type": "object",
-  "required": ["country", "divisions"],
+  "required": ["country", "divisions", "city_corporations"],
   "properties": {
     "country": { "type": "object", "required": ["id", "iso2", "iso3", "name"], "properties": { "id": { "type": "string" }, "iso2": { "type": "string" }, "iso3": { "type": "string" }, "name": { "type": "string" } }, "additionalProperties": true },
-    "divisions": { "type": "array", "items": { "$ref": "#/$defs/division" } }
+    "divisions": { "type": "array", "items": { "$ref": "#/$defs/division" } },
+    "city_corporations": { "type": "array", "items": { "$ref": "#/$defs/city_corporation" } }
   },
   "additionalProperties": false,
   "$defs": {
@@ -14,6 +15,21 @@
       "type": "object",
       "required": ["id", "name"],
       "properties": { "id": { "type": "string" }, "name": { "type": "string" } },
+      "additionalProperties": true
+    },
+    "city_corporation": {
+      "type": "object",
+      "required": ["id", "name", "admin_level", "local_government_type", "division_id", "district_id"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "admin_level": { "const": "city_corporation" },
+        "local_government_type": { "const": "city_corporation" },
+        "division_id": { "type": "string" },
+        "district_id": { "type": "string" },
+        "official_website": { "type": "string", "format": "uri" },
+        "metadata_retrieved_at": { "type": "string", "format": "date" }
+      },
       "additionalProperties": true
     },
     "union": {

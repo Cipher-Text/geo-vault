@@ -22,7 +22,7 @@ geo-vault/
 │   ├── countries.json          Master list of 252 countries
 │   ├── bd/
 │   │   ├── country.json        Country record
-│   │   ├── administrative.json  Divisions → districts → upazilas → unions
+│   │   ├── administrative.json  Divisions → districts → upazilas → unions + city corporations
 │   │   ├── cities.json         Cities (137)
 │   │   ├── geojson/
 │   │   └── formats/            Legacy CSV, SQL, and JSON exports
@@ -110,7 +110,7 @@ Every country folder follows the same pattern:
 
 ### Bangladesh Administrative Hierarchy
 
-`data/bd/administrative.json` contains nested divisions, districts, upazilas, and unions. Each level retains its Bangladesh-specific fields and child collection.
+`data/bd/administrative.json` contains nested divisions, districts, upazilas, and unions, plus a separate `city_corporations` collection for urban local government. City corporations are not placed inside the rural union tree.
 
 Example division:
 

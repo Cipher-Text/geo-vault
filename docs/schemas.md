@@ -18,7 +18,7 @@ Bangladesh has deeper administrative coverage with its own field set (Bengali na
 
 | Schema | Validates | Structure |
 | --- | --- | --- |
-| `bd/administrative.schema.json` | `bd/administrative.json` | Divisions → districts → upazilas → unions |
+| `bd/administrative.schema.json` | `bd/administrative.json` | Divisions → districts → upazilas → unions, plus city corporations |
 
 
 ## Notes

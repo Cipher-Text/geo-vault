@@ -23,6 +23,13 @@ The source contains 4,714 features and duplicated ADM4 codes. Matching used the 
 - Spatial reference: WGS84 / EPSG:4326
 - Retrieved: 2026-08-26
 
+## City Corporations
+
+The hierarchy file includes 12 city corporations as a separate urban local-government collection. They are linked to their division and district by existing p-codes, include official government websites, and are not nested under unions.
+
+- Source: Local Government Division city-corporation listing and Bangladesh National Portal government directory
+- Sources: https://lgd.gov.bd/pages/static-pages/69414021c4774958d7b54bbc and https://bangladesh.gov.bd/views/ministry-and-directorate-list
+
 ## Upazila Match Summary
 
 - Total repo upazilas enriched: 494

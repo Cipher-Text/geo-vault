@@ -7,6 +7,7 @@ The initial Bangladesh datasets are adapted from the MIT-licensed Bangladesh Geo
 Included data:
 
 - Bangladesh administrative hierarchy (`data/bd/administrative.json`)
+- City corporations are maintained as a separate urban local-government collection within the hierarchy file, based on the Local Government Division's city-corporation list.
 - District GeoJSON boundaries (`data/bd/geojson/districts.geojson`)
 - Alternate dataset formats: CSV, SQL, JSON, PHP, and XML (`data/bd/formats/`)
 
