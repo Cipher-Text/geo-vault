@@ -10,7 +10,7 @@ Geo Vault provides structured geolocation data for administrative regions, citie
 | --- | --- | --- | --- | --- |
 | `bd` | Bangladesh | 4 (divisions, districts, upazilas, unions) | 137 | Deep coverage with p-codes, area, coordinates, GeoJSON |
 | `us` | United States | 1 (states) | 3,399 | |
-| `in` | India | 1 (states, union territories) | 3,776 | |
+| `in` | India | 2 (states/UTs, districts) | 3,776 | |
 | `pk` | Pakistan | 1 (provinces, territories) | 363 | |
 | `cn` | China | 1 (provinces, municipalities, autonomous regions) | 2,093 | |
 
@@ -32,7 +32,8 @@ geo-vault/
 │   │   └── cities.json         Cities (3,399)
 │   ├── in/
 │   │   ├── country.json
-│   │   ├── admin1.json         States & UTs (36)
+│   │   ├── states.json        States & union territories (36)
+│   │   ├── districts.json     Districts / zila (763)
 │   │   └── cities.json         Cities (3,776)
 │   ├── pk/
 │   │   ├── country.json
@@ -62,10 +63,13 @@ Every country folder follows the same pattern:
 | `country.json` | Single country record extracted from the master list. |
 | `administrative.json` | Country-specific nested administrative hierarchy, where available. |
 | `admin1.json` | First-level divisions for countries using the generic flat layout. |
+| `admin2.json` | Second-level divisions, such as districts, where available. |
 | `cities.json` | GeoNames populated places with population greater than 15,000. |
 | `geojson/` | Boundary geometries, if available. |
 
 Some country records may include an optional `metadata` object for country-specific enrichment. The U.S. record currently includes Census-based population, area, language, and time-zone metadata.
+
+India uses country-specific administrative filenames: `states.json` and `districts.json`.
 
 ## Data Shape
 
@@ -150,6 +154,10 @@ Example division:
   "timezone": "Asia/Dhaka"
 }
 ```
+
+### India District
+
+India-specific names are available in `data/in/states.json` and `data/in/districts.json`; records use `state`, `union_territory`, and `district` as their level names. Their `admin1_code` and `admin2_code` values match the corresponding state and city records, allowing cities to be joined to a district and state.
 
 ## Documentation
 

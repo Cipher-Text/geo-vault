@@ -4,7 +4,7 @@ JSON Schema definitions live in the `schemas/` directory and validate the shape 
 
 ## Universal Schemas
 
-These schemas apply to country folders using the generic flat layout. Bangladesh uses its country-specific nested schema below.
+These schemas apply to country folders using the generic flat layout. Bangladesh and India use country-specific administrative layouts for their deeper coverage.
 
 | Schema | Validates | Description |
 | --- | --- | --- |
@@ -15,6 +15,8 @@ These schemas apply to country folders using the generic flat layout. Bangladesh
 ## Bangladesh-Specific Schema
 
 Bangladesh has deeper administrative coverage with its own field set (Bengali names, p-codes, area, child counts). The nested hierarchy is validated by `schemas/bd/administrative.schema.json`.
+
+India uses country-specific filenames, `data/in/states.json` and `data/in/districts.json`, so its administrative levels retain the local terms state, union territory, and district.
 
 | Schema | Validates | Structure |
 | --- | --- | --- |

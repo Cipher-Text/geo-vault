@@ -58,5 +58,64 @@
   ],
   "lat": "22.686852",
   "lon": "79.358105",
-  "wikidata_id": "Q668"
+  "wikidata_id": "Q668",
+  "metadata": {
+    "population_estimate": 1463865525,
+    "population_estimate_year": 2025,
+    "population_estimate_source": "World Bank World Development Indicators",
+    "area_total_sqkm": 3287260,
+    "area_source": "World Bank World Development Indicators",
+    "official_languages": [
+      "Hindi",
+      "English"
+    ],
+    "language_policy": "Hindi is the official language of the Union; English continues to be used for official Union purposes.",
+    "primary_language": "Hindi",
+    "common_languages": [
+      "Hindi",
+      "Bengali",
+      "Telugu",
+      "Marathi",
+      "Tamil",
+      "Gujarati",
+      "Urdu",
+      "Kannada",
+      "Odia",
+      "Malayalam",
+      "Punjabi"
+    ],
+    "scheduled_languages": [
+      "Assamese",
+      "Bengali",
+      "Bodo",
+      "Dogri",
+      "Gujarati",
+      "Hindi",
+      "Kannada",
+      "Kashmiri",
+      "Konkani",
+      "Maithili",
+      "Malayalam",
+      "Manipuri",
+      "Marathi",
+      "Nepali",
+      "Odia",
+      "Punjabi",
+      "Sanskrit",
+      "Santali",
+      "Sindhi",
+      "Tamil",
+      "Telugu",
+      "Urdu"
+    ],
+    "language_data_source": "Census of India 2011 and Department of Official Language, Government of India",
+    "time_zones": [
+      "Asia/Kolkata"
+    ],
+    "time_zone_count": 1,
+    "utc_offset": "+05:30",
+    "driving_side": "left",
+    "calling_code": "+91",
+    "internet_country_code": ".in"
+  }
 }

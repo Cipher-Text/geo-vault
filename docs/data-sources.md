@@ -69,9 +69,28 @@ The optional `metadata` block in `data/us/country.json` adds current U.S.-specif
 
 The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
 
+### India Districts
+
+`data/in/districts.json` contains 763 GeoNames administrative-level-2 records representing Indian districts and district-equivalent areas. Records retain GeoNames identifiers, state and district codes, coordinates, population, time zone, and source modification dates.
+
+- Source: GeoNames India country dump (`IN.zip`)
+- Filter: `feature_class=A` and `feature_code=ADM2`
+- License: Creative Commons Attribution 4.0
+
+### India Country Metadata
+
+The optional `metadata` block in `data/in/country.json` adds India-specific country facts:
+
+- Population estimate and area: World Bank World Development Indicators, 2025
+- Official-language policy: Department of Official Language, Government of India
+- Scheduled languages and mother-tongue context: Census of India 2011
+- Time zone: IANA `Asia/Kolkata`, UTC+05:30
+
+The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
+
 ## Admin-1 Regions
 
-Per-country `admin1.json` files (for US, IN, PK, CN) are generated from Natural Earth Admin 1 - States, Provinces.
+Per-country `admin1.json` files for the US, Pakistan, and China are generated from Natural Earth Admin 1 - States, Provinces. India uses the country-specific `states.json` filename while retaining the same Natural Earth state and union-territory source data.
 
 - Source: Natural Earth Admin 1 - States, Provinces
 - URL: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
