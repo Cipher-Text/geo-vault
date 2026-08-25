@@ -1,0 +1,33 @@
+{
+  "id": "bt",
+  "name": "Bhutan",
+  "official_name": "Kingdom of Bhutan",
+  "slug": "bhutan",
+  "iso2": "BT",
+  "iso3": "BTN",
+  "numeric_code": "064",
+  "fips_code": "BT",
+  "geoname_id": "1252634",
+  "continent_code": "AS",
+  "continent": "Asia",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Thimphu",
+  "area_sqkm": "47000",
+  "population": "754394",
+  "population_source": "GeoNames countryInfo",
+  "currency_code": "BTN",
+  "currency_name": "Ngultrum",
+  "phone_code": "+975",
+  "tld": ".bt",
+  "languages": [
+    "dz"
+  ],
+  "neighbours": [
+    "CN",
+    "IN"
+  ],
+  "lat": "27.536685",
+  "lon": "90.040294",
+  "wikidata_id": "Q917"
+}

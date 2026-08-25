@@ -14,6 +14,7 @@ Geo Vault provides structured geolocation data for administrative regions, citie
 | `pk` | Pakistan | 1 (provinces, territories) | 363 | |
 | `cn` | China | 1 (provinces, municipalities, autonomous regions) | 2,093 | |
 | `np` | Nepal | 1 (provinces) | 46 | |
+| `bt` | Bhutan | 1 (dzongkhags) | 4 | |
 
 ## Structure
 
@@ -48,6 +49,10 @@ geo-vault/
 │       ├── country.json        Country record
 │       ├── admin1.json         Provinces (7)
 │       └── cities.json         Cities (46)
+│   └── bt/
+│       ├── country.json        Country record
+│       ├── admin1.json         Dzongkhags (20)
+│       └── cities.json         Cities (4)
 ├── schemas/
 │   ├── country.schema.json
 │   ├── admin1.schema.json
