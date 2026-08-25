@@ -6,10 +6,7 @@ The initial Bangladesh datasets are adapted from the MIT-licensed Bangladesh Geo
 
 Included data:
 
-- Divisions (`data/bd/admin1.json`)
-- Districts (`data/bd/admin2.json`)
-- Upazilas (`data/bd/admin3.json`)
-- Unions (`data/bd/admin4.json`)
+- Bangladesh administrative hierarchy (`data/bd/administrative.json`)
 - District GeoJSON boundaries (`data/bd/geojson/districts.geojson`)
 - Alternate dataset formats: CSV, SQL, JSON, PHP, and XML (`data/bd/formats/`)
 

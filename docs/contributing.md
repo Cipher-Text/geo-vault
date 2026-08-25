@@ -16,8 +16,8 @@ When adding or updating records:
 
 1. Create a folder under `data/` using the ISO 3166-1 alpha-2 code in lowercase (e.g., `data/jp/`).
 2. Extract the country record from `data/countries.json` into `country.json`.
-3. Add `admin1.json` and `cities.json` at minimum.
-4. Add deeper admin levels (`admin2.json`, `admin3.json`, etc.) as data becomes available.
+3. Add a country-specific administrative hierarchy file and `cities.json` at minimum.
+4. Keep available administrative levels nested in that hierarchy file.
 5. Define or update schemas in [`../schemas`](../schemas) and document source licensing in [`data-sources.md`](data-sources.md).
 
 ## Bangladesh Data

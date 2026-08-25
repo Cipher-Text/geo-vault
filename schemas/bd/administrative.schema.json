@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo-vault.local/schemas/bd/administrative.schema.json",
+  "title": "Bangladesh Administrative Hierarchy",
+  "type": "object",
+  "required": ["country", "divisions"],
+  "properties": {
+    "country": { "type": "object", "required": ["id", "iso2", "iso3", "name"], "properties": { "id": { "type": "string" }, "iso2": { "type": "string" }, "iso3": { "type": "string" }, "name": { "type": "string" } }, "additionalProperties": true },
+    "divisions": { "type": "array", "items": { "$ref": "#/$defs/division" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "record": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": { "id": { "type": "string" }, "name": { "type": "string" } },
+      "additionalProperties": true
+    },
+    "union": {
+      "allOf": [{ "$ref": "#/$defs/record" }, { "type": "object", "required": ["admin_level"], "properties": { "admin_level": { "const": "union" } } }]
+    },
+    "upazila": {
+      "allOf": [{ "$ref": "#/$defs/record" }, { "type": "object", "required": ["admin_level", "unions"], "properties": { "admin_level": { "const": "upazila" }, "unions": { "type": "array", "items": { "$ref": "#/$defs/union" } } } }]
+    },
+    "district": {
+      "allOf": [{ "$ref": "#/$defs/record" }, { "type": "object", "required": ["admin_level", "upazilas"], "properties": { "admin_level": { "const": "district" }, "upazilas": { "type": "array", "items": { "$ref": "#/$defs/upazila" } } } }]
+    },
+    "division": {
+      "allOf": [{ "$ref": "#/$defs/record" }, { "type": "object", "required": ["admin_level", "districts"], "properties": { "admin_level": { "const": "division" }, "districts": { "type": "array", "items": { "$ref": "#/$defs/district" } } } }]
+    }
+  }
+}

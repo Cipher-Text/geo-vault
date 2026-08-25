@@ -4,7 +4,7 @@ JSON Schema definitions live in the `schemas/` directory and validate the shape 
 
 ## Universal Schemas
 
-These schemas apply to every country folder.
+These schemas apply to country folders using the generic flat layout. Bangladesh uses its country-specific nested schema below.
 
 | Schema | Validates | Description |
 | --- | --- | --- |
@@ -12,18 +12,14 @@ These schemas apply to every country folder.
 | `admin1.schema.json` | `{cc}/admin1.json` | First-level administrative divisions from Natural Earth (states, provinces, etc.). |
 | `city.schema.json` | `{cc}/cities.json` | GeoNames populated places with population greater than 15,000. |
 
-## Bangladesh-Specific Schemas
+## Bangladesh-Specific Schema
 
-Bangladesh has deeper administrative coverage with its own field set (Bengali names, p-codes, area, child counts). These schemas live in `schemas/bd/`.
+Bangladesh has deeper administrative coverage with its own field set (Bengali names, p-codes, area, child counts). The nested hierarchy is validated by `schemas/bd/administrative.schema.json`.
 
-| Schema | Validates | Admin Level |
+| Schema | Validates | Structure |
 | --- | --- | --- |
-| `bd/admin1.schema.json` | `bd/admin1.json` | Divisions (8) |
-| `bd/admin2.schema.json` | `bd/admin2.json` | Districts (64) |
-| `bd/admin3.schema.json` | `bd/admin3.json` | Upazilas (494) |
-| `bd/admin4.schema.json` | `bd/admin4.json` | Unions (4,540) |
+| `bd/administrative.schema.json` | `bd/administrative.json` | Divisions → districts → upazilas → unions |
 
-Bangladesh `admin1.json` uses the BD-specific schema (not the universal one) because the data comes from a different source (HDX/BBS) with richer fields than Natural Earth.
 
 ## Notes
 

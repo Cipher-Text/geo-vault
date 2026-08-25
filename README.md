@@ -22,13 +22,10 @@ geo-vault/
 │   ├── countries.json          Master list of 252 countries
 │   ├── bd/
 │   │   ├── country.json        Country record
-│   │   ├── admin1.json         Divisions (8)
-│   │   ├── admin2.json         Districts (64)
-│   │   ├── admin3.json         Upazilas (494)
-│   │   ├── admin4.json         Unions (4,540; 2,629 with reconciled ADM4 p-codes and centroids)
+│   │   ├── administrative.json  Divisions → districts → upazilas → unions
 │   │   ├── cities.json         Cities (137)
 │   │   ├── geojson/
-│   │   └── formats/            Legacy CSV, SQL, XML, PHP
+│   │   └── formats/            Legacy CSV, SQL, and JSON exports
 │   ├── us/
 │   │   ├── country.json
 │   │   ├── admin1.json         States (51)
@@ -50,10 +47,7 @@ geo-vault/
 │   ├── admin1.schema.json
 │   ├── city.schema.json
 │   └── bd/
-│       ├── admin1.schema.json
-│       ├── admin2.schema.json
-│       ├── admin3.schema.json
-│       └── admin4.schema.json
+│       └── administrative.schema.json
 ├── docs/
 ├── README.md
 └── LICENSE
@@ -66,10 +60,8 @@ Every country folder follows the same pattern:
 | File | Description |
 | --- | --- |
 | `country.json` | Single country record extracted from the master list. |
-| `admin1.json` | First-level administrative divisions (states, provinces, divisions, departments). |
-| `admin2.json` | Second-level divisions, if available. |
-| `admin3.json` | Third-level divisions, if available. |
-| `admin4.json` | Fourth-level divisions, if available. |
+| `administrative.json` | Country-specific nested administrative hierarchy, where available. |
+| `admin1.json` | First-level divisions for countries using the generic flat layout. |
 | `cities.json` | GeoNames populated places with population greater than 15,000. |
 | `geojson/` | Boundary geometries, if available. |
 
@@ -116,7 +108,11 @@ Every country folder follows the same pattern:
 }
 ```
 
-### Admin Level 1 (example: BD division)
+### Bangladesh Administrative Hierarchy
+
+`data/bd/administrative.json` contains nested divisions, districts, upazilas, and unions. Each level retains its Bangladesh-specific fields and child collection.
+
+Example division:
 
 ```json
 {
