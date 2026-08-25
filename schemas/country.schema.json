@@ -58,6 +58,52 @@
     "neighbours": { "type": "array", "items": { "type": "string" } },
     "lat": { "type": "string" },
     "lon": { "type": "string" },
-    "wikidata_id": { "type": "string" }
+    "wikidata_id": { "type": "string" },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "population_estimate",
+        "population_estimate_year",
+        "population_estimate_date",
+        "population_estimate_source",
+        "area_total_sqkm",
+        "area_land_sqkm",
+        "area_water_sqkm",
+        "area_source_year",
+        "area_source",
+        "official_languages",
+        "language_policy",
+        "primary_language",
+        "common_languages",
+        "language_data_source",
+        "time_zones",
+        "time_zone_count",
+        "driving_side",
+        "calling_code",
+        "internet_country_code"
+      ],
+      "properties": {
+        "population_estimate": { "type": "integer" },
+        "population_estimate_year": { "type": "integer" },
+        "population_estimate_date": { "type": "string", "format": "date" },
+        "population_estimate_source": { "type": "string" },
+        "area_total_sqkm": { "type": "integer" },
+        "area_land_sqkm": { "type": "integer" },
+        "area_water_sqkm": { "type": "integer" },
+        "area_source_year": { "type": "integer" },
+        "area_source": { "type": "string" },
+        "official_languages": { "type": "array", "items": { "type": "string" } },
+        "language_policy": { "type": "string" },
+        "primary_language": { "type": "string" },
+        "common_languages": { "type": "array", "items": { "type": "string" } },
+        "language_data_source": { "type": "string" },
+        "time_zones": { "type": "array", "items": { "type": "string" } },
+        "time_zone_count": { "type": "integer" },
+        "driving_side": { "type": "string", "enum": ["left", "right"] },
+        "calling_code": { "type": "string" },
+        "internet_country_code": { "type": "string" }
+      }
+    }
   }
 }

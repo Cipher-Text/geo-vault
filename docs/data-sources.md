@@ -58,6 +58,17 @@ Population has not been added yet. Add it only from a source with clear census y
 - GeoNames license: Creative Commons Attribution 4.0
 - Natural Earth license: Public domain
 
+### United States Country Metadata
+
+The optional `metadata` block in `data/us/country.json` adds current U.S.-specific country facts:
+
+- Population estimate: U.S. Census Bureau QuickFacts, July 1, 2025
+- Land and water area: U.S. Census Bureau GEOINFO, 2023
+- Language distribution: U.S. Census Bureau 2023 American Community Survey, Table S1601
+- Time zones: IANA time zone identifiers representing the nine U.S. time-zone areas, including territories
+
+The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
+
 ## Admin-1 Regions
 
 Per-country `admin1.json` files (for US, IN, PK, CN) are generated from Natural Earth Admin 1 - States, Provinces.

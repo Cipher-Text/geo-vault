@@ -65,6 +65,8 @@ Every country folder follows the same pattern:
 | `cities.json` | GeoNames populated places with population greater than 15,000. |
 | `geojson/` | Boundary geometries, if available. |
 
+Some country records may include an optional `metadata` object for country-specific enrichment. The U.S. record currently includes Census-based population, area, language, and time-zone metadata.
+
 ## Data Shape
 
 ### Country

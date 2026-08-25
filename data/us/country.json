@@ -33,5 +33,45 @@
   ],
   "lat": "39.538479",
   "lon": "-97.482602",
-  "wikidata_id": "Q30"
+  "wikidata_id": "Q30",
+  "metadata": {
+    "population_estimate": 341784857,
+    "population_estimate_year": 2025,
+    "population_estimate_date": "2025-07-01",
+    "population_estimate_source": "U.S. Census Bureau QuickFacts",
+    "area_total_sqkm": 9849309,
+    "area_land_sqkm": 9151201,
+    "area_water_sqkm": 698109,
+    "area_source_year": 2023,
+    "area_source": "U.S. Census Bureau GEOINFO",
+    "official_languages": [],
+    "language_policy": "The United States has no federal official language.",
+    "primary_language": "English",
+    "common_languages": [
+      "English",
+      "Spanish",
+      "Chinese",
+      "Tagalog",
+      "Vietnamese",
+      "Arabic",
+      "French"
+    ],
+    "language_data_source": "U.S. Census Bureau, 2023 American Community Survey, Table S1601",
+    "time_zones": [
+      "America/New_York",
+      "America/Chicago",
+      "America/Denver",
+      "America/Los_Angeles",
+      "America/Anchorage",
+      "America/Adak",
+      "Pacific/Honolulu",
+      "Pacific/Pago_Pago",
+      "Pacific/Guam",
+      "Pacific/Saipan"
+    ],
+    "time_zone_count": 9,
+    "driving_side": "right",
+    "calling_code": "+1",
+    "internet_country_code": ".us"
+  }
 }
