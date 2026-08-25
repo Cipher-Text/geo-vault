@@ -101,7 +101,7 @@ The existing `population` and `area_sqkm` fields remain unchanged because they a
 
 ## Admin-1 Regions
 
-Per-country `admin1.json` files for the US, Pakistan, and China are generated from Natural Earth Admin 1 - States, Provinces. India uses the country-specific `states.json` filename while retaining the same Natural Earth state and union-territory source data.
+Per-country `admin1.json` files for the US, Pakistan, and China are generated from Natural Earth Admin 1 - States, Provinces. India uses the country-specific `states.json` filename while retaining the same Natural Earth state and union-territory source data. Nepal’s `admin1.json` is generated from the GeoNames Nepal country dump and contains its seven provinces.
 
 - Source: Natural Earth Admin 1 - States, Provinces
 - URL: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
@@ -114,3 +114,5 @@ Per-country `cities.json` files are generated from GeoNames `cities15000`.
 - Source: GeoNames cities with population greater than 15000
 - URL: https://download.geonames.org/export/dump/cities15000.zip
 - License: Creative Commons Attribution 4.0
+
+Nepal is the exception: `data/np/cities.json` is generated from the GeoNames Nepal country dump by selecting populated places with population greater than 15,000.

@@ -1,0 +1,34 @@
+{
+  "id": "np",
+  "name": "Nepal",
+  "official_name": "Nepal",
+  "slug": "nepal",
+  "iso2": "NP",
+  "iso3": "NPL",
+  "numeric_code": "524",
+  "fips_code": "NP",
+  "geoname_id": "1282988",
+  "continent_code": "AS",
+  "continent": "Asia",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "capital": "Kathmandu",
+  "area_sqkm": "140800",
+  "population": "28087871",
+  "population_source": "GeoNames countryInfo",
+  "currency_code": "NPR",
+  "currency_name": "Rupee",
+  "phone_code": "+977",
+  "tld": ".np",
+  "languages": [
+    "ne",
+    "en"
+  ],
+  "neighbours": [
+    "CN",
+    "IN"
+  ],
+  "lat": "28.297925",
+  "lon": "83.639914",
+  "wikidata_id": "Q837"
+}
