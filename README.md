@@ -83,7 +83,7 @@ Every country folder follows the same pattern:
 | `cities.json` | GeoNames populated places with population greater than 15,000. |
 | `geojson/` | Boundary geometries, if available. |
 
-Some country records may include an optional `metadata` object for country-specific enrichment. The USA, India, and China records currently include population, area, language, time-zone, and country-identifier metadata.
+Some country records may include an optional `metadata` object for country-specific enrichment. The USA, India, China, and Pakistan records currently include population, language, time-zone, and country-identifier metadata.
 
 India uses country-specific administrative filenames: `states.json` and `districts.json`.
 

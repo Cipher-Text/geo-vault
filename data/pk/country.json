@@ -36,5 +36,35 @@
   ],
   "lat": "29.328389",
   "lon": "68.545632",
-  "wikidata_id": "Q843"
+  "wikidata_id": "Q843",
+  "metadata": {
+    "population_estimate": 251269164,
+    "population_estimate_year": 2024,
+    "population_estimate_source": "World Bank World Development Indicators",
+    "official_languages": [
+      "Urdu",
+      "English"
+    ],
+    "language_policy": "Urdu is Pakistan's national language; English may be used for official purposes under the Constitution.",
+    "primary_language": "Urdu",
+    "common_languages": [
+      "Punjabi",
+      "Pashto",
+      "Sindhi",
+      "Saraiki",
+      "Urdu",
+      "Balochi",
+      "Hindko",
+      "English"
+    ],
+    "language_data_source": "Constitution of Pakistan and Pakistan Bureau of Statistics",
+    "time_zones": [
+      "Asia/Karachi"
+    ],
+    "time_zone_count": 1,
+    "utc_offset": "+05:00",
+    "driving_side": "left",
+    "calling_code": "+92",
+    "internet_country_code": ".pk"
+  }
 }

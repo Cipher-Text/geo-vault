@@ -99,6 +99,17 @@ The optional `metadata` block in `data/cn/country.json` adds China-specific coun
 
 The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
 
+### Pakistan Country Metadata
+
+The optional `metadata` block in `data/pk/country.json` adds Pakistan-specific country facts:
+
+- Population estimate: World Bank World Development Indicators, 2024
+- Language policy: Constitution of Pakistan
+- Common-language context: Pakistan Bureau of Statistics
+- Time zone: IANA `Asia/Karachi`, UTC+05:00
+
+The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
+
 ## Admin-1 Regions
 
 Per-country `admin1.json` files for the US, Pakistan, and China are generated from Natural Earth Admin 1 - States, Provinces. India uses the country-specific `states.json` filename while retaining the same Natural Earth state and union-territory source data. Nepal’s `admin1.json` is generated from the GeoNames Nepal country dump and contains its seven provinces. Bhutan’s `admin1.json` is generated from the GeoNames Bhutan country dump and contains its 20 dzongkhags. Myanmar’s `admin1.json` is generated from the GeoNames Myanmar country dump and contains 15 states and regions.
