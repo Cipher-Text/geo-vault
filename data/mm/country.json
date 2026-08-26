@@ -1,0 +1,36 @@
+{
+  "id": "mm",
+  "name": "Myanmar",
+  "official_name": "Republic of the Union of Myanmar",
+  "slug": "myanmar",
+  "iso2": "MM",
+  "iso3": "MMR",
+  "numeric_code": "104",
+  "fips_code": "BM",
+  "geoname_id": "1327865",
+  "continent_code": "AS",
+  "continent": "Asia",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "capital": "Nay Pyi Taw",
+  "area_sqkm": "678500",
+  "population": "53708395",
+  "population_source": "GeoNames countryInfo",
+  "currency_code": "MMK",
+  "currency_name": "Kyat",
+  "phone_code": "+95",
+  "tld": ".mm",
+  "languages": [
+    "my"
+  ],
+  "neighbours": [
+    "CN",
+    "LA",
+    "TH",
+    "BD",
+    "IN"
+  ],
+  "lat": "21.573855",
+  "lon": "95.804497",
+  "wikidata_id": "Q836"
+}
