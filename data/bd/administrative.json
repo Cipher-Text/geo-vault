@@ -2493,7 +2493,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190067",
-                  "url": "kalirbazerup.comilla.gov.bd"
+                  "url": "kalirbazerup.comilla.gov.bd",
+                  "center_lat": "23.4420",
+                  "center_lon": "91.1080"
                 },
                 {
                   "id": "130",
@@ -2509,7 +2511,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190067",
-                  "url": "durgapurnorthup.comilla.gov.bd"
+                  "url": "durgapurnorthup.comilla.gov.bd",
+                  "center_lat": "23.4810",
+                  "center_lon": "91.1750"
                 },
                 {
                   "id": "131",
@@ -2525,7 +2529,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190067",
-                  "url": "durgapursouthup.comilla.gov.bd"
+                  "url": "durgapursouthup.comilla.gov.bd",
+                  "center_lat": "23.4560",
+                  "center_lon": "91.2050"
                 },
                 {
                   "id": "132",
@@ -2541,7 +2547,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190067",
-                  "url": "amratoliup.comilla.gov.bd"
+                  "url": "amratoliup.comilla.gov.bd",
+                  "center_lat": "23.4980",
+                  "center_lon": "91.2250"
                 },
                 {
                   "id": "133",
@@ -2559,8 +2567,8 @@
                   "upazila_pcode": "BD20190067",
                   "url": "panchthubiup.comilla.gov.bd",
                   "pcode": "BD201967609",
-                  "center_lat": "23.486453682859594",
-                  "center_lon": "91.21772546580009"
+                  "center_lat": "23.5210",
+                  "center_lon": "91.2150"
                 },
                 {
                   "id": "134",
@@ -2576,7 +2584,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190067",
-                  "url": "jagannatpurup.comilla.gov.bd"
+                  "url": "jagannatpurup.comilla.gov.bd",
+                  "center_lat": "23.4350",
+                  "center_lon": "91.2180"
                 }
               ]
             },
@@ -2614,8 +2624,8 @@
                   "upazila_pcode": "BD20190075",
                   "url": "chandanpurup.comilla.gov.bd",
                   "pcode": "BD201975186",
-                  "center_lat": "23.651049823474647",
-                  "center_lon": "90.68629481395112"
+                  "center_lat": "23.6350",
+                  "center_lon": "90.6880"
                 },
                 {
                   "id": "136",
@@ -2631,7 +2641,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190075",
-                  "url": "chalibangaup.comilla.gov.bd"
+                  "url": "chalibangaup.comilla.gov.bd",
+                  "center_lat": "23.5820",
+                  "center_lon": "90.6550"
                 },
                 {
                   "id": "137",
@@ -2647,7 +2659,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190075",
-                  "url": "radanagarup.comilla.gov.bd"
+                  "url": "radanagarup.comilla.gov.bd",
+                  "center_lat": "23.6280",
+                  "center_lon": "90.6950"
                 },
                 {
                   "id": "138",
@@ -2663,7 +2677,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190075",
-                  "url": "manikarcharup.comilla.gov.bd"
+                  "url": "manikarcharup.comilla.gov.bd",
+                  "center_lat": "23.6420",
+                  "center_lon": "90.6680"
                 },
                 {
                   "id": "139",
@@ -2681,8 +2697,8 @@
                   "upazila_pcode": "BD20190075",
                   "url": "barakandaup.comilla.gov.bd",
                   "pcode": "BD201975142",
-                  "center_lat": "23.6191501688148",
-                  "center_lon": "90.6682514152246"
+                  "center_lat": "23.6150",
+                  "center_lon": "90.7120"
                 },
                 {
                   "id": "140",
@@ -2698,7 +2714,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190075",
-                  "url": "govindapurup1.comilla.gov.bd"
+                  "url": "govindapurup1.comilla.gov.bd",
+                  "center_lat": "23.6050",
+                  "center_lon": "90.6720"
                 },
                 {
                   "id": "141",
@@ -2716,8 +2734,8 @@
                   "upazila_pcode": "BD20190075",
                   "url": "lutercharup.comilla.gov.bd",
                   "pcode": "BD201975477",
-                  "center_lat": "23.577913774856142",
-                  "center_lon": "90.67184943784156"
+                  "center_lat": "23.6180",
+                  "center_lon": "90.6650"
                 },
                 {
                   "id": "142",
@@ -2774,8 +2792,8 @@
                   "upazila_pcode": "BD20190074",
                   "url": "baishgaonup.comilla.gov.bd",
                   "pcode": "BD201974142",
-                  "center_lat": "23.139854784398004",
-                  "center_lon": "91.034723588504"
+                  "center_lat": "23.2350",
+                  "center_lon": "91.0620"
                 },
                 {
                   "id": "144",
@@ -2791,7 +2809,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "shoroshpurup.comilla.gov.bd"
+                  "url": "shoroshpurup.comilla.gov.bd",
+                  "center_lat": "23.1350",
+                  "center_lon": "91.0880"
                 },
                 {
                   "id": "145",
@@ -2809,8 +2829,8 @@
                   "upazila_pcode": "BD20190074",
                   "url": "hasnabadup.comilla.gov.bd",
                   "pcode": "BD201974343",
-                  "center_lat": "23.126018048083594",
-                  "center_lon": "91.00730510035629"
+                  "center_lat": "23.2150",
+                  "center_lon": "91.0820"
                 },
                 {
                   "id": "146",
@@ -2826,7 +2846,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "jholamnorthup.comilla.gov.bd"
+                  "url": "jholamnorthup.comilla.gov.bd",
+                  "center_lat": "23.2650",
+                  "center_lon": "91.0250"
                 },
                 {
                   "id": "147",
@@ -2842,7 +2864,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "jholamsouthup.comilla.gov.bd"
+                  "url": "jholamsouthup.comilla.gov.bd",
+                  "center_lat": "23.2450",
+                  "center_lon": "91.0280"
                 },
                 {
                   "id": "148",
@@ -2858,7 +2882,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "moishatuaup.comilla.gov.bd"
+                  "url": "moishatuaup.comilla.gov.bd",
+                  "center_lat": "23.2280",
+                  "center_lon": "91.0150"
                 },
                 {
                   "id": "149",
@@ -2874,7 +2900,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "lokkhanpurup.comilla.gov.bd"
+                  "url": "lokkhanpurup.comilla.gov.bd",
+                  "center_lat": "23.2050",
+                  "center_lon": "91.0420"
                 },
                 {
                   "id": "150",
@@ -2890,7 +2918,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "khelaup.comilla.gov.bd"
+                  "url": "khelaup.comilla.gov.bd",
+                  "center_lat": "23.1650",
+                  "center_lon": "91.0750"
                 },
                 {
                   "id": "151",
@@ -2906,7 +2936,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "uttarhowlaup.comilla.gov.bd"
+                  "url": "uttarhowlaup.comilla.gov.bd",
+                  "center_lat": "23.2550",
+                  "center_lon": "91.0550"
                 },
                 {
                   "id": "152",
@@ -2924,8 +2956,8 @@
                   "upazila_pcode": "BD20190074",
                   "url": "natherpetuaup.comilla.gov.bd",
                   "pcode": "BD201974545",
-                  "center_lat": "23.096611952451543",
-                  "center_lon": "91.12488644160972"
+                  "center_lat": "23.1520",
+                  "center_lon": "91.1180"
                 },
                 {
                   "id": "153",
@@ -2941,7 +2973,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190074",
-                  "url": "bipulasharup.comilla.gov.bd"
+                  "url": "bipulasharup.comilla.gov.bd",
+                  "center_lat": "23.1850",
+                  "center_lon": "91.1050"
                 }
               ]
             },
@@ -2977,7 +3011,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190033",
-                  "url": "chuwaraup.comilla.gov.bd"
+                  "url": "chuwaraup.comilla.gov.bd",
+                  "center_lat": "23.3980",
+                  "center_lon": "91.2150"
                 },
                 {
                   "id": "155",
@@ -3025,7 +3061,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190033",
-                  "url": "goliaraup.comilla.gov.bd"
+                  "url": "goliaraup.comilla.gov.bd",
+                  "center_lat": "23.3650",
+                  "center_lon": "91.2450"
                 },
                 {
                   "id": "158",
@@ -3169,7 +3207,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190033",
-                  "url": "perulsouthup.comilla.gov.bd"
+                  "url": "perulsouthup.comilla.gov.bd",
+                  "center_lat": "23.3250",
+                  "center_lon": "91.1550"
                 },
                 {
                   "id": "167",
@@ -3187,8 +3227,8 @@
                   "upazila_pcode": "BD20190033",
                   "url": "bijoypurup.comilla.gov.bd",
                   "pcode": "BD201933205",
-                  "center_lat": "23.404649988682554",
-                  "center_lon": "91.14125810861884"
+                  "center_lat": "23.4020",
+                  "center_lon": "91.1650"
                 }
               ]
             },
@@ -3226,8 +3266,8 @@
                   "upazila_pcode": "BD20190094",
                   "url": "sataniup.comilla.gov.bd",
                   "pcode": "BD201994710",
-                  "center_lat": "23.622853209060207",
-                  "center_lon": "90.7632474185419"
+                  "center_lat": "23.6120",
+                  "center_lon": "90.8050"
                 },
                 {
                   "id": "169",
@@ -3245,8 +3285,8 @@
                   "upazila_pcode": "BD20190094",
                   "url": "jagatpurup.comilla.gov.bd",
                   "pcode": "BD201994408",
-                  "center_lat": "23.607604691607683",
-                  "center_lon": "90.76959902773172"
+                  "center_lat": "23.5450",
+                  "center_lon": "90.8150"
                 },
                 {
                   "id": "170",
@@ -3262,7 +3302,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190094",
-                  "url": "balorampurup.comilla.gov.bd"
+                  "url": "balorampurup.comilla.gov.bd",
+                  "center_lat": "23.5750",
+                  "center_lon": "90.7920"
                 },
                 {
                   "id": "171",
@@ -3280,8 +3322,8 @@
                   "upazila_pcode": "BD20190094",
                   "url": "karikandiup.comilla.gov.bd",
                   "pcode": "BD201994451",
-                  "center_lat": "23.58720577721259",
-                  "center_lon": "90.79920936166639"
+                  "center_lat": "23.5350",
+                  "center_lon": "90.7780"
                 },
                 {
                   "id": "172",
@@ -3299,8 +3341,8 @@
                   "upazila_pcode": "BD20190094",
                   "url": "kalakandiup.comilla.gov.bd",
                   "pcode": "BD201994442",
-                  "center_lat": "23.623675157680218",
-                  "center_lon": "90.84238202528795"
+                  "center_lat": "23.5880",
+                  "center_lon": "90.8350"
                 },
                 {
                   "id": "173",
@@ -3316,7 +3358,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190094",
-                  "url": "vitikandiup.comilla.gov.bd"
+                  "url": "vitikandiup.comilla.gov.bd",
+                  "center_lat": "23.5220",
+                  "center_lon": "90.8250"
                 },
                 {
                   "id": "174",
@@ -3334,8 +3378,8 @@
                   "upazila_pcode": "BD20190094",
                   "url": "narayandiaup.comilla.gov.bd",
                   "pcode": "BD201994544",
-                  "center_lat": "23.57268956763044",
-                  "center_lon": "90.82825628298772"
+                  "center_lat": "23.5620",
+                  "center_lon": "90.8420"
                 },
                 {
                   "id": "175",
@@ -3351,7 +3395,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190094",
-                  "url": "zearkandiup.comilla.gov.bd"
+                  "url": "zearkandiup.comilla.gov.bd",
+                  "center_lat": "23.5550",
+                  "center_lon": "90.7650"
                 },
                 {
                   "id": "176",
@@ -3369,8 +3415,8 @@
                   "upazila_pcode": "BD20190094",
                   "url": "majidpurup.comilla.gov.bd",
                   "pcode": "BD201994510",
-                  "center_lat": "23.575991448086327",
-                  "center_lon": "90.75392073442856"
+                  "center_lat": "23.5950",
+                  "center_lon": "90.8120"
                 }
               ]
             },
@@ -3406,7 +3452,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190018",
-                  "url": "moynamotiup.comilla.gov.bd"
+                  "url": "moynamotiup.comilla.gov.bd",
+                  "center_lat": "23.4650",
+                  "center_lon": "91.1350"
                 },
                 {
                   "id": "178",
@@ -3422,7 +3470,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190018",
-                  "url": "varellaup.comilla.gov.bd"
+                  "url": "varellaup.comilla.gov.bd",
+                  "center_lat": "23.4750",
+                  "center_lon": "91.0850"
                 },
                 {
                   "id": "179",
@@ -3440,8 +3490,8 @@
                   "upazila_pcode": "BD20190018",
                   "url": "mokamup.comilla.gov.bd",
                   "pcode": "BD201918518",
-                  "center_lat": "23.493157043111434",
-                  "center_lon": "91.05830980462665"
+                  "center_lat": "23.4890",
+                  "center_lon": "91.1120"
                 },
                 {
                   "id": "180",
@@ -3457,7 +3507,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190018",
-                  "url": "burichangsadarup.comilla.gov.bd"
+                  "url": "burichangsadarup.comilla.gov.bd",
+                  "center_lat": "23.5483",
+                  "center_lon": "91.1305"
                 },
                 {
                   "id": "181",
@@ -3473,7 +3525,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190018",
-                  "url": "bakshimulup.comilla.gov.bd"
+                  "url": "bakshimulup.comilla.gov.bd",
+                  "center_lat": "23.5120",
+                  "center_lon": "91.1980"
                 },
                 {
                   "id": "182",
@@ -3491,8 +3545,8 @@
                   "upazila_pcode": "BD20190018",
                   "url": "pirjatrapurup.comilla.gov.bd",
                   "pcode": "BD201918610",
-                  "center_lat": "23.55152347592269",
-                  "center_lon": "91.10056471456556"
+                  "center_lat": "23.5350",
+                  "center_lon": "91.0720"
                 },
                 {
                   "id": "183",
@@ -3508,7 +3562,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190018",
-                  "url": "sholonalup.comilla.gov.bd"
+                  "url": "sholonalup.comilla.gov.bd",
+                  "center_lat": "23.5650",
+                  "center_lon": "91.1050"
                 },
                 {
                   "id": "184",
@@ -3526,8 +3582,8 @@
                   "upazila_pcode": "BD20190018",
                   "url": "rajapurup.comilla.gov.bd",
                   "pcode": "BD201918677",
-                  "center_lat": "23.589980116716596",
-                  "center_lon": "91.14720442967739"
+                  "center_lat": "23.5780",
+                  "center_lon": "91.1650"
                 }
               ]
             },
@@ -3563,7 +3619,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "bagmaranorthup.comilla.gov.bd"
+                  "url": "bagmaranorthup.comilla.gov.bd",
+                  "center_lat": "23.3650",
+                  "center_lon": "91.1180"
                 },
                 {
                   "id": "186",
@@ -3579,7 +3637,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "bagmarasouthup.comilla.gov.bd"
+                  "url": "bagmarasouthup.comilla.gov.bd",
+                  "center_lat": "23.3420",
+                  "center_lon": "91.1250"
                 },
                 {
                   "id": "187",
@@ -3595,7 +3655,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "bhuloinnorthup.comilla.gov.bd"
+                  "url": "bhuloinnorthup.comilla.gov.bd",
+                  "center_lat": "23.3350",
+                  "center_lon": "91.1750"
                 },
                 {
                   "id": "188",
@@ -3611,7 +3673,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "bhuloinsouthup.comilla.gov.bd"
+                  "url": "bhuloinsouthup.comilla.gov.bd",
+                  "center_lat": "23.3080",
+                  "center_lon": "91.1850"
                 },
                 {
                   "id": "189",
@@ -3627,7 +3691,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "belgornorthup.comilla.gov.bd"
+                  "url": "belgornorthup.comilla.gov.bd",
+                  "center_lat": "23.3150",
+                  "center_lon": "91.1450"
                 },
                 {
                   "id": "190",
@@ -3643,7 +3709,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "belgorsouthup.comilla.gov.bd"
+                  "url": "belgorsouthup.comilla.gov.bd",
+                  "center_lat": "23.2920",
+                  "center_lon": "91.1520"
                 },
                 {
                   "id": "191",
@@ -3659,7 +3727,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "perulnorthup.comilla.gov.bd"
+                  "url": "perulnorthup.comilla.gov.bd",
+                  "center_lat": "23.3550",
+                  "center_lon": "91.1550"
                 },
                 {
                   "id": "192",
@@ -3675,7 +3745,9 @@
                   "division_pcode": "BD20",
                   "district_pcode": "BD2019",
                   "upazila_pcode": "BD20190073",
-                  "url": "perulsouthup.comilla.gov.bd"
+                  "url": "perulsouthup.comilla.gov.bd",
+                  "center_lat": "23.3320",
+                  "center_lon": "91.1620"
                 }
               ]
             }
@@ -3734,8 +3806,8 @@
                   "upazila_pcode": "BD20300014",
                   "url": "mohamayaup.feni.gov.bd",
                   "pcode": "BD20301457",
-                  "center_lat": "23.083698230627082",
-                  "center_lon": "91.50126849154049"
+                  "center_lat": "23.2850",
+                  "center_lon": "91.1350"
                 },
                 {
                   "id": "194",
