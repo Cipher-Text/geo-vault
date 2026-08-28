@@ -112,11 +112,32 @@ The existing `population` and `area_sqkm` fields remain unchanged because they a
 
 ## Admin-1 Regions
 
+The worldwide normalized Admin-1 collection is stored in `data/admin1.json`. It contains first-level divisions such as states, provinces, departments, and regions, with parent country references and coordinates.
+
 Per-country `admin1.json` files for the US, Pakistan, and China are generated from Natural Earth Admin 1 - States, Provinces. India uses the country-specific `states.json` filename while retaining the same Natural Earth state and union-territory source data. Nepal’s `admin1.json` is generated from the GeoNames Nepal country dump and contains its seven provinces. Bhutan’s `admin1.json` is generated from the GeoNames Bhutan country dump and contains its 20 dzongkhags. Myanmar’s `admin1.json` is generated from the GeoNames Myanmar country dump and contains 15 states and regions.
 
 - Source: Natural Earth Admin 1 - States, Provinces
 - URL: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
 - License: Public domain
+- Worldwide Admin-1 source version: Natural Earth 10m cultural vectors, version 5.1.1 (source data updated 2022-05-08).
+
+## Admin-2 Regions
+
+The worldwide Admin-2 collection is stored in `data/admin2.json`. It is generated from GeoNames `admin2Codes.txt` and linked to GeoNames `admin1CodesASCII.txt` through the `parent_code`, `admin1_code`, and `admin2_code` fields. Depending on the country, these records represent districts, counties, municipalities, or equivalent second-level divisions. The source code table does not provide universal coordinates, so this layer intentionally contains names, identifiers, and hierarchy codes only.
+
+- Source: GeoNames `admin2Codes.txt` and `admin1CodesASCII.txt`
+- URL: https://download.geonames.org/export/dump/
+- License: Creative Commons Attribution 4.0
+
+## Admin-3 and Admin-4 Regions
+
+The Admin-3 and Admin-4 importer reads `allCountries.txt` from the GeoNames `allCountries.zip` archive and selects records whose feature codes are `ADM3` or `ADM4`. These levels vary by country and may represent subdistricts, communes, unions, wards, or equivalent divisions. The importer preserves the full GeoNames hierarchy code in `parent_code`, `admin1_code`, `admin2_code`, `admin3_code`, and `admin4_code`.
+
+The current committed exports cover Bangladesh, Bhutan, China, India, Myanmar, Nepal, Pakistan, and the United States. Additional country ZIP files can be combined and passed to the same importer as coverage expands.
+
+- Source: GeoNames `allCountries.zip`
+- URL: https://download.geonames.org/export/dump/
+- License: Creative Commons Attribution 4.0
 
 ## Cities
 

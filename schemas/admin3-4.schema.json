@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo-vault.local/schemas/admin3-4.schema.json",
+  "title": "Admin Level 3 or 4 Region",
+  "description": "Third- or fourth-level administrative division such as a subdistrict, commune, union, or ward.",
+  "type": "object",
+  "required": ["id", "name", "name_en", "local_name", "slug", "country_code", "country_iso3", "country_name", "admin_level", "type", "parent_code", "admin1_code", "admin2_code", "admin3_code", "admin4_code", "geoname_id", "geonames_code"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "name_en": { "type": "string" },
+    "local_name": { "type": "string" },
+    "slug": { "type": "string" },
+    "country_code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "country_iso3": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "country_name": { "type": "string" },
+    "admin_level": { "enum": ["admin3", "admin4"] },
+    "type": { "type": "string" },
+    "parent_code": { "type": "string" },
+    "admin1_code": { "type": "string" },
+    "admin2_code": { "type": "string" },
+    "admin3_code": { "type": "string" },
+    "admin4_code": { "type": "string" },
+    "geoname_id": { "type": "string" },
+    "geonames_code": { "type": "string" }
+  }
+}

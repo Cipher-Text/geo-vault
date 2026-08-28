@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo-vault.local/schemas/country-file.schema.json",
+  "title": "Country collection",
+  "description": "The complete country collection stored in data/countries.json.",
+  "type": "array",
+  "items": { "$ref": "./country.schema.json" },
+  "minItems": 1,
+  "uniqueItems": true
+}

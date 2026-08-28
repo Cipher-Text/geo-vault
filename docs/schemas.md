@@ -8,7 +8,12 @@ These schemas apply to country folders using the generic flat layout. Bangladesh
 
 | Schema | Validates | Description |
 | --- | --- | --- |
-| `country.schema.json` | `{cc}/country.json` | Country record with ISO codes, population, currency, coordinates, etc. |
+| `country.schema.json` | One `{cc}/country.json` record | Country record with ISO codes, population, currency, coordinates, etc. |
+| `country-file.schema.json` | `data/countries.json` | Array of country records using `country.schema.json` as its item schema. |
+| `admin1-file.schema.json` | `data/admin1.json` | Worldwide array of first-level administrative records using `admin1.schema.json` as its item schema. |
+| `admin2.schema.json` | One record in `data/admin2.json` | Second-level division such as a district, county, or municipality. |
+| `admin2-file.schema.json` | `data/admin2.json` | Worldwide array of Admin-2 records using `admin2.schema.json` as its item schema. |
+| `admin3-4.schema.json` | One record in `data/admin3.json` or `data/admin4.json` | Third- or fourth-level division such as a subdistrict, commune, union, or ward. |
 | `admin1.schema.json` | `{cc}/admin1.json` | First-level administrative divisions from Natural Earth (states, provinces, etc.). |
 | `city.schema.json` | `{cc}/cities.json` | GeoNames populated places with population greater than 15,000. |
 
@@ -28,3 +33,4 @@ India uses country-specific filenames, `data/in/states.json` and `data/in/distri
 - Core source fields generally remain strings, matching the original source datasets. Country `metadata` fields use typed values where appropriate, such as integer estimates and arrays.
 - `additionalProperties` is `false` on all schemas to catch unexpected fields.
 - When adding a new country with deeper admin levels, create country-specific schemas under `schemas/{cc}/`.
+- Run `npm run validate` after data changes. It checks JSON parsing, country identity consistency, duplicate country identifiers, and coordinate ranges.

@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "import:admin1": "node scripts/import-natural-earth-admin1.mjs",
+    "import:admin2": "node scripts/import-geonames-admin2.mjs",
+    "import:admin3-4": "node scripts/import-geonames-admin3-4.mjs"
+  },
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.4.2"
   }

@@ -23,6 +23,10 @@ Geo Vault provides structured geolocation data for administrative regions, citie
 geo-vault/
 ├── data/
 │   ├── countries.json          Master list of 252 countries
+│   ├── admin1.json              Worldwide first-level divisions (4,577)
+│   ├── admin2.json              Worldwide second-level divisions (47,592)
+│   ├── admin3.json              Admin-3 divisions for covered countries (40,809)
+│   ├── admin4.json              Admin-4 divisions for covered countries (16,577)
 │   ├── bd/
 │   │   ├── country.json        Country record
 │   │   ├── administrative.json  Divisions → districts → upazilas → unions + city corporations
