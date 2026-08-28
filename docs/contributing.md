@@ -14,7 +14,7 @@ When adding or updating records:
 
 ## Adding a New Country
 
-1. Create a folder under `data/` using the ISO 3166-1 alpha-2 code in lowercase (e.g., `data/jp/`).
+1. Create a folder under `data/countries/` using the ISO 3166-1 alpha-2 code in lowercase (e.g., `data/countries/jp/`).
 2. Extract the country record from `data/countries.json` into `country.json`.
 3. Add a country-specific administrative hierarchy file and `cities.json` at minimum.
 4. Keep available administrative levels nested in that hierarchy file.

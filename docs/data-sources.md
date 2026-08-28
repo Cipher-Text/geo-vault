@@ -6,10 +6,10 @@ The initial Bangladesh datasets are adapted from the MIT-licensed Bangladesh Geo
 
 Included data:
 
-- Bangladesh administrative hierarchy (`data/bd/administrative.json`)
+- Bangladesh administrative hierarchy (`data/countries/bd/administrative.json`)
 - City corporations are maintained as a separate urban local-government collection within the hierarchy file, based on the Local Government Division's city-corporation list.
-- District GeoJSON boundaries (`data/bd/geojson/districts.geojson`)
-- Alternate dataset formats: CSV, SQL, JSON, PHP, and XML (`data/bd/formats/`)
+- District GeoJSON boundaries (`data/geojson/bd/districts.geojson`)
+- Alternate dataset formats: CSV, SQL, JSON, PHP, and XML (`data/countries/bd/formats/`)
 
 The original project states that information, content, and spelling were collected from:
 
@@ -64,7 +64,7 @@ The normalized reference files are generated from the country collection and exi
 
 ### United States Country Metadata
 
-The optional `metadata` block in `data/us/country.json` adds current U.S.-specific country facts:
+The optional `metadata` block in `data/countries/us/country.json` adds current U.S.-specific country facts:
 
 - Population estimate: U.S. Census Bureau QuickFacts, July 1, 2025
 - Land and water area: U.S. Census Bureau GEOINFO, 2023
@@ -75,7 +75,7 @@ The existing `population` and `area_sqkm` fields remain unchanged because they a
 
 ### India Districts
 
-`data/in/districts.json` contains 763 GeoNames administrative-level-2 records representing Indian districts and district-equivalent areas. Records retain GeoNames identifiers, state and district codes, coordinates, population, time zone, and source modification dates.
+`data/countries/in/districts.json` contains 763 GeoNames administrative-level-2 records representing Indian districts and district-equivalent areas. Records retain GeoNames identifiers, state and district codes, coordinates, population, time zone, and source modification dates.
 
 - Source: GeoNames India country dump (`IN.zip`)
 - Filter: `feature_class=A` and `feature_code=ADM2`
@@ -83,7 +83,7 @@ The existing `population` and `area_sqkm` fields remain unchanged because they a
 
 ### India Country Metadata
 
-The optional `metadata` block in `data/in/country.json` adds India-specific country facts:
+The optional `metadata` block in `data/countries/in/country.json` adds India-specific country facts:
 
 - Population estimate and area: World Bank World Development Indicators, 2025
 - Official-language policy: Department of Official Language, Government of India
@@ -94,7 +94,7 @@ The existing `population` and `area_sqkm` fields remain unchanged because they a
 
 ### China Country Metadata
 
-The optional `metadata` block in `data/cn/country.json` adds China-specific country facts:
+The optional `metadata` block in `data/countries/cn/country.json` adds China-specific country facts:
 
 - Population estimate: National Bureau of Statistics of China, year-end 2025
 - Area: World Bank World Development Indicators
@@ -105,7 +105,7 @@ The existing `population` and `area_sqkm` fields remain unchanged because they a
 
 ### Pakistan Country Metadata
 
-The optional `metadata` block in `data/pk/country.json` adds Pakistan-specific country facts:
+The optional `metadata` block in `data/countries/pk/country.json` adds Pakistan-specific country facts:
 
 - Population estimate: World Bank World Development Indicators, 2024
 - Language policy: Constitution of Pakistan
@@ -116,7 +116,7 @@ The existing `population` and `area_sqkm` fields remain unchanged because they a
 
 ## Admin-1 Regions
 
-The worldwide normalized Admin-1 collection is stored in `data/admin1.json`. It contains first-level divisions such as states, provinces, departments, and regions, with parent country references and coordinates.
+The worldwide normalized Admin-1 collection is stored in `data/administrative/admin1.json`. It contains first-level divisions such as states, provinces, departments, and regions, with parent country references and coordinates.
 
 Per-country `admin1.json` files for the US, Pakistan, and China are generated from Natural Earth Admin 1 - States, Provinces. India uses the country-specific `states.json` filename while retaining the same Natural Earth state and union-territory source data. Nepal’s `admin1.json` is generated from the GeoNames Nepal country dump and contains its seven provinces. Bhutan’s `admin1.json` is generated from the GeoNames Bhutan country dump and contains its 20 dzongkhags. Myanmar’s `admin1.json` is generated from the GeoNames Myanmar country dump and contains 15 states and regions.
 
@@ -127,7 +127,7 @@ Per-country `admin1.json` files for the US, Pakistan, and China are generated fr
 
 ## Admin-2 Regions
 
-The worldwide Admin-2 collection is stored in `data/admin2.json`. It is generated from GeoNames `admin2Codes.txt` and linked to GeoNames `admin1CodesASCII.txt` through the `parent_code`, `admin1_code`, and `admin2_code` fields. Depending on the country, these records represent districts, counties, municipalities, or equivalent second-level divisions. The source code table does not provide universal coordinates, so this layer intentionally contains names, identifiers, and hierarchy codes only.
+The worldwide Admin-2 collection is stored in `data/administrative/admin2.json`. It is generated from GeoNames `admin2Codes.txt` and linked to GeoNames `admin1CodesASCII.txt` through the `parent_code`, `admin1_code`, and `admin2_code` fields. Depending on the country, these records represent districts, counties, municipalities, or equivalent second-level divisions. The source code table does not provide universal coordinates, so this layer intentionally contains names, identifiers, and hierarchy codes only.
 
 - Source: GeoNames `admin2Codes.txt` and `admin1CodesASCII.txt`
 - URL: https://download.geonames.org/export/dump/

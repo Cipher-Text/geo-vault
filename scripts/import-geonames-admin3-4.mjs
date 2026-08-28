@@ -3,7 +3,7 @@ import path from "node:path";
 import readline from "node:readline";
 import { spawn } from "node:child_process";
 
-const [archive, admin3Output = "data/admin3.json", admin4Output = "data/admin4.json"] = process.argv.slice(2);
+const [archive, admin3Output = "data/administrative/admin3.json", admin4Output = "data/administrative/admin4.json"] = process.argv.slice(2);
 if (!archive) {
   console.error("Usage: node scripts/import-geonames-admin3-4.mjs <allCountries.zip> [admin3.json] [admin4.json]");
   process.exit(1);

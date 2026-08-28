@@ -28,7 +28,7 @@ Dataset URLs:
 
 ## Admin-1 Regions
 
-Per-country `admin1.json` files (for US, IN, PK, CN) include data from Natural Earth.
+Per-country `admin1.json` files (for US, IN, PK, CN) include data from Natural Earth. The normalized global Admin-1 collection is stored under `data/administrative/`.
 
 License: Public domain
 

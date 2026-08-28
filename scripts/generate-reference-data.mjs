@@ -4,10 +4,10 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const countriesPath = path.join(root, "data/countries.json");
 const countries = JSON.parse(fs.readFileSync(countriesPath, "utf8"));
-const countryDirectories = fs.readdirSync(path.join(root, "data"), { withFileTypes: true })
+const countryDirectories = fs.readdirSync(path.join(root, "data", "countries"), { withFileTypes: true })
   .filter((entry) => entry.isDirectory() && /^[a-z]{2}$/.test(entry.name))
   .map((entry) => entry.name);
-const countryRecords = new Map(countryDirectories.map((code) => [code, JSON.parse(fs.readFileSync(path.join(root, "data", code, "country.json"), "utf8"))]));
+const countryRecords = new Map(countryDirectories.map((code) => [code, JSON.parse(fs.readFileSync(path.join(root, "data", "countries", code, "country.json"), "utf8"))]));
 
 const slugify = (value) => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const write = (name, value) => fs.writeFileSync(path.join(root, "data", name), `${JSON.stringify(value, null, 2)}\n`);
@@ -47,7 +47,7 @@ for (const [code, country] of countryRecords) {
   const master = countries.find((item) => item.id === code);
   if (master) {
     Object.assign(country, Object.fromEntries(Object.entries(master).filter(([key]) => key.endsWith("_id") || key.endsWith("_ids"))));
-    fs.writeFileSync(path.join(root, "data", code, "country.json"), `${JSON.stringify(country, null, 2)}\n`);
+    fs.writeFileSync(path.join(root, "data", "countries", code, "country.json"), `${JSON.stringify(country, null, 2)}\n`);
   }
 }
 console.log(`Generated ${continents.length} continents, ${regions.length} regions, ${currencies.length} currencies, ${languages.length} languages, and ${timezones.length} timezones.`);

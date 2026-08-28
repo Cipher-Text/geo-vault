@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const input = process.argv[2];
-const output = process.argv[3] ?? "data/admin1.json";
+const output = process.argv[3] ?? "data/administrative/admin1.json";
 
 if (!input) {
   console.error("Usage: node scripts/import-natural-earth-admin1.mjs <admin1.geojson> [output.json]");

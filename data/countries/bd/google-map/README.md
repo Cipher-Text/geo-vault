@@ -8,7 +8,7 @@ Install the client before running:
 
 ```sh
 npm install @googlemaps/google-maps-services-js
-GOOGLE_MAPS_API_KEY=YOUR_KEY node data/bd/google-map/geocode-unions.mjs
+GOOGLE_MAPS_API_KEY=YOUR_KEY node data/countries/bd/google-map/geocode-unions.mjs
 ```
 
 The script uses the address format `<union> Union, <upazila>, <zila>, Bangladesh`, waits 200 ms between requests, and does not modify the main administrative datasets automatically.

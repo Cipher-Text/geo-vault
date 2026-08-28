@@ -23,50 +23,19 @@ Geo Vault provides structured geolocation data for administrative regions, citie
 geo-vault/
 ├── data/
 │   ├── countries.json          Master list of 252 countries
-│   ├── admin1.json              Worldwide first-level divisions (4,577)
-│   ├── admin2.json              Worldwide second-level divisions (47,592)
-│   ├── admin3.json              Admin-3 divisions for covered countries (40,809)
-│   ├── admin4.json              Admin-4 divisions for covered countries (16,577)
+│   ├── administrative/           Global Admin-1 through Admin-4 datasets
 │   ├── continents.json           Continent reference records
 │   ├── regions.json              Region reference records
 │   ├── currencies.json           Currency reference records
 │   ├── languages.json            Language reference records
-│   ├── timezones.json            IANA timezone reference records
-│   ├── bd/
-│   │   ├── country.json        Country record
-│   │   ├── administrative.json  Divisions → districts → upazilas → unions + city corporations
-│   │   ├── cities.json         Cities (137)
-│   │   ├── geojson/
-│   │   └── formats/            Legacy CSV, SQL, and JSON exports
-│   ├── us/
-│   │   ├── country.json
-│   │   ├── admin1.json         States (51)
-│   │   └── cities.json         Cities (3,399)
-│   ├── in/
-│   │   ├── country.json
-│   │   ├── states.json        States & union territories (36)
-│   │   ├── districts.json     Districts / zila (763)
-│   │   └── cities.json         Cities (3,776)
-│   ├── pk/
-│   │   ├── country.json
-│   │   ├── admin1.json         Provinces (8)
-│   │   └── cities.json         Cities (363)
-│   └── cn/
-│       ├── country.json
-│       ├── admin1.json         Provinces (32)
-│       └── cities.json         Cities (2,093)
-│   └── np/
-│       ├── country.json        Country record
-│       ├── admin1.json         Provinces (7)
-│       └── cities.json         Cities (46)
-│   └── bt/
-│       ├── country.json        Country record
-│       ├── admin1.json         Dzongkhags (20)
-│       └── cities.json         Cities (4)
-│   └── mm/
-│       ├── country.json        Country record
-│       ├── admin1.json         States & regions (15)
-│       └── cities.json         Cities (176)
+│   ├── timezones.json            Partial IANA timezone reference records
+│   ├── countries/                Country-specific datasets
+│   ├── cities/                   Country-keyed city collections
+│   ├── geojson/                  Boundary geometries
+│   ├── countries/                Country-specific datasets by ISO2 code
+│   ├── administrative/           Global Admin-1 through Admin-4 datasets
+│   ├── cities/                   Country-keyed city collections
+│   └── geojson/                  Boundary geometries
 ├── schemas/
 │   ├── country.schema.json
 │   ├── admin1.schema.json
@@ -80,7 +49,7 @@ geo-vault/
 
 ## Per-Country Layout
 
-Every country folder follows the same pattern:
+Every country folder under `data/countries/` follows the same pattern:
 
 | File | Description |
 | --- | --- |
@@ -89,8 +58,8 @@ Every country folder follows the same pattern:
 | `admin1.json` | First-level divisions for countries using the generic flat layout. |
 | `states.json` | India-specific state and union-territory records. |
 | `districts.json` | India-specific district/zila records. |
-| `cities.json` | GeoNames populated places with population greater than 15,000. |
-| `geojson/` | Boundary geometries, if available. |
+| `data/cities/{cc}.json` | GeoNames populated places with population greater than 15,000. |
+| `data/geojson/` | Boundary geometries, if available. |
 
 Some country records may include an optional `metadata` object for country-specific enrichment. The USA, India, China, and Pakistan records currently include population, language, time-zone, and country-identifier metadata.
 
@@ -141,7 +110,7 @@ India uses country-specific administrative filenames: `states.json` and `distric
 
 ### Bangladesh Administrative Hierarchy
 
-`data/bd/administrative.json` contains nested divisions, districts, upazilas, and unions, plus a separate `city_corporations` collection for urban local government. City corporations are not placed inside the rural union tree.
+`data/countries/bd/administrative.json` contains nested divisions, districts, upazilas, and unions, plus a separate `city_corporations` collection for urban local government. City corporations are not placed inside the rural union tree.
 
 Example division:
 
@@ -182,7 +151,7 @@ Example division:
 
 ### India District
 
-India-specific names are available in `data/in/states.json` and `data/in/districts.json`; records use `state`, `union_territory`, and `district` as their level names. Their `admin1_code` and `admin2_code` values match the corresponding state and city records, allowing cities to be joined to a district and state.
+India-specific names are available in `data/countries/in/states.json` and `data/countries/in/districts.json`; records use `state`, `union_territory`, and `district` as their level names. Their `admin1_code` and `admin2_code` values match the corresponding state and city records, allowing cities to be joined to a district and state.
 
 ## Documentation
 

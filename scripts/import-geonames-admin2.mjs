@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const [admin2Input, admin1Input, output = "data/admin2.json"] = process.argv.slice(2);
+const [admin2Input, admin1Input, output = "data/administrative/admin2.json"] = process.argv.slice(2);
 if (!admin2Input || !admin1Input) {
   console.error("Usage: node scripts/import-geonames-admin2.mjs <admin2Codes.txt> <admin1CodesASCII.txt> [output.json]");
   process.exit(1);
