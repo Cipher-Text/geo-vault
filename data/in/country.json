@@ -117,5 +117,41 @@
     "driving_side": "left",
     "calling_code": "+91",
     "internet_country_code": ".in"
-  }
+  },
+  "continent_id": "as",
+  "region_id": "region-asia",
+  "currency_ids": [
+    "INR"
+  ],
+  "language_ids": [
+    "en-IN",
+    "hi",
+    "bn",
+    "te",
+    "mr",
+    "ta",
+    "ur",
+    "gu",
+    "kn",
+    "ml",
+    "or",
+    "pa",
+    "as",
+    "bh",
+    "sat",
+    "ks",
+    "ne",
+    "sd",
+    "kok",
+    "doi",
+    "mni",
+    "sit",
+    "sa",
+    "fr",
+    "lus",
+    "inc"
+  ],
+  "timezone_ids": [
+    "Asia/Kolkata"
+  ]
 }

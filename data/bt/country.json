@@ -29,5 +29,14 @@
   ],
   "lat": "27.536685",
   "lon": "90.040294",
-  "wikidata_id": "Q917"
+  "wikidata_id": "Q917",
+  "continent_id": "as",
+  "region_id": "region-asia",
+  "currency_ids": [
+    "BTN"
+  ],
+  "language_ids": [
+    "dz"
+  ],
+  "timezone_ids": []
 }

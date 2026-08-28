@@ -27,6 +27,11 @@ geo-vault/
 │   ├── admin2.json              Worldwide second-level divisions (47,592)
 │   ├── admin3.json              Admin-3 divisions for covered countries (40,809)
 │   ├── admin4.json              Admin-4 divisions for covered countries (16,577)
+│   ├── continents.json           Continent reference records
+│   ├── regions.json              Region reference records
+│   ├── currencies.json           Currency reference records
+│   ├── languages.json            Language reference records
+│   ├── timezones.json            IANA timezone reference records
 │   ├── bd/
 │   │   ├── country.json        Country record
 │   │   ├── administrative.json  Divisions → districts → upazilas → unions + city corporations

@@ -66,5 +66,21 @@
     "driving_side": "left",
     "calling_code": "+92",
     "internet_country_code": ".pk"
-  }
+  },
+  "continent_id": "as",
+  "region_id": "region-asia",
+  "currency_ids": [
+    "PKR"
+  ],
+  "language_ids": [
+    "ur-PK",
+    "en-PK",
+    "pa",
+    "sd",
+    "ps",
+    "brh"
+  ],
+  "timezone_ids": [
+    "Asia/Karachi"
+  ]
 }

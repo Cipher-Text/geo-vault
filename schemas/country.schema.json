@@ -59,6 +59,11 @@
     "lat": { "type": "string" },
     "lon": { "type": "string" },
     "wikidata_id": { "type": "string" },
+    "continent_id": { "type": "string" },
+    "region_id": { "type": "string" },
+    "currency_ids": { "type": "array", "items": { "type": "string" } },
+    "language_ids": { "type": "array", "items": { "type": "string" } },
+    "timezone_ids": { "type": "array", "items": { "type": "string" } },
     "metadata": {
       "type": "object",
       "additionalProperties": false,

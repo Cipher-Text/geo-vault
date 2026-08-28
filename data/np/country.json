@@ -30,5 +30,15 @@
   ],
   "lat": "28.297925",
   "lon": "83.639914",
-  "wikidata_id": "Q837"
+  "wikidata_id": "Q837",
+  "continent_id": "as",
+  "region_id": "region-asia",
+  "currency_ids": [
+    "NPR"
+  ],
+  "language_ids": [
+    "ne",
+    "en"
+  ],
+  "timezone_ids": []
 }

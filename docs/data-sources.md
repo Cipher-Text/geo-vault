@@ -58,6 +58,10 @@ Population has not been added yet. Add it only from a source with clear census y
 - GeoNames license: Creative Commons Attribution 4.0
 - Natural Earth license: Public domain
 
+### Country Reference Collections
+
+The normalized reference files are generated from the country collection and existing country metadata. Currency and language country lists are derived from the corresponding country fields. Timezone identifiers use the IANA naming convention; only country-to-timezone links already present in sourced country metadata are populated.
+
 ### United States Country Metadata
 
 The optional `metadata` block in `data/us/country.json` adds current U.S.-specific country facts:

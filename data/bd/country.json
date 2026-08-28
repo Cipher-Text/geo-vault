@@ -30,5 +30,15 @@
   ],
   "lat": "24.214956",
   "lon": "89.684963",
-  "wikidata_id": "Q902"
+  "wikidata_id": "Q902",
+  "continent_id": "as",
+  "region_id": "region-asia",
+  "currency_ids": [
+    "BDT"
+  ],
+  "language_ids": [
+    "bn-BD",
+    "en"
+  ],
+  "timezone_ids": []
 }

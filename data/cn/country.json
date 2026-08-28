@@ -81,5 +81,21 @@
     "driving_side": "right",
     "calling_code": "+86",
     "internet_country_code": ".cn"
-  }
+  },
+  "continent_id": "as",
+  "region_id": "region-asia",
+  "currency_ids": [
+    "CNY"
+  ],
+  "language_ids": [
+    "zh-CN",
+    "yue",
+    "wuu",
+    "dta",
+    "ug",
+    "za"
+  ],
+  "timezone_ids": [
+    "Asia/Shanghai"
+  ]
 }

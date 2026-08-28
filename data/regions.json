@@ -1,0 +1,48 @@
+[
+  {
+    "id": "region-africa",
+    "name": "Africa",
+    "continent_ids": [
+      "af",
+      "an"
+    ]
+  },
+  {
+    "id": "region-americas",
+    "name": "Americas",
+    "continent_ids": [
+      "na",
+      "sa"
+    ]
+  },
+  {
+    "id": "region-antarctica",
+    "name": "Antarctica",
+    "continent_ids": [
+      "an"
+    ]
+  },
+  {
+    "id": "region-asia",
+    "name": "Asia",
+    "continent_ids": [
+      "as",
+      "eu",
+      "oc"
+    ]
+  },
+  {
+    "id": "region-europe",
+    "name": "Europe",
+    "continent_ids": [
+      "eu"
+    ]
+  },
+  {
+    "id": "region-oceania",
+    "name": "Oceania",
+    "continent_ids": [
+      "oc"
+    ]
+  }
+]
