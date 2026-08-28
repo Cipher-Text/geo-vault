@@ -1,0 +1,15 @@
+[
+  {
+    "id": "historical-country-south-sudan-formation",
+    "entity_id": "ss",
+    "entity_type": "country",
+    "country_code": "SS",
+    "change_type": "independence",
+    "valid_from": "2011-07-09",
+    "valid_to": "",
+    "description": "South Sudan formally seceded from Sudan and became independent.",
+    "source": "United Nations",
+    "source_url": "https://www.un.org/en/about-us/member-states/south-sudan",
+    "license": "United Nations website terms"
+  }
+]

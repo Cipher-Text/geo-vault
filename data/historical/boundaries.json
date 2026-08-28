@@ -1,0 +1,16 @@
+[
+  {
+    "id": "boundary-south-sudan-sudan-2011",
+    "entity_id": "ss",
+    "entity_type": "country",
+    "country_code": "SS",
+    "predecessor_entity_id": "sd",
+    "change_type": "secession",
+    "valid_from": "2011-07-09",
+    "valid_to": "",
+    "description": "South Sudan separated from Sudan following an internationally monitored referendum.",
+    "source": "United Nations",
+    "source_url": "https://www.un.org/en/about-us/member-states/south-sudan",
+    "license": "United Nations website terms"
+  }
+]

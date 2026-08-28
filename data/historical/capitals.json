@@ -1,0 +1,32 @@
+[
+  {
+    "id": "capital-india-calcutta-delhi",
+    "entity_id": "in",
+    "entity_type": "country",
+    "country_code": "IN",
+    "old_name": "Calcutta",
+    "new_name": "Delhi",
+    "capital_city_id": "geonames-1273294",
+    "change_type": "capital-relocation-announced",
+    "valid_from": "1911-12-12",
+    "valid_to": "",
+    "description": "The British government announced the shift of India’s capital from Calcutta to Delhi.",
+    "source": "New Delhi Municipal Council",
+    "source_url": "https://ndmc.gov.in/ndmc/history.aspx",
+    "license": "Government website terms"
+  },
+  {
+    "id": "capital-bangladesh-dhaka-1971",
+    "entity_id": "bd",
+    "entity_type": "country",
+    "country_code": "BD",
+    "capital_city_id": "geonames-1185241",
+    "change_type": "capital-established",
+    "valid_from": "1971-12-16",
+    "valid_to": "",
+    "description": "Dhaka became the capital of Bangladesh after independence.",
+    "source": "Dhaka North City Corporation",
+    "source_url": "https://dncc.gov.bd/site/page/aa6ca01d-9bd1-48c8-9bf4-9e5e83e639ce/About-DNCC",
+    "license": "Government website terms"
+  }
+]

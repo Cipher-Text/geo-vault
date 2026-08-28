@@ -1,0 +1,17 @@
+[
+  {
+    "id": "renamed-place-bombay-mumbai",
+    "entity_id": "geonames-1275339",
+    "entity_type": "city",
+    "country_code": "IN",
+    "old_name": "Bombay",
+    "new_name": "Mumbai",
+    "change_type": "place-renaming",
+    "valid_from": "1995-11-04",
+    "valid_to": "",
+    "description": "The city is recorded as Mumbai after the official renaming from Bombay.",
+    "source": "Government of Maharashtra",
+    "source_url": "https://mahasec.maharashtra.gov.in/Upload/PDF/12%20Research%20on%20MCGM%20Elections%202012%20and%202017.pdf",
+    "license": "Government website terms"
+  }
+]

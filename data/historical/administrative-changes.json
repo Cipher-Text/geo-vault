@@ -1,0 +1,15 @@
+[
+  {
+    "id": "admin-change-dhaka-wards-1999",
+    "entity_id": "bd",
+    "entity_type": "administrative-area",
+    "country_code": "BD",
+    "change_type": "ward-reorganization",
+    "valid_from": "1999-01-01",
+    "valid_to": "",
+    "description": "Dhaka City Corporation’s ward count was increased to 90 during the late-1990s administrative reorganization.",
+    "source": "Dhaka South City Corporation",
+    "source_url": "https://dscc.gov.bd/site/page/c7c8ed6b-9439-47e6-9092-7d2a4243e607/-",
+    "license": "Government website terms"
+  }
+]

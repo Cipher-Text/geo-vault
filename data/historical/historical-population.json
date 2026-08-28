@@ -1,0 +1,32 @@
+[
+  {
+    "id": "historical-population-dhaka-1951",
+    "entity_id": "geonames-1185241",
+    "entity_type": "city",
+    "country_code": "BD",
+    "change_type": "population-observation",
+    "valid_from": "1951-01-01",
+    "valid_to": "1951-12-31",
+    "year": 1951,
+    "value": 335928,
+    "unit": "people",
+    "source": "Dhaka South City Corporation",
+    "source_url": "https://dscc.gov.bd/site/page/c7c8ed6b-9439-47e6-9092-7d2a4243e607/-",
+    "license": "Government website terms"
+  },
+  {
+    "id": "historical-population-dhaka-2011",
+    "entity_id": "geonames-1185241",
+    "entity_type": "city",
+    "country_code": "BD",
+    "change_type": "population-observation",
+    "valid_from": "2011-01-01",
+    "valid_to": "2011-12-31",
+    "year": 2011,
+    "value": 6811642,
+    "unit": "people",
+    "source": "Dhaka South City Corporation",
+    "source_url": "https://dscc.gov.bd/site/page/c7c8ed6b-9439-47e6-9092-7d2a4243e607/-",
+    "license": "Government website terms"
+  }
+]

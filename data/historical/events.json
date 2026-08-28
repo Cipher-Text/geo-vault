@@ -1,0 +1,30 @@
+[
+  {
+    "id": "event-south-sudan-independence-2011",
+    "entity_id": "ss",
+    "entity_type": "country",
+    "country_code": "SS",
+    "change_type": "independence",
+    "event_date": "2011-07-09",
+    "valid_from": "2011-07-09",
+    "valid_to": "",
+    "description": "South Sudan became independent and was later admitted as a United Nations Member State.",
+    "source": "United Nations",
+    "source_url": "https://www.un.org/en/about-us/member-states/south-sudan",
+    "license": "United Nations website terms"
+  },
+  {
+    "id": "event-sri-lanka-republic-1972",
+    "entity_id": "lk",
+    "entity_type": "country",
+    "country_code": "LK",
+    "change_type": "republic-established",
+    "event_date": "1972-05-22",
+    "valid_from": "1972-05-22",
+    "valid_to": "",
+    "description": "Sri Lanka adopted its republican constitution and changed its name from Ceylon.",
+    "source": "Sri Lanka National Archives",
+    "source_url": "https://www.archives.gov.lk/English/online-exhibits/path-to-freedom/republic",
+    "license": "Sri Lanka National Archives website terms"
+  }
+]

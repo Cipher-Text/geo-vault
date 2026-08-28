@@ -32,6 +32,7 @@ geo-vault/
 │   ├── countries/                Country-specific datasets
 │   ├── cities/                   Country-keyed city collections
 │   ├── geojson/                  Boundary geometries
+│   └── historical/               Historical geographic and political records
 │   ├── countries/                Country-specific datasets by ISO2 code
 │   ├── administrative/           Global Admin-1 through Admin-4 datasets
 │   ├── cities/                   Country-keyed city collections

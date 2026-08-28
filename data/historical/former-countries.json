@@ -1,0 +1,16 @@
+[
+  {
+    "id": "former-country-south-sudan-sudan",
+    "entity_id": "sd",
+    "entity_type": "former-country-relationship",
+    "country_code": "SD",
+    "successor_entity_id": "ss",
+    "change_type": "territorial-secession",
+    "valid_from": "2011-07-09",
+    "valid_to": "",
+    "description": "The former territory of South Sudan became the independent Republic of South Sudan.",
+    "source": "United Nations",
+    "source_url": "https://www.un.org/en/about-us/member-states/south-sudan",
+    "license": "United Nations website terms"
+  }
+]

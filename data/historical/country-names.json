@@ -1,0 +1,32 @@
+[
+  {
+    "id": "country-name-ceylon-sri-lanka",
+    "entity_id": "lk",
+    "entity_type": "country",
+    "country_code": "LK",
+    "old_name": "Ceylon",
+    "new_name": "Sri Lanka",
+    "change_type": "constitutional-renaming",
+    "valid_from": "1972-05-22",
+    "valid_to": "",
+    "description": "The 1972 Constitution changed the country name from Ceylon to Sri Lanka.",
+    "source": "Sri Lanka National Archives",
+    "source_url": "https://www.archives.gov.lk/English/online-exhibits/path-to-freedom/republic",
+    "license": "Sri Lanka National Archives website terms"
+  },
+  {
+    "id": "country-name-bangladesh-dacca-dhaka",
+    "entity_id": "bd",
+    "entity_type": "country",
+    "country_code": "BD",
+    "old_name": "Dacca",
+    "new_name": "Dhaka",
+    "change_type": "official-spelling",
+    "valid_from": "",
+    "valid_to": "",
+    "description": "Dhaka is also recorded as Dacca in historical English usage.",
+    "source": "Embassy of Bangladesh in Japan",
+    "source_url": "https://bdembjp.mofa.gov.bd/public/storage/pdf/Country_Profile.pdf",
+    "license": "Government publication"
+  }
+]

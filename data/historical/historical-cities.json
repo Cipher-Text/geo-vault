@@ -1,0 +1,16 @@
+[
+  {
+    "id": "historical-city-new-delhi-construction",
+    "entity_id": "geonames-1261481",
+    "entity_type": "city",
+    "country_code": "IN",
+    "name": "New Delhi",
+    "change_type": "capital-city-construction",
+    "valid_from": "1912-01-01",
+    "valid_to": "1922-12-31",
+    "description": "The new British Indian capital was developed on Raisina Hill during 1912–1922.",
+    "source": "Survey of India",
+    "source_url": "https://www.surveyofindia.gov.in/UserFiles/files/DELHI.pdf",
+    "license": "Government publication"
+  }
+]
