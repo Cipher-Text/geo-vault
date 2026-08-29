@@ -1,0 +1,51 @@
+river_name_en,river_name_bn,river_type,origin_source,division_traversed,districts_traversed,length_km_bd,avg_width_m,max_depth_m,mean_discharge_m3s,bwdb_gauging_stations,outfall_tributary_to,transboundary_flag
+Padma,পদ্মা,Major River,Gangotri Glacier (Himalayas),Rajshahi / Dhaka / Khulna,Chapainawabganj / Rajshahi / Pabna / Kushtia / Rajbari / Dhaka / Munshiganj / Shariatpur,120,4000-10000,35,30000,"SW91.5 (Hardinge Bridge), SW93.5 (Goalundo)",Meghna River (at Chandpur),Yes (India - Ganges)
+Jamuna,যমুনা,Major River,Yarlung Tsangpo (Tibet),Rangpur / Rajshahi / Dhaka,Kurigram / Gaibandha / Bogura / Sirajganj / Tangail / Manikganj,205,3000-12000,40,20000,"SW46.5 (Bahadurabad), SW49 (Sirajganj)",Padma River (at Goalando),Yes (India/China - Brahmaputra)
+Meghna (Upper & Lower),মেঘনা,Major River,Barak River (Assam/Manipur),Sylhet / Dhaka / Chattogram / Barishal,Kishoreganj / Brahmanbaria / Narsingdi / Narayanganj / Munshiganj / Chandpur / Lakshmipur / Bhola,264,1000-11000,45,35000,"SW275.5 (Meghna Bridge), SW277 (Chandpur), SW278 (Daulatkhan)",Bay of Bengal,Yes (India - Barak system)
+Surma,সুরমা,Major Branch / Network,Barak River Off-take (Amalshid),Sylhet,Sylhet / Sunamganj / Kishoreganj,249,150-300,18,1200,"SW267 (Sylhet), SW269 (Sunamganj)",Meghna River (Confluence with Kushiyara),Yes (India)
+Kushiyara,কুশিয়ারা,Major Branch / Network,Barak River Off-take (Amalshid),Sylhet,Sylhet / Moulvibazar / Habiganj / Sunamganj,228,200-400,20,1500,"SW173 (Sherpur), SW175 (Markuli)",Meghna River (Confluence with Surma),Yes (India)
+Teesta,তিস্তা,Major Tributary,Pahunri Glacier (Sikkim),Rangpur,Nilphamari / Lalmonirhat / Rangpur / Kurigram,115,300-2000,10,800,"SW291 (Dalia Barrage), SW293 (Kaunia)",Jamuna River (at Chilmari),Yes (India)
+Karnaphuli,কর্ণফুলী,Coastal River,Lushai Hills (Mizoram),Chattogram,Rangamati / Chattogram,180,300-800,25,850,"SW119 (Kalurghat), SW120 (Chittagong Sadar)",Bay of Bengal (Patenga),Yes (India)
+Gorai,গড়াই,Distributary,Padma River Off-take,Khulna / Dhaka,Kushtia / Jhenaidah / Magura / Rajbari / Faridpur,210,250-800,15,1300,"SW99 (Gorai Railway Bridge), SW101 (Kamarkhali)",Madhumati River / Rupsa-Pasur,No
+Sangu,সাঙ্গু,Coastal River,North Arakan Hills (Myanmar),Chattogram,Bandarban / Chattogram,173,150-400,15,450,"SW247 (Bandarban), SW248 (Dohazari)",Bay of Bengal,Yes (Myanmar border area)
+Old Brahmaputra,পুরাতন ব্রহ্মপুত্র,Distributary,Jamuna Off-take (Dewanganj),Mymensingh / Dhaka,Jamalpur / Mymensingh / Kishoreganj / Narsingdi,240,100-500,12,600,"SW228 (Mymensingh), SW231 (Bhairab Bazar)",Meghna River (at Bhairab),No
+Dharla,ধরলা,Tributary,Himalayan foothills (Bhutan/India),Rangpur,Lalmonirhat / Kurigram,75,150-600,8,400,"SW68 (Kurigram)",Jamuna River,Yes (India/Bhutan - Jaldhaka)
+Dudhkumar,দুধকুমার,Tributary,Himalayan foothills (Bhutan/India),Rangpur,Kurigram,50,150-400,7,350,"SW79 (Pateswari)",Jamuna River,Yes (India/Bhutan)
+Rupsa-Pasur,রূপসা-পশুর,Estuarine River,Gorai-Madhumati Network,Khulna,Khulna / Bagerhat,140,500-3000,30,4500,"SW241 (Khulna), SW244 (Mongla Port)",Bay of Bengal (Sundarbans),No
+Atrai,আত্রাই,Transboundary Tributary,Siliguri (West Bengal),Rangpur / Rajshahi,Panchagarh / Dinajpur / Naogaon / Natore / Pabna,390,100-400,12,350,"SW7 (Naogaon), SW9 (Atrai)",Jamuna River / Chalan Beel,Yes (India)
+Halda,হালদা,Tributary (Freshwater Breeding),Badnatali Hill Ranges (Ramgarh),Chattogram,Khagrachari / Chattogram,81,50-150,9,120,"SW119.1 (Panchpukuria)",Karnaphuli River,No
+Buriganga,বুড়িগঙ্গা,Distributary / Urban River,Dhaleshwari Off-take,Dhaka,Dhaka / Narayanganj,27,100-300,12,180,"SW42 (Dhaka - Mill Barrack)",Dhaleshwari River,No
+Dhaleshwari,ধলেশ্বরী,Distributary,Jamuna Off-take,Dhaka,Tangail / Manikganj / Dhaka / Narayanganj,160,200-800,15,1200,"SW87 (Rekabi Bazar), SW88 (Jagannathpur)",Meghna River,No
+Shitalakshya,শীতলক্ষ্যা,Distributary / Urban River,Old Brahmaputra Off-take,Dhaka,Gazipur / Narsingdi / Narayanganj,110,150-400,18,400,"SW263 (Demra), SW265 (Narayanganj)",Dhaleshwari River,No
+Turag,তুরাগ,Distributary / Urban River,Bangshi River,Dhaka,Gazipur / Dhaka,64,50-150,8,110,"SW299 (Mirpur)",Buriganga River,No
+Balu,বালু,Urban River,Greater Gazipur wetlands,Dhaka,Gazipur / Dhaka / Narayanganj,44,40-100,6,85,"SW16 (Demra)",Shitalakshya River,No
+Bangshi,বংশী,Tributary,Jamalpur hills,Dhaka,Jamalpur / Tangail / Gazipur / Dhaka,238,80-200,9,210,"SW14 (Nayarhat)",Dhaleshwari River,No
+Matamuhuri,মাতামুহুরী,Coastal River,Mowdok Range (Bandarban),Chattogram,Bandarban / Cox's Bazar,148,100-350,12,300,"SW203 (Lama), SW204 (Chiringa)",Bay of Bengal,No
+Feni,ফেনী,Coastal River,Tripura Hills (India),Chattogram,Feni / Chattogram,116,100-500,10,250,"SW108 (Ramgarh)",Bay of Bengal,Yes (India)
+Muhuri,মুহুরী,Coastal River,Tripura Hills (India),Chattogram,Feni,62,80-300,8,180,"SW213 (Parshuram)",Feni River / Bay of Bengal,Yes (India)
+Naf,নাফ,Estuarine / Boundary River,Arakan Mountains (Myanmar),Chattogram,Cox's Bazar,62,800-1600,12,800,"SW215 (Teknaf)",Bay of Bengal,Yes (Myanmar)
+Khowai,খোয়াই,Transboundary Tributary,Tripura Hills (India),Sylhet,Habiganj,166,100-250,9,220,"SW158 (Habiganj)",Kushiyara River,Yes (India)
+Manu,মনু,Transboundary Tributary,Tripura Hills (India),Sylhet,Moulvibazar,167,80-200,8,200,"SW197 (Moulvibazar)",Kushiyara River,Yes (India)
+Titas,তিতাস,Tributary / Distributary,Tripura Hills / Meghna network,Chattogram,Brahmanbaria,98,100-300,10,310,"SW296 (Akhaura)",Meghna River,Yes (India boundary streams)
+Someswari,সোমেশ্বরী,Transboundary Tributary,Garo Hills (Meghalaya),Mymensingh,Netrokona,50,100-300,7,280,"SW273 (Durgapur)",Kangsha River,Yes (India)
+Kangsha,কংস,Tributary,Garo Hills foothills,Mymensingh,Sherpur / Netrokona,225,80-200,8,340,"SW143 (Jariajanjail)",Dhanu River / Meghna network,No
+Punarbhaba,পুনর্ভবা,Transboundary Tributary,West Bengal (India),Rajshahi / Rangpur,Dinajpur / Naogaon / Chapainawabganj,160,80-200,9,190,"SW237 (Rohanpur)",Mahananda River,Yes (India)
+Mahananda,মহানন্দা,Transboundary Tributary,Mahaldiram Hills (Himalayas),Rajshahi / Rangpur,Panchagarh / Chapainawabganj,36,150-400,10,420,"SW184 (Tetulia), SW186 (Chapainawabganj)",Padma River,Yes (India)
+Karatoa (North & South),করতোয়া,Tributary Network,Himalayan foothills,Rangpur / Rajshahi,Panchagarh / Dinajpur / Gaibandha / Bogura / Sirajganj,187,50-250,8,260,"SW149 (Chak Rahimpur), SW151 (Bogura)",Bangali River / Atrai,Yes (India - upper reaches)
+Bangali,বাঙালী,Distributary / Tributary,Teesta / Karatoa network,Rajshahi / Rangpur,Gaibandha / Bogura / Sirajganj,183,100-300,9,400,"SW11A (Shariakandi)",Jamuna River,No
+Kirtankhola,কীর্তনখোলা,Estuarine River,Arial Khan Off-take,Barishal,Barishal,16,300-800,18,1100,"SW18 (Barisal Sadar)",Gajalia / Sugandha / Bay of Bengal,No
+Bishkhali,বিষখালী,Estuarine River,Lower Meghna network,Barishal,Jhalokathi / Barguna,96,500-2000,20,2400,"SW38.1 (Barguna)",Bay of Bengal,No
+Baleshwar,বলেশ্বর,Estuarine River,Madhumati River continuation,Barishal / Khulna,Pirojpur / Barguna / Bagerhat,146,600-2500,22,3100,"SW13 (Pirojpur)",Pasur River / Bay of Bengal,No
+Payra (Burishwar),পায়রা,Estuarine River,Barishal network,Barishal,Patuakhali / Barguna,90,800-3000,25,3800,"SW221 (Amatali)",Bay of Bengal,No
+Arial Khan,আড়িয়াল খাঁ,Distributary,Padma River Off-take,Dhaka / Barishal,Rajbari / Faridpur / Madaripur / Barishal,160,300-1200,16,1800,"SW3 (Madaripur)",Tentulia River / Bay of Bengal,No
+Bhairab,ভৈরব,Distributary,Padma Off-take,Khulna,Meherpur / Chuadanga / Jhenaidah / Jashore / Khulna,160,100-400,10,320,"SW26 (Jashore), SW28 (Khulna)",Rupsa River,No
+Kopotakho (Kabadak),কপোতাক্ষ,Distributary,Bhairab Off-take,Khulna,Jhenaidah / Jashore / Satkhira,180,80-300,9,210,"SW162 (Tala), SW164 (Paikgacha)",Arpangachhia River / Sundarbans,No
+Mathabhanga,মাথাভাঙ্গা,Distributary,Padma Off-take,Khulna,Kushtia / Chuadanga,121,100-250,8,240,"SW199 (Munshiganj)",Bhairab / Kumar River,Yes (India boundary)
+Nabaganga,নবগঙ্গা,Distributary,Mathabhanga Off-take,Khulna,Jhenaidah / Magura / Narail,230,80-250,9,280,"SW214 (Magura)",Chitra / Rupsa network,No
+Chitra,চিত্রা,Distributary,Nabaganga Off-take,Khulna,Chuadanga / Jhenaidah / Magura / Narail,170,60-180,7,160,"SW64 (Narail)",Nabaganga River,No
+Sari-Goyain,সারী-গোয়াইন,Transboundary Tributary,Jaintia Hills (Meghalaya),Sylhet,Sylhet,56,80-200,8,190,"SW255 (Sarighat)",Surma River,Yes (India)
+Piyain,পিয়াইন,Transboundary Tributary,Omgat River (Meghalaya),Sylhet,Sylhet,145,100-300,7,210,"SW224 (Jaflong)",Surma River,Yes (India)
+Jadukata,জাদুকাটা,Transboundary Tributary,Khasi Hills (Meghalaya),Sylhet,Sunamganj,35,100-350,8,310,"SW129 (Tahjirpur)",Surma River / Haor basin,Yes (India)
+Bakkhali,বাঁকখালী,Coastal River,Chittagong Hill Tracts,Chattogram,Bandarban / Cox's Bazar,67,80-250,7,140,"SW20 (Cox's Bazar)",Moheshkhali Channel / Bay of Bengal,No
+Kasalong,কাছালং,Hill River,Lushai Hills foothills,Chattogram,Rangamati,120,50-150,8,160,"SW147 (Kasalong)",Kaptai Lake / Karnaphuli River,No
+Sutang,সুতাং,Tributary,Tripura Hills (India),Sylhet,Habiganj,82,40-100,5,90,"SW281 (Shaistaganj)",Meghna River,Yes (India)

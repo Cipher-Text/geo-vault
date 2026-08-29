@@ -1,0 +1,26 @@
+name_en,name_bn,body_type,district,upazila,latitude,longitude,area_monsoon_sqkm,area_dry_sqkm,water_volume_est
+Hakaluki Haor,হাকালুকি হাওর,Haor,Moulvibazar / Sylhet,Kulaura / Juri / Fenchuganj,24.5833,92.0333,181.15,44.00,High seasonal storage
+Tanguar Haor,টাঙ্গুয়ার হাওর,Haor,Sunamganj,Tahirpur / Dharmapasha,25.1500,91.0667,100.00,28.00,High seasonal storage
+Chalan Beel,চলন বিল,Beel,Natore / Sirajganj / Pabna,Singra / Gurudaspur / Chatmohar,24.4167,89.2500,375.00,55.00,Dynamic seasonal
+Kaptai Lake,কাপ্তাই হ্রদ,Reservoir (Man-made),Rangamati,Kaptai / Rangamati Sadar,22.5000,92.2167,736.00,650.00,8.25 Million Acre-Feet
+Arial Beel,আড়িয়াল বিল,Beel,Munshiganj / Dhaka,Sreenagar / Nawabganj,23.6333,90.2500,136.00,40.00,Medium seasonal
+Nikli Haor,নিকলী হাওর,Haor,Kishoreganj,Nikli,24.3167,90.9333,45.00,12.00,Seasonal flood storage
+Hail Haor,হাইল হাওর,Haor,Moulvibazar,Sreemangal,24.3833,91.6833,130.00,30.00,Medium seasonal storage
+Shanir Haor, শনির হাওর,Haor,Sunamganj,Tahiyapur / Jamalganj,25.1167,91.2000,60.00,18.00,High seasonal storage
+Matian Haor, মাটিয়ান হাওর,Haor,Sunamganj,Tahirpur,25.1333,91.1333,52.00,15.00,High seasonal storage
+Dekhar Haor, ডেকহার হাওর,Haor,Sunamganj,Sunamganj Sadar,25.0167,91.3667,70.00,20.00,High seasonal storage
+Dingapota Haor, ডিঙ্গাপোতা হাওর,Haor,Netrokona,Mohanganj,24.8667,90.9667,85.00,22.00,High seasonal storage
+Kawadighi Haor, কাউয়াদীঘি হাওর,Haor,Moulvibazar,Rajnagar,24.5500,91.8333,40.00,10.00,Medium seasonal storage
+Bukbhara Baor,বুকভরা বাঁওড়,Baor (Oxbow Lake),Jashore,Jashore Sadar,23.1833,89.1500,1.40,1.10,Perennial oxbow basin
+Jhampa Baor,ঝাঁপা বাঁওড়,Baor (Oxbow Lake),Jashore,Manirampur,23.0167,89.2333,1.60,1.30,Perennial oxbow basin
+Baluhar Baor,বালুহর বাঁওড়,Baor (Oxbow Lake),Jhenaidah,Kotchandpur,23.4167,89.0167,2.80,2.10,Perennial oxbow basin
+Benipur Baor,বেনীপুর বাঁওড়,Baor (Oxbow Lake),Chuadanga,Jibannagar,23.4500,88.8167,1.20,0.95,Perennial oxbow basin
+Ashurar Beel,আশুড়ার বিল,Beel,Dinajpur,Nawabganj,25.4167,89.0167,3.50,1.20,Low-medium seasonal
+Baikka Beel,বাইক্কা বিল,Beel,Moulvibazar,Sreemangal,24.3583,91.6417,1.00,0.85,Perennial wetland sanctuary
+Beel Dakatia,বিল ডাকাতিয়া,Beel,Khulna / Satkhira,Dumuaria / Phultala,22.9000,89.4167,90.00,35.00,Polder waterlogged basin
+Boga Lake,বগা লেক,Natural Lake,Bandarban,Ruma,21.9806,92.5347,0.06,0.06,Constant deep basin
+Mahamaya Lake,মহামায়া লেক,Reservoir (Man-made),Chattogram,Mirsharai,22.8167,91.5667,11.00,9.50,Irrigation storage
+Madhobpur Lake,মাধবপুর লেক,Natural Lake,Moulvibazar,Kamalganj,24.2333,91.8000,0.20,0.18,Constant shallow basin
+Ramsagar,রামসাগর,Dighi (Historical Reservoir),Dinajpur,Dinajpur Sadar,25.5539,88.6247,0.15,0.15,Static artificial reservoir
+Durgasagar,দুর্গাসাগর,Dighi (Historical Reservoir),Barishal,Babu Ganj,22.7667,90.2833,0.18,0.18,Static artificial reservoir
+Hatirjheel,হাতিরঝিল,Urban Jheel / Lake,Dhaka,Tejgaon / Rampura,23.7583,90.4125,1.20,1.10,Regulated urban retention
