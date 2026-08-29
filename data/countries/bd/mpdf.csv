@@ -1,0 +1,416 @@
+SL,Station ID,Station,River,Tidal Status,District,Upazila,Latitude,Longitude,First Date,Last Date
+1,SW1,Bagerhat,Alaipur Khal Daratona,Tidal,Bagerhat,Bagerhat Sadar,22.6488,89.8037,01-04-1959,31-07-2026
+2,SW105,Off take at Atharobanka,Gorai-Madhumati-Haringhata-Baleswar,Tidal,Bagerhat,Mollahat,22.9654,89.7825,01-04-1929,31-07-2026
+3,SW244,Mongla,Rupsa-Pasur,Tidal,Bagerhat,Mongla,22.4807,89.6080,01-10-1960,01-01-2067
+4,SW107.2,Rayenda,Gorai-Madhumati-Haringhata-Baleswar,Tidal,Bagerhat,Sarankhola,22.3161,89.8495,01-04-1968,31-07-2026
+5,SW203.5,Poamuhuri,Matamuhuri,Non-Tidal,Bandarban,Alikadam,21.4581,92.4545,20-02-2019,30-06-2025
+6,SW203A,Alikadam,Matamuhuri,Non-Tidal,Bandarban,Alikadam,21.6435,92.3123,01-07-2025,30-06-2026
+7,SW247,Bandarban,Sangu,Non-Tidal,Bandarban,Bandarban Sadar,22.1966,92.2166,01-04-1965,30-06-2026
+8,SW246,Galimkata,Sangu,Non-Tidal,Bandarban,Bandarban Sadar,22.1393,92.2900,01-04-1965,31-03-1984
+9,SW203,Lama,Matamuhuri,Non-Tidal,Bandarban,Lama,21.7861,92.1908,01-04-1962,31-07-2026
+10,SW245,Ruma,Sangu,Non-Tidal,Bandarban,Ruma,22.0600,92.3700,01-04-1965,31-03-1998
+11,SW247.4,Remakri,Sangu,Non-Tidal,Bandarban,Thanchi,21.6761,92.5173,20-02-2019,30-06-2025
+12,SW247.5,Thanchi,Sangu,Non-Tidal,Bandarban,Thanchi,21.8163,92.4372,01-07-2025,30-06-2026
+13,SW20,Amtali,Barisal-Buriswar,Tidal,Barguna,Amtali,22.1432,90.2265,01-04-1957,31-07-2026
+14,SW38,Bamna,Bishkhali,Tidal,Barguna,Bamna,22.3241,90.0908,18-11-1958,31-07-2026
+15,SW38.1,Barguna,Bishkhali,Tidal,Barguna,Barguna Sadar,22.1581,90.1050,01-04-1990,31-07-2026
+16,SW37.5,Betagi,Bishkhali,Tidal,Barguna,Betagi,22.4161,90.1656,01-04-1993,31-07-2026
+17,SW108,Chardoani,Gorai-Madhumati-Haringhata-Baleswar,Tidal,Barguna,Patharghata,22.1075,89.9100,01-04-1996,31-03-1997
+18,SW39,Patharghata,Bishkhali,Tidal,Barguna,Patharghata,22.0134,89.9642,01-04-1958,31-07-2026
+19,SW318,Babuganj,Babuganj,Tidal,Barisal,Babuganj,22.8182,90.3212,01-04-1991,31-07-2026
+20,SW183,Kaitpara,Lohalia,Tidal,Barisal,Bakerganj,22.5167,90.4327,01-04-1968,31-07-2026
+21,SW18.1,Bakerganj,Barisal-Buriswar,Tidal,Barisal,Bakerganj,22.5429,90.3386,01-04-1968,31-07-2026
+22,SW18,Barisal,Kirtankhola,Tidal,Barisal,Barisal Sadar,22.6966,90.3740,01-06-1938,31-07-2026
+23,SW288.3,Tongibari,Tentulia (Barisal-Bhola),Tidal,Barisal,Barisal Sadar,22.6882,90.4894,01-04-1991,31-07-2026
+24,SW300,Gournadi,Torki,Tidal,Barisal,Gaurnadi,22.9760,90.2305,01-01-1996,31-07-2026
+25,SW323,Abupur,Naya Bhangani,Tidal,Barisal,Hizla,22.9741,90.4641,01-04-1990,31-07-2026
+26,SW320,Hizla,Dharmajani,Tidal,Barisal,Hizla,22.8907,90.5046,01-04-1990,31-07-2026
+27,SW253A,Uzirpur,Swarupkati/Sandha,Tidal,Barisal,Wazirpur,22.8119,90.2408,01-04-1991,31-07-2026
+28,SW288.4,Bhola Kheya ghat,Tentulia (Barisal-Bhola),Tidal,Bhola,Bhola Sadar,22.6766,90.6062,01-04-1990,31-07-2026
+29,SW278,Daulatkhan,Surma-Meghna,Tidal,Bhola,Daulatkhan,22.6038,90.7483,01-04-1959,31-07-2026
+30,SW279,Tajumuddin,Surma-Meghna,Tidal,Bhola,Tazumuddin,22.4088,90.8526,01-04-1959,31-07-2026
+31,SW65,Bogra,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Bogura,Bogura Sadar,24.8459,89.3792,01-06-1946,31-07-2026
+32,SW324,Dhunot,Old Bangali,Non-Tidal,Bogura,Dhunot,24.6848,89.5428,01-04-1964,31-07-2026
+33,SW312,Talora Rly.Cros,Nagor,Non-Tidal,Bogura,Dhupchanchia,24.8261,89.1889,01-04-1965,31-07-2026
+34,SW306,Gabtali,Ichamati (Outfall),Non-Tidal,Bogura,Gabtali,24.9030,89.4600,01-04-1965,13-11-1976
+35,SW15J,Mathurpara-Milanpur,Brahmaputra-Jamuna,Non-Tidal,Bogura,Shariakandi,24.8375,89.5872,01-04-1979,31-07-2026
+36,SW11A,Shariakandi,Bangali,Non-Tidal,Bogura,Shariakandi,24.8744,89.5655,01-04-1974,31-07-2026
+37,SW11,Khanpur,Bangali,Non-Tidal,Bogura,Sherpur,24.6289,89.4644,01-04-1947,31-07-2026
+38,SW64,Shibganj,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Bogura,Shibganj,25.1708,89.3205,01-06-1945,31-07-2026
+39,SW10,Simulbari,Bangali,Non-Tidal,Bogura,Sonatola,25.0497,89.5226,01-06-1945,31-07-2026
+40,SW123,Gangasagar Rly.,Hawrah,Non-Tidal,Brahmanbaria,Akhaura,23.8335,91.1985,01-09-1957,31-07-2026
+41,SW296,Akhaura,Titas,Tidal,Brahmanbaria,Akhaura,23.8798,91.1993,28-07-1959,30-06-2026
+42,SW359,Harashpur,Lohor,Non-Tidal,Brahmanbaria,Bijoynagar,24.0168,91.2991,01-01-2023,31-07-2026
+43,SW3A,Brahmanbaria,Anderson khal,Tidal,Brahmanbaria,Brahamanbaria Sadar,23.9569,91.1196,01-04-1959,31-07-2026
+44,SW297,Gokarnaghat,Titas,Tidal,Brahmanbaria,Brahamanbaria Sadar,23.9531,91.0831,01-10-1959,31-07-2026
+45,SW3,Brahmanbaria Rly_Bridge,Anderson khal,Tidal,Brahmanbaria,Brahamanbaria Sadar,23.9566,91.1200,01-10-1958,31-01-2003
+46,SW330,Bijni Rly Bridge,Bijni,Non-Tidal,Brahmanbaria,Kasba,23.6733,91.1600,01-04-1988,30-09-2021
+47,SW298.5,Salimganj,Titas,Tidal,Brahmanbaria,Nabinagar,23.8486,90.8453,01-01-1997,31-07-2026
+48,SW298,Nabinagar,Titas,Tidal,Brahmanbaria,Nabinagar,23.9051,90.9735,01-04-1959,30-06-2026
+49,SW295,Ajabpur,Titas,Tidal,Brahmanbaria,Sarail,24.1212,91.0548,01-10-1959,31-07-2026
+50,SW277,Chandpur,Surma-Meghna,Tidal,Chandpur,Chandpur Sadar,23.2290,90.6448,25-07-1947,31-07-2026
+51,SW277.3,Nilkamal,Surma-Meghna,Tidal,Chandpur,Haimchar,23.0843,90.6492,01-04-1968,31-07-2026
+52,SW58A,Laksam,Dakatia,Non-Tidal,Chandpur,Hajiganj,23.2338,91.1189,01-05-1996,31-07-2026
+53,SW58,Hajiganj,Dakatia,Tidal,Chandpur,Hajiganj,23.2489,90.8613,01-10-1957,31-07-2026
+54,SW276,Satnal,Surma-Meghna,Tidal,Chandpur,Matlab Dakshin,23.4805,90.5932,01-04-1949,30-06-2026
+55,SW79,Matlab Bazar,Dhanagoda,Tidal,Chandpur,Matlab Uttar,23.3548,90.7098,21-05-1959,31-07-2026
+56,SW250,Banigram,Sangu,Tidal,Chattogram,Bashkhali,22.1217,91.8947,01-04-1968,31-07-2026
+57,SW248,Dohazari,Sangu,Tidal,Chattogram,Chandanaish,22.1593,92.0671,01-04-1969,30-06-2026
+58,SW152.2,Kalurghat,Karnafuli,Tidal,Chattogram,Chittagong Sadar,22.3946,91.8908,01-07-2010,30-06-2026
+59,SW121,Enayethat,Halda,Tidal,Chattogram,Chittagong Sadar,22.4197,91.8823,01-01-1959,31-07-2026
+60,SW153,Chittagong,Karnafuli,Tidal,Chattogram,Chittagong Sadar,22.3229,91.8300,03-02-2016,14-03-2016
+61,SW119A,South Sundarpur,Halda,Tidal,Chattogram,Fatikchhari,22.6781,91.7800,01-04-1965,18-02-2017
+62,SW356,Bainochhola,Dhurang Khal,Non-Tidal,Chattogram,Fatikchhari,22.7615,91.8685,15-01-2020,30-06-2026
+63,SW117,Narayanhat,Halda,Non-Tidal,Chattogram,Fatikchhari,22.8120,91.7210,01-04-1959,31-07-2026
+64,SW119.1,Panchpukuria,Halda,Non-Tidal,Chattogram,Fatikchhari,22.6670,91.7821,01-04-1965,30-06-2026
+65,SW357,Akulia,Dhurang Khal,Non-Tidal,Chattogram,Fatikchhari,22.6810,91.7778,15-01-2020,31-12-2022
+66,SW120,Telpari,Halda,Tidal,Chattogram,Hathazari,22.5575,91.8441,01-04-1949,30-06-2026
+67,SW84.1,Kaliachari,Feni,Non-Tidal,Chattogram,Mirsharai,22.9390,91.6157,01-01-1975,30-06-2026
+68,SW124,Thandachari,Ichamati(Rangamati),Non-Tidal,Chattogram,Rangunia,22.5700,92.0404,02-06-1956,31-07-2026
+69,SW125,Outfall Karnafuli(Rangunia),Ichamati(Rangamati),Tidal,Chattogram,Rangunia,22.4594,92.0648,05-04-1958,30-06-2026
+70,SW206,Hatboalia,Mathabhanga,Non-Tidal,Chuadanga,Alamdanga,23.8264,88.8626,01-08-1946,31-07-2026
+71,SW207,Chuadanga,Mathabhanga,Non-Tidal,Chuadanga,Chuadanga Sadar,23.6479,88.8455,01-04-1959,31-07-2026
+72,SW208,Darsana,Mathabhanga,Non-Tidal,Chuadanga,Damurhuda,23.5246,88.7884,02-07-1958,31-07-2026
+73,SW160,Andulbaria,Kobadak,Tidal,Chuadanga,Jjbannagar,23.4760,88.9100,17-04-1965,31-07-2012
+74,SW204,Chiringa,Matamuhuri,Tidal,Coxs Bazar,Chakaria,21.7710,92.0813,01-06-1956,30-06-2026
+75,SW41,Coxs Bazar,Bogkhali,Tidal,Coxs Bazar,Cox's Bazar Sadar,21.4480,91.9800,01-08-2003,31-08-2003
+76,SW176,Lemsikhali,Kutubdia Channel,Tidal,Coxs Bazar,Kutubdia,21.8132,91.8752,01-04-1969,30-06-2026
+77,SW200,Saflapur_Moheshkhali,Moheshkhali Channel,Tidal,Coxs Bazar,Maheshkhali,21.6594,91.9685,01-04-1968,31-07-2026
+78,SW40,Ramu,Bogkhali,Non-Tidal,Coxs Bazar,Ramu,21.4205,92.1098,01-04-1965,31-07-2026
+79,SW358,Rongikhali,Naf,Tidal,Coxs Bazar,Teknaf,21.0484,92.2539,01-09-2020,31-07-2026
+80,SW339,Salda Rly Bridg,Salda,Non-Tidal,Cumilla,Brahmanpara,23.6716,91.1564,01-04-1988,31-07-2026
+81,SW111,Sholanal,Gumti-Burinadi,Tidal,Cumilla,Burichang,23.4864,91.1700,01-06-1927,31-03-1984
+82,SW113,Kangsanagar,Gumti-Burinadi,Non-Tidal,Cumilla,Burichang,23.5553,91.0647,01-06-1953,31-10-2022
+83,SW334,Miar Bazar,Kakri,Non-Tidal,Cumilla,Chauddagram,23.3351,91.2693,01-04-1988,31-07-2026
+84,SW181A,Selonia,Little Feni Dakatia,Non-Tidal,Cumilla,Chauddagram,22.9823,91.3375,01-06-1996,31-07-2026
+85,SW181,Gunabati Rly.Br,Little Feni Dakatia,Non-Tidal,Cumilla,Chauddagram,23.1013,91.2778,01-04-1965,30-06-2026
+86,SW348,Chowara,Sonaichari_Khal,Non-Tidal,Cumilla,Cumilla Sadar,23.4161,91.2207,01-05-1996,31-07-2020
+87,SW109,Bibirbazar,Gumti-Burinadi,Non-Tidal,Cumilla,Cumilla Sadar,23.4706,91.2448,01-06-1923,31-07-2026
+88,SW110,Cumilla,Gumti-Burinadi,Non-Tidal,Cumilla,Cumilla Sadar,23.4704,91.2027,01-04-1940,31-07-2026
+89,SW115,Daudkandi,Gumti-Burinadi,Tidal,Cumilla,Daudkandi,23.5405,90.7148,01-10-1956,31-07-2026
+90,SW114,Jibanpur_Gumti,Gumti-Burinadi,Non-Tidal,Cumilla,Debidwar,23.6056,90.9942,01-04-1954,31-07-2026
+91,SW112,Gubindapur,Gumti-Burinadi,Tidal,Cumilla,Laksam,23.5256,91.1100,01-06-1923,31-03-1979
+92,SW7.5,Demra(Balu),Balu,Tidal,Dhaka,Demra,23.7329,90.4965,01-04-1962,31-07-2026
+93,SW179,Demra(Lakhya),Lakhya,Tidal,Dhaka,Demra,23.7278,90.5059,01-04-1952,31-07-2026
+94,SW42,Dhaka_Mill Barrack,Buriganga,Tidal,Dhaka,Dhaka Sadar(Kotwal,23.6969,90.4195,01-04-1909,31-07-2026
+95,SW70,Kalatia_Outfall,Dhaleswari,Tidal,Dhaka,Keraniganj,23.7304,90.2561,01-04-1968,30-06-2026
+96,SW302,Mirpur,Turag,Tidal,Dhaka,Mirpur,23.7846,90.3364,01-01-1953,30-06-2026
+97,SW69,Savar,Dhaleswari,Tidal,Dhaka,Savar,23.8403,90.2439,01-04-1945,30-06-2026
+98,SW14.5,Nayarhat,Bangshi,Tidal,Dhaka,Savar,23.9057,90.2310,01-04-1964,30-06-2026
+99,SW299,Tongi,Tongi Khal,Tidal,Dhaka,Uttara,23.8824,90.4021,01-04-1960,30-06-2026
+100,SW340,Kazipara,Tentulia (Dinajpur),Non-Tidal,Dinajpur,Biral,25.6207,88.4995,02-04-1988,31-07-2026
+101,SW235A,Prannagar,Punarbhaba,Non-Tidal,Dinajpur,Birganj,25.9111,88.5648,01-09-1964,31-07-2026
+102,SW287,Kodalkatigaon,Tangon,Non-Tidal,Dinajpur,Bochaganj,25.7037,88.4367,07-10-1960,30-06-2026
+103,SW236,Dinajpur_Pulhat,Punarbhaba,Non-Tidal,Dinajpur,Dinajpur Sadar,25.6156,88.6257,01-01-1996,30-06-2026
+104,SW142.1,Bhushirbandar,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Dinajpur,Dinajpur Sadar,25.7700,88.7313,12-07-1964,30-06-2026
+105,SW143,Shamjhiaghat,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Dinajpur,Dinajpur Sadar,25.5413,88.7586,21-06-1949,30-06-2026
+106,SW132.2,Phulbari,Little Jamuna,Non-Tidal,Dinajpur,Fulbari,25.5004,88.9515,01-06-1996,31-07-2026
+107,SW78,Kantanagar,Dhepa,Non-Tidal,Dinajpur,Kaharole,25.8134,88.6746,01-04-1982,30-06-2026
+108,SW235,Kaharol,Punarbhaba,Non-Tidal,Dinajpur,Kaharole,25.7942,88.6000,17-04-1964,31-03-1980
+109,SW142,Khansama,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Dinajpur,Khansama,25.9306,88.7257,01-09-1945,30-06-2026
+110,SW62.5,Siraj,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Dinajpur,Nawabganj,25.4094,89.1571,01-01-1997,31-07-2026
+111,SW132,Manmathpur,Little Jamuna,Non-Tidal,Dinajpur,Parbatipur,25.6578,88.8414,01-06-1964,30-06-2026
+112,SW170,Bhanga,Kumar_Faridpur,Tidal,Faridpur,Bhanga,23.3872,89.9750,01-04-1965,31-07-2026
+113,SW52,Ghosepur,Chandana Arakandikhal,Non-Tidal,Faridpur,Boalmari,23.4355,89.6626,01-04-1965,31-07-2026
+114,SW167,Ibrahimdi,Kumar_Faridpur,Tidal,Faridpur,Boalmari,23.5615,89.7900,01-04-1965,31-03-1985
+115,SW169,Mazurdia,Kumar_Faridpur,Non-Tidal,Faridpur,Boalmari,23.4829,89.6862,01-04-1965,31-07-2026
+116,SW168,Faridpur,Kumar_Faridpur,Tidal,Faridpur,Faridpur Sadar,23.6010,89.8318,01-04-1950,31-07-2026
+117,SW101,Kamarkhali Transit,Gorai-Madhumati-Haringhata-Baleswar,Non-Tidal,Faridpur,Madhukhali,23.5391,89.5169,01-04-1965,31-07-2026
+118,SW101.5,Kamarkhali (Gondhakhali),Gorai-Madhumati-Haringhata-Baleswar,Non-Tidal,Faridpur,Madhukhali,23.5278,89.5253,01-04-1979,31-07-2026
+119,SW4A,Offtake of Arialkhan,Arial Khan,Tidal,Faridpur,Sadarpur,23.4333,90.0877,06-07-1965,31-07-2026
+120,SW85,Sobhapur,Feni,Tidal,Feni,Chhagalnaiya,22.9549,91.5500,01-04-1999,31-03-2015
+121,SW86,Shuvopur(Dhumghat),Feni,Tidal,Feni,Chhagalnaiya,22.9538,91.5442,01-06-1956,31-07-2026
+122,SW257,Malipur_C,Selonia,Tidal,Feni,Chhagalnaiya,23.0377,91.4389,01-04-1962,31-07-2026
+123,SW213,Haripur_C,Muhuri,Tidal,Feni,Chhagalnaiya,23.0356,91.4856,01-04-1968,31-07-2026
+124,SW212.5,Fulgazi,Muhuri,Non-Tidal,Feni,Fulgazi,23.1510,91.4362,24-06-2025,31-07-2026
+125,SW257.5,Suber Bazar,Selonia,Tidal,Feni,Parshuram,23.2370,91.4144,01-07-2011,30-06-2026
+126,SW212,Parshuram,Muhuri,Non-Tidal,Feni,Parshuram,23.2274,91.4464,01-04-1958,30-06-2026
+127,SW87,Sonapur,Feni,Tidal,Feni,Sonagazi,22.8369,91.4530,01-04-1968,31-07-2026
+128,SW46.7R,Kristomonichar,Brahmaputra-Jamuna,Tidal,Gaibandha,Fulchhari,25.2059,89.6800,01-04-1964,30-09-2003
+129,SW46.9R,Fulchari_Transit,Brahmaputra-Jamuna,Non-Tidal,Gaibandha,Fulchhari,25.1871,89.5993,01-04-1964,30-06-2026
+130,SW46,Kamarjani,Brahmaputra-Jamuna,Non-Tidal,Gaibandha,Fulchhari,25.4094,89.6259,01-04-1957,30-06-2026
+131,SW97,Gaibandha,Ghagot,Non-Tidal,Gaibandha,Gaibandha Sadar,25.3392,89.5510,01-07-1946,31-07-2026
+132,SW155,Mohimaganj Railway Crossi,Katakhali,Non-Tidal,Gaibandha,Gobindaganj,25.1112,89.5040,01-01-1959,30-06-2026
+133,SW63,Chak-Rahimpur,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Gaibandha,Gobindaganj,25.1475,89.3600,01-01-1946,30-06-2026
+134,SW47.3R,Patilbarichar,Brahmaputra-Jamuna,Tidal,Gaibandha,Saghatta,25.0791,89.6100,01-04-1964,31-12-1984
+135,SW46.5,Saghata,Brahmaputra-Jamuna,Non-Tidal,Gaibandha,Saghatta,25.1075,89.5866,19-06-2021,31-07-2026
+136,SW294.5,Haripur,Teesta,Non-Tidal,Gaibandha,Sundarganj,25.5192,89.6506,01-05-1998,30-06-2026
+137,SW7,Pubail,Balu,Tidal,Gazipur,Gazipur Sadar,23.9349,90.4898,01-07-1945,30-06-2026
+138,SW301,Kaliakoir,Turag,Non-Tidal,Gazipur,Kaliakair,24.0822,90.2076,01-06-1949,30-06-2026
+139,SW229,Toke,Old Brahmaputra,Tidal,Gazipur,Sreepur,24.2631,90.6426,01-04-1949,31-07-2026
+140,SW198,Haridaspur,Madaripur Beel Route,Tidal,Gopalganj,Gopalganj Sadar,23.0296,89.8144,01-04-1959,31-07-2026
+141,SW102,Bhatiapara,Gorai-Madhumati-Haringhata-Baleswar,Tidal,Gopalganj,Kashiani,23.2151,89.6959,01-07-1951,31-07-2026
+142,SW271,Azmiriganj,Surma-Meghna,Tidal,Habiganj,Ajmiriganj,24.5529,91.2267,01-04-1956,30-06-2026
+143,SW138,Sofiabad,Korangi,Non-Tidal,Habiganj,Bahubal,24.2930,91.5465,01-08-1958,31-07-2026
+144,SW270,Markuli,Surma-Meghna,Tidal,Habiganj,Baniachong,24.6952,91.3790,01-04-1968,30-06-2026
+145,SW158,Chunarghat,Khowai,Non-Tidal,Habiganj,Chunarughat,24.2026,91.5273,01-09-1957,31-12-2022
+146,SW157,Ballah,Khowai,Non-Tidal,Habiganj,Chunarughat,24.0838,91.5961,01-08-1957,31-07-2026
+147,SW159,Habiganj,Khowai,Non-Tidal,Habiganj,Habiganj Sadar,24.3681,91.4277,01-01-1949,30-06-2026
+148,SW158.1,Shaistaganj,Khowai,Non-Tidal,Habiganj,Habiganj Sadar,24.2731,91.4736,02-06-1964,31-07-2026
+149,SW280,Sutang Rly.Brid,Sutang,Non-Tidal,Habiganj,Habiganj Sadar,24.2828,91.4030,01-04-1964,30-06-2026
+150,SW272,Madna,Surma-Meghna,Tidal,Habiganj,Lakhai,24.3358,91.2376,01-04-1949,30-06-2026
+151,SW264A,Montala,Sonai,Non-Tidal,Habiganj,Madhabpur,24.0834,91.3506,07-06-1988,31-07-2026
+152,SW223,Goal Kanda,Nil Jinjiram,Non-Tidal,Jamalpur,Dewanganj,25.3652,89.8095,01-04-1945,30-06-2026
+153,SW46.7L,Kholabarichar,Old Brahmaputra,Non-Tidal,Jamalpur,Dewanganj,25.2275,89.7532,01-04-1964,30-06-2026
+154,SW47.3L,Jognaichar,Brahmaputra-Jamuna,Tidal,Jamalpur,Islampur,25.0634,89.6900,01-04-1965,31-12-1984
+155,SW47,Bahadurabad,Brahmaputra-Jamuna,Non-Tidal,Jamalpur,Islampur,25.1106,89.6800,01-04-1962,31-10-1985
+156,SW46.9L,Bahadurabad_Transit,Brahmaputra-Jamuna,Non-Tidal,Jamalpur,Islampur,25.1303,89.7346,01-04-1949,31-07-2026
+157,SW225,Jamalpur,Old Brahmaputra,Non-Tidal,Jamalpur,Jamalpur Sadar,24.9224,89.9677,01-07-1945,31-07-2026
+158,SW134B,Offtake of Jhenai,Jhenai,Non-Tidal,Jamalpur,Melandaha,24.9495,89.8987,01-04-1966,31-10-2024
+159,SW48,Jaganathganj,Brahmaputra-Jamuna,Non-Tidal,Jamalpur,Sarishabari,24.6419,89.8046,01-04-1962,31-07-2026
+160,SW134A,Baushi Bridge,Jhenai,Non-Tidal,Jamalpur,Sarishabari,24.7802,89.8521,01-04-1964,24-12-2025
+161,SW161,Tahirpur,Kobadak,Non-Tidal,Jessore,Chaugachha,23.3464,89.0274,01-04-1965,31-07-2026
+162,SW30,Afraghat,Bhairab(lower),Tidal,Jessore,Jessore Sadar,23.1174,89.3849,01-04-1956,31-07-2026
+163,SW162,Jhikargacha,Kobadak,Tidal,Jessore,Jhikargachha,23.1054,89.0938,01-04-1977,31-07-2026
+164,SW27,Keshabpur,Bhadra,Tidal,Jessore,Keshabpur,22.9092,89.2217,01-12-1955,31-07-2026
+165,SW22,Navaron,Betna-Kholpetua,Tidal,Jessore,Sharsha,23.0573,89.0053,01-04-1983,31-03-1984
+166,SW37,Jhalokati,Bishkhali,Tidal,Jhalokathi,Jhalokati Sadar,22.6432,90.2077,01-05-1952,31-07-2026
+167,SW215,Jhenaidah,Nabaganga,Non-Tidal,Jhenaidah,Jhenaidah Sadar,23.5483,89.1754,05-07-1949,31-07-2026
+168,SW171,Garaganj,Kumar (Jessore),Non-Tidal,Jhenaidah,Shailkupa,23.6683,89.2000,01-01-1959,31-07-2026
+169,SW325,Sonaimukhi,Tulshiganga,Non-Tidal,Joypurhat,Akkelpur,24.9654,89.0229,01-04-1982,31-07-2026
+170,SW132.5,Joypurhat,Little Jamuna,Non-Tidal,Joypurhat,Joypurhat Sadar,25.1097,88.9968,01-04-1964,31-07-2026
+171,SW361,Dighinala,Maine,Non-Tidal,Khagrachhari,Dighinala,23.2529,92.0689,01-01-2023,30-06-2026
+172,SW360,Khagrachhari,Chengi,Non-Tidal,Khagrachhari,Khagrachhari Sadar,23.1036,91.9689,01-01-2023,31-07-2026
+173,SW116,Manikchari,Halda,Tidal,Khagrachhari,Manikchhari,22.8680,91.8800,01-04-1959,31-03-1984
+174,SW84,Ramgarh,Feni,Non-Tidal,Khagrachhari,Ramgarh,23.0003,91.7312,01-04-1965,30-06-2026
+175,SW29,Sutarkhali_Forest Office,Bhadra,Tidal,Khulna,Dacope,22.4993,89.4891,01-04-1968,31-07-2026
+176,SW243,Chalna,Rupsa-Pasur,Tidal,Khulna,Dacope,22.6003,89.5220,01-04-1931,31-07-2026
+177,SW259,Nalianala_Hadda,Sibsa,Tidal,Khulna,Dacope,22.4608,89.4353,01-04-1961,31-07-2026
+178,SW28,Dumuria,Bhadra,Tidal,Khulna,Dumuria,22.6468,89.4287,01-04-1969,31-07-2026
+179,SW241,Khulna,Rupsa-Pasur,Tidal,Khulna,Khulna Sadar,22.8176,89.5690,01-10-1937,31-07-2026
+180,SW165,Kobadak Forest Office,Kobadak,Tidal,Khulna,Koyra,22.2205,89.3107,01-04-1968,31-07-2026
+181,SW164,Chandkhali,Kobadak,Tidal,Khulna,Paikgachha,22.4927,89.2567,01-12-1955,31-07-2026
+182,SW258,Paikgacha,Sibsa,Tidal,Khulna,Paikgachha,22.5821,89.3043,01-04-1961,31-07-2026
+183,SW272.1,Austogram,Surma-Meghna,Tidal,Kishoreganj,Astagram,24.2748,91.0989,01-04-1965,01-08-2097
+184,SW74,Dilalpur,Dhanu-Baulai-Ghorautra,Tidal,Kishoreganj,Bajitpur,24.1893,90.9744,19-05-1945,30-06-2026
+185,SW273,Bhairab Bazar,Surma-Meghna,Tidal,Kishoreganj,Bhairab,24.0455,90.9911,01-04-1959,31-07-2026
+186,SW73,Itna,Dhanu-Baulai-Ghorautra,Tidal,Kishoreganj,Itna,24.5306,91.0891,01-07-1945,30-06-2026
+187,SW311.4,Chamraghat,Mogra,Non-Tidal,Kishoreganj,Karimgonj,24.4567,90.9641,01-07-1996,30-06-2026
+188,SW81.1,Dakshin Tilai,Dudhkumar,Non-Tidal,Kurigram,Bhurungamari,26.1542,89.6861,18-05-2022,31-07-2026
+189,SW81,Pateswari,Dudhkumar,Non-Tidal,Kurigram,Bhurungamari,26.0972,89.7206,01-01-1963,30-06-2026
+190,SW45.5,Chilmari,Brahmaputra-Jamuna,Non-Tidal,Kurigram,Chilmari,25.5681,89.6789,01-01-1957,14-07-2026
+191,SW77,Kurigram,Dharla,Non-Tidal,Kurigram,Kurigram Sadar,25.8228,89.6647,01-05-1946,30-06-2026
+192,SW45,Noonkhawa,Brahmaputra-Jamuna,Non-Tidal,Kurigram,Kurigram Sadar,25.9198,89.7700,20-04-1957,31-07-2026
+193,SW327,Boalmari,Nil Jinjiram,Non-Tidal,Kurigram,Raumari,25.6174,89.8670,01-04-1982,30-06-2026
+194,SW45A,Hatia (Ulipur),Brahmaputra-Jamuna,Non-Tidal,Kurigram,Ulipur,25.6803,89.6920,19-06-2021,31-07-2026
+195,SW205A,Insafnagar,Mathabhanga,Non-Tidal,Kushtia,Daulatpur,24.0483,88.7414,01-04-1965,31-07-2026
+196,SW100,Janipur,Gorai-Madhumati-Haringhata-Baleswar,Tidal,Kushtia,Khoksa,23.8025,89.2800,01-04-1959,05-03-1983
+197,SW99,Gorai Railway Bridge,Gorai-Madhumati-Haringhata-Baleswar,Non-Tidal,Kushtia,Kumarkhali,23.8861,89.1806,15-04-1946,31-07-2026
+198,SW91,Talbaria,Ganges-Padma,Non-Tidal,Kushtia,Mirpur,23.9631,89.0844,08-07-1944,30-06-2026
+199,SW239.5,Piarpur,Rahmat Khali Khal,Tidal,Lakshmipur,Lakshmipur Sadar,22.9026,90.8456,01-07-1996,30-06-2026
+200,SW239,Lakshmipur,Rahmat Khali Khal,Tidal,Lakshmipur,Lakshmipur Sadar,22.9396,90.8411,01-01-1959,30-06-2026
+201,SW240,Bhawaniganj,Rahmat Khali Khal,Tidal,Lakshmipur,Lakshmipur Sadar,22.8792,90.8492,01-01-1959,30-06-2026
+202,SW213.5,Ramgati,Vulua,Tidal,Lakshmipur,Ramgati,22.5856,91.0233,01-01-2026,31-07-2026
+203,SW291.5L,Doani,Teesta,Non-Tidal,Lalmonirhat,Hatibandha,26.1771,89.0602,01-01-1997,31-07-2026
+204,SW293,Kaliganj,Teesta,Non-Tidal,Lalmonirhat,Kaliganj,25.9727,89.1681,18-10-1948,30-06-2026
+205,SW76.5,Mogolhat,Dharla,Non-Tidal,Lalmonirhat,Lalmonirhat Sadar,25.9956,89.4608,14-05-2022,31-07-2026
+206,SW76,Taluk-Simulbari,Dharla,Non-Tidal,Lalmonirhat,Lalmonirhat Sadar,25.9711,89.4703,01-04-1965,31-07-2026
+207,SW75,Patgram,Dharla,Non-Tidal,Lalmonirhat,Patgram,26.3417,89.0256,11-06-1960,31-07-2026
+208,SW5,Madaripur,Arial Khan,Tidal,Madaripur,Madaripur Sadar,23.1711,90.1992,01-08-1957,31-07-2026
+209,SW190,Mostafapur,Lower Kumar,Tidal,Madaripur,Rajori,23.1617,90.1370,01-04-1962,31-07-2026
+210,SW193,Kabirajpur,Madaripur Beel Route,Tidal,Madaripur,Rajori,23.2707,90.0808,01-01-1942,31-07-2026
+211,SW216,Magura,Nabaganga,Non-Tidal,Magura,Magura Sadar,23.4946,89.4235,01-01-1952,31-07-2026
+212,SW21,Arpara,Begabati,Tidal,Magura,Magura Sadar,23.3768,89.3728,01-04-1964,31-07-2026
+213,SW216A,Magura_Diversion,Nabaganga,Non-Tidal,Magura,Magura Sadar,23.4875,89.4235,01-04-1965,31-07-2026
+214,SW137A,Taraghat,Kaliganga-Bethua,Non-Tidal,Manikganj,Ghior,23.8582,89.9560,01-04-1964,31-07-2026
+215,SW92.3L,Kadamtola,Ganges-Padma,Tidal,Manikganj,Harirampur,23.7397,89.8900,01-04-1964,31-03-1979
+216,SW91.9L,Baruria Transit,Ganges-Padma,Non-Tidal,Manikganj,Harirampur,23.7843,89.8139,01-04-1965,31-07-2026
+217,SW68.5,Jagir_Dhaleswari,Dhaleswari,Non-Tidal,Manikganj,Manikganj Sadar,23.8792,90.0251,01-04-1964,30-06-2026
+218,SW68,Tilli,Dhaleswari,Non-Tidal,Manikganj,Saturia,23.9411,89.9622,01-06-1949,31-07-2026
+219,SW50.6,Aricha,Brahmaputra-Jamuna,Non-Tidal,Manikganj,Shivalaya,23.8366,89.7798,01-04-1964,30-06-2026
+220,SW32,Kathuli,Bhairab (upper),Non-Tidal,Meherpur,Gangni,23.8612,88.6487,11-08-1960,31-07-2026
+221,SW205,Kazipur,Mathabhanga,Non-Tidal,Meherpur,Gangni,23.9631,88.7425,14-08-1960,31-07-2026
+222,SW135A,JuriCont_Silghat,Juri,Non-Tidal,Moulvibazar,Juri,24.6032,92.1200,13-05-1967,29-02-2004
+223,SW67,Kamalganj,Dhalai,Non-Tidal,Moulvibazar,Kamalganj,24.3558,91.8489,01-04-1964,30-06-2026
+224,SW201,Monu Rly.Bridge,Monu,Non-Tidal,Moulvibazar,Kamalganj,24.4256,91.9404,16-07-1958,30-06-2026
+225,SW201.5,Chatlaghat,Monu,Non-Tidal,Moulvibazar,Kulaura,24.3640,91.9603,01-05-2022,31-07-2026
+226,SW135,Juri_Silghat,Juri,Non-Tidal,Moulvibazar,Moulvibazar Sadar,24.5902,92.1177,10-05-1957,30-06-2026
+227,SW175,Monumukh,Kushiyara,Non-Tidal,Moulvibazar,Moulvibazar Sadar,24.5839,91.7300,01-01-1959,10-08-1982
+228,SW202,Moulvi Bazar,Monu,Non-Tidal,Moulvibazar,Moulvibazar Sadar,24.4942,91.7741,19-05-1949,30-06-2026
+229,SW192,Motiganj,Lungla,Non-Tidal,Moulvibazar,Sreemangal,24.3065,91.6822,01-08-1958,30-06-2026
+230,SW275.5,Meghna_Ferry Ghat,Surma-Meghna,Tidal,Munshiganj,Gazaria,23.6031,90.6242,01-04-1968,30-06-2026
+231,SW93.5L,Mawa,Ganges-Padma,Tidal,Munshiganj,Lohajang,23.4748,90.2531,01-04-1968,30-06-2026
+232,SW94,Tarpasa,Ganges-Padma,Tidal,Munshiganj,Lohajang,23.4662,90.3322,01-10-1928,30-06-2026
+233,SW71A,Rekabi Bazar,Dhaleswari,Tidal,Munshiganj,Munshiganj Sadar,23.5701,90.5028,01-04-1968,31-07-2026
+234,SW93.4L,Bhagyakul,Ganges-Padma,Tidal,Munshiganj,Sreenagar,23.5059,90.2182,01-04-1968,30-06-2026
+235,SW314,Ghosegaon,Nitai,Non-Tidal,Mymensingh,Dhobaura,25.1494,90.5176,01-04-1965,31-07-2026
+236,SW9.5,Trimohini,Banar,Non-Tidal,Mymensingh,Gaffargaon,24.2726,90.5467,01-04-1985,30-06-2026
+237,SW9,Kauraid,Banar,Tidal,Mymensingh,Gaffargaon,24.3117,90.5136,01-04-1968,30-06-2026
+238,SW8,Basuri,Banar,Non-Tidal,Mymensingh,Muktagachha,24.6998,90.1506,01-04-1982,30-06-2026
+239,SW226,Offtake of Sirk,Old Brahmaputra,Non-Tidal,Mymensingh,Mymensingh Sadar,24.8640,90.2400,02-06-1959,18-02-1985
+240,SW227,Offtake of Suti,Old Brahmaputra,Non-Tidal,Mymensingh,Mymensingh Sadar,24.7954,90.3319,01-06-1959,30-06-2026
+241,SW228,Mymensingh,Old Brahmaputra,Non-Tidal,Mymensingh,Mymensingh Sadar,24.7366,90.4300,21-06-1944,31-03-1986
+242,SW228.5,Mymensingh,Old Brahmaputra,Non-Tidal,Mymensingh,Mymensingh Sadar,24.7367,90.4296,01-04-1960,31-07-2026
+243,SW35.5,Sarchapur_Mymensingh,Bhogai-Kangsa,Non-Tidal,Mymensingh,Phulpur,24.9969,90.3584,16-10-1964,30-06-2026
+244,SW147,Atrai Rly. Bridge,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Naogaon,Atrai,24.6123,88.9769,01-04-1959,31-07-2026
+245,SW144,Chak Hariharpur,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Naogaon,Dhamoirhat,25.1702,88.7513,13-12-1960,30-06-2026
+246,SW145,Mohadebpur,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Naogaon,Mahadebpur,24.9183,88.7450,01-04-1959,31-07-2026
+247,SW82,Jote Bazar_Offtake,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Naogaon,Manda,24.7240,88.7452,01-04-1964,31-07-2026
+248,SW133,Naogaon,Little Jamuna,Non-Tidal,Naogaon,Naogaon Sadar,24.8087,88.9466,01-04-1964,30-06-2026
+249,SW237,Nithpur,Punarbhaba,Non-Tidal,Naogaon,Porsha,25.0339,88.4506,01-04-1964,30-06-2026
+250,SW219,Gazirhat,Nabaganga,Tidal,Narail,Kalia,22.9831,89.5617,06-04-1957,31-07-2026
+251,SW218,Bardia(Nabaganga),Nabaganga,Tidal,Narail,Kalia,23.0834,89.6708,01-07-2016,31-07-2026
+252,SW103,Bardia(Madhumati),Gorai-Madhumati-Haringhata-Baleswar,Tidal,Narail,Kalia,23.0988,89.6952,01-10-2017,31-07-2026
+253,SW217A,Lohagara,Nabaganga,Tidal,Narail,Lohagara,23.1846,89.6485,01-04-1968,31-07-2026
+254,SW55.1,Rathandanga,Chitra,Tidal,Narail,Narail Sadar,23.1969,89.5158,01-04-1968,31-07-2026
+255,SW54,Kaliganj,Chitra,Tidal,Narail,Narail Sadar,23.4097,89.1400,01-04-1951,25-03-1977
+256,SW217,Kala Chandpur,Nabaganga,Tidal,Narail,Narail Sadar,23.2396,89.5303,01-10-1957,31-07-2026
+257,SW55,Khatur Magura,Chitra,Tidal,Narail,Narail Sadar,23.1925,89.4416,01-04-1957,31-07-2026
+258,SW56.1,Narail,Chitra,Tidal,Narail,Narail Sadar,23.1688,89.5119,01-04-1968,31-07-2026
+259,SW71,Kalagachia,Dhaleswari,Tidal,Narayanganj,Narayanganj Sadar,23.5700,90.5047,01-10-1945,30-06-2026
+260,SW43,Hariharpara,Buriganga,Tidal,Narayanganj,Narayanganj Sadar,23.6335,90.4693,01-10-1945,31-07-2026
+261,SW180,Narayanganj,Lakhya,Tidal,Narayanganj,Narayanganj Sadar,23.6305,90.5151,01-01-1947,30-06-2026
+262,SW275,Badyar Bazar,Surma-Meghna,Tidal,Narayanganj,Sonargaon,23.6463,90.6253,15-07-1959,31-07-2026
+263,SW274,Narsingdi,Surma-Meghna,Tidal,Narsingdi,Narsingdi Sadar,23.9186,90.7265,01-04-1959,31-07-2026
+264,SW230.1,Ramnagar,Old Brahmaputra,Tidal,Narsingdi,Roypura,24.0370,90.9607,01-01-1996,31-07-2026
+265,SW177,Lakhpur,Lakhya,Tidal,Narsingdi,Shibpur,24.0663,90.6369,01-04-1962,31-07-2026
+266,SW16.1,Malanchi,Baral,Non-Tidal,Natore,Bagatipara,24.2930,88.9628,01-04-1965,31-07-2026
+267,SW148,Chanchkair,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Natore,Gurudaspur,24.3725,89.2539,01-04-1959,31-07-2026
+268,SW83.1,Naldanga_Rly.Crossing),Fakirni Barnai,Non-Tidal,Natore,Gurudaspur,24.5031,88.9608,01-04-1965,31-07-2026
+269,SW147.5,Singra,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Natore,Singra,24.4975,89.1386,01-04-1977,30-06-2026
+270,SW211A,Baruipara,Mahananda,Non-Tidal,Nawabganj,Bholahat,24.8733,88.2546,01-06-2022,30-06-2026
+271,SW238,Rohanpur,Punarbhaba,Non-Tidal,Nawabganj,Gomastapur,24.8236,88.3189,01-04-1950,31-07-2026
+272,SW210,Mohanpur,Mahananda,Non-Tidal,Nawabganj,Nawabganj Sadar,24.5766,88.2300,01-05-1958,25-05-1981
+273,SW211.5,Chapai Nawabganj,Mahananda,Non-Tidal,Nawabganj,Nawabganj Sadar,24.6036,88.2815,01-10-1980,31-07-2026
+274,SW88A,Panka,Ganges-Padma,Non-Tidal,Nawabganj,Shibganj,24.6000,88.1058,01-05-1996,31-07-2026
+275,SW338,Cansart,Pagla,Non-Tidal,Nawabganj,Shibganj,24.7342,88.1685,01-04-1988,30-06-2026
+276,SW338.5,Ramkrishnapur,Pagla,Non-Tidal,Nawabganj,Shibganj,24.5676,88.2077,01-01-1997,30-06-2026
+277,SW311,Atpara,Mogra,Non-Tidal,Netrokona,Atpara,24.8119,90.8655,01-04-1982,30-06-2026
+278,SW262,Bijoypur,Someswari,Non-Tidal,Netrokona,Durgapur,25.1720,90.6593,01-01-1959,30-06-2026
+279,SW263,Durgapur,Someswari,Non-Tidal,Netrokona,Durgapur,25.1139,90.6705,01-01-1959,30-06-2026
+280,SW263.1,Kalmakanda,Someswari,Non-Tidal,Netrokona,Kalmakanda,25.0767,90.8948,01-04-1964,30-06-2026
+281,SW344,Ghog Bazar,Saiduli Baruni,Non-Tidal,Netrokona,Kendua,24.6896,90.8652,01-07-1996,31-07-2026
+282,SW72,Khaliajuri,Dhanu-Baulai-Ghorautra,Tidal,Netrokona,Khaliajuri,24.6877,91.1348,01-06-1945,30-06-2026
+283,SW355,South Hasonpur,Mogra,Non-Tidal,Netrokona,Madan,24.6261,90.9593,01-03-2018,30-06-2026
+284,SW36.1,Mohanganj,Bhogai-Kangsa,Non-Tidal,Netrokona,Mohanganj,24.8728,90.9739,01-04-1964,31-07-2026
+285,SW310,Netrokona,Mogra,Non-Tidal,Netrokona,Netrokona Sadar,24.8829,90.7248,01-04-1977,31-07-2026
+286,SW36,Jaria-Jhanjail,Bhogai-Kangsa,Non-Tidal,Netrokona,Purbadhala,25.0103,90.6533,01-04-1960,30-06-2026
+287,SW61,Boragari,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Nilphamari,Dimla,26.1039,88.8587,24-09-1960,30-06-2026
+288,SW328,Kumarpara,Naotara,Non-Tidal,Nilphamari,Dimla,26.1307,88.9813,13-11-1997,30-06-2026
+289,SW291.1L,Uttar Kharibari,Teesta,Non-Tidal,Nilphamari,Dimla,26.2300,89.0250,01-04-1996,28-02-2001
+290,SW291,Uttar Kharibari,Teesta,Non-Tidal,Nilphamari,Dimla,26.2095,88.9800,01-03-1997,28-02-2006
+291,SW331,Uttar Gomanati,Buri Teesta,Non-Tidal,Nilphamari,Dimla,26.2307,88.8701,14-05-1988,31-07-2026
+292,SW291.5R,Dalia,Teesta,Non-Tidal,Nilphamari,Dimla,26.1758,89.0505,01-01-1996,31-07-2026
+293,SW291.2R,Dakkhin Kharibari,Teesta,Non-Tidal,Nilphamari,Dimla,26.2006,88.9990,01-05-2022,30-06-2026
+294,SW346,Pocharhat,Buri Teesta,Non-Tidal,Nilphamari,Dimla,26.1058,88.9539,01-04-1998,30-06-2026
+295,SW291.2L,Uttar Kharibari,Teesta,Non-Tidal,Nilphamari,Dimla,26.2051,89.0250,16-05-2022,31-07-2026
+296,SW156A,Kundal,Kharkhuria,Non-Tidal,Nilphamari,Saidpur,25.7741,88.8773,12-07-1964,31-07-2026
+297,SW221.5,Begumganj,Noakhali Khal,Tidal,Noakhali,Begumganj,22.9447,91.1098,18-04-1996,31-07-2026
+298,SW182,Companyganj,Little Feni Dakatia,Tidal,Noakhali,Companiganj,22.7694,91.3492,01-04-1968,30-06-2026
+299,SW321,Hatiya,Hatiya Channel,Tidal,Noakhali,Hatiya,22.2485,91.1403,01-04-1968,31-07-2026
+300,SW222,Noakhali,Noakhali Khal,Tidal,Noakhali,Noakhali Sadar,22.8450,91.1017,01-04-1959,31-07-2026
+301,SW50.3,Mathura,Brahmaputra-Jamuna,Non-Tidal,Pabna,Bera,23.9478,89.6530,01-04-1964,31-07-2026
+302,SW17.1,Baral_Rly_Bridge,Baral,Non-Tidal,Pabna,Bhangura,24.2182,89.3806,02-04-1964,31-07-2026
+303,SW149,Astamanisha,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Pabna,Bhangura,24.2598,89.3524,14-12-1958,30-06-2026
+304,SW149.1,Gumani Rly.Brid,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Pabna,Bhangura,24.2283,89.4198,01-04-1964,30-06-2026
+305,SW150,Dohakoladanga,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Pabna,Faridpur,24.1758,89.4714,14-12-1958,30-06-2026
+306,SW90,Hardinge Bridge,Ganges-Padma,Non-Tidal,Pabna,Ishwardi,24.0794,89.0336,01-04-1910,30-06-2026
+307,SW126,Pabna,Ichamati (Spill from Ganges),Tidal,Pabna,Pabna Sadar,23.9656,89.2600,05-05-1929,17-02-1978
+308,SW232,Phulbari_Outfall,Pathraj,Non-Tidal,Panchagarh,Boda,26.0554,88.6907,05-10-1960,31-07-2026
+309,SW141,Debiganj,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Panchagarh,Debiganj,26.1201,88.7505,01-04-1948,30-06-2026
+310,SW283,Molani,Talma,Non-Tidal,Panchagarh,Panchagarh Sadar,26.3345,88.5896,01-04-1959,31-07-2026
+311,SW305.5,Ghoramaraghat,Ghoramara,Non-Tidal,Panchagarh,Panchagarh Sadar,26.2609,88.6959,28-11-1969,31-07-2026
+312,SW140,Panchagarh,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Panchagarh,Panchagarh Sadar,26.3303,88.5519,01-07-1948,31-07-2026
+313,SW282,Bhitargar,Talma,Non-Tidal,Panchagarh,Panchagarh Sadar,26.4162,88.5022,01-05-1959,31-07-2026
+314,SW57A,Rowshanpur,Dahuk,Non-Tidal,Panchagarh,Tentulia,26.5434,88.4288,01-04-1988,31-07-2026
+315,SW209A,Tetulia,Mahananda,Non-Tidal,Panchagarh,Tentulia,26.5054,88.3446,01-04-1979,31-07-2026
+316,SW139,Bardeswari,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Panchagarh,Tentulia,26.5046,88.4920,01-04-1961,31-07-2026
+317,SW19,Mirzaganj,Barisal-Buriswar,Tidal,Patuakhali,Mirzaganj,22.3587,90.2304,01-06-1957,31-07-2026
+318,SW107A,Nazirpur,Gorai-Madhumati-Haringhata-Baleswar,Tidal,Pirojpur,Nazirpiur,22.7073,89.9673,01-04-1991,31-07-2026
+319,SW107,Pirojpur,Gorai-Madhumati-Haringhata-Baleswar,Tidal,Pirojpur,Pirojpur Sadar,22.5826,89.9630,01-05-1952,31-07-2026
+320,SW136.1,Umedpur,Kocha,Tidal,Pirojpur,Pirojpur Sadar,22.5089,89.9962,01-04-1977,31-07-2026
+321,SW253,Swarupkati,Swarupkati/Sandha,Tidal,Pirojpur,Swarupkati,22.7461,90.1037,01-01-1959,31-07-2026
+322,SW51,Ramdia,Chandana Arakandikhal,Non-Tidal,Rajbari,Baliakandi,23.7031,89.5265,01-04-1965,31-07-2026
+323,SW91.9R,Goalundo Transi,Ganges-Padma,Non-Tidal,Rajbari,Goalandaghat,23.7679,89.7788,01-04-1964,31-07-2026
+324,SW91.1,Sengram,Ganges-Padma,Non-Tidal,Rajbari,Pangsha,23.9031,89.3658,01-01-1963,31-07-2026
+325,SW91.7R,Urakanda,Ganges-Padma,Tidal,Rajbari,Rajbari Sadar,23.7916,89.6800,01-04-1964,30-01-1982
+326,SW91.2,Mohendrapur,Ganges-Padma,Non-Tidal,Rajbari,Rajbari Sadar,23.7991,89.5778,01-01-1963,31-07-2026
+327,SW83,Bagmara,Fakirni Barnai,Non-Tidal,Rajshahi,Baghmara,24.5581,88.8096,01-04-1964,31-07-2026
+328,SW88,Rajshahi,Ganges-Padma,Non-Tidal,Rajshahi,Boalia,24.3610,88.5704,01-04-1922,31-07-2026
+329,SW15,Charghat,Baral,Tidal,Rajshahi,Charghat,24.2808,88.7500,01-04-1964,18-11-1979
+330,SW16,Nandangachi,Baral,Tidal,Rajshahi,Charghat,24.2926,88.8600,01-04-1964,30-06-1984
+331,SW89,Sardah,Ganges-Padma,Non-Tidal,Rajshahi,Charghat,24.3061,88.7193,01-04-1929,31-07-2026
+332,SW211,Godagari,Mahananda,Non-Tidal,Rajshahi,Godagari,24.4656,88.3200,01-06-1945,26-05-1981
+333,SW261,Nawhata,Siva-Barnai-Gurnai,Non-Tidal,Rajshahi,Paba,24.4598,88.6118,01-04-1959,31-07-2026
+334,SW260,Pearpur,Siva-Barnai-Gurnai,Non-Tidal,Rajshahi,Tanore,24.4902,88.5800,01-04-1959,31-12-1996
+335,SW152.5,Baraharina,Karnafuli,Non-Tidal,Rangamati,Barkal,22.9292,92.3758,20-02-2019,30-06-2026
+336,SW62,Badarganj,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Rangpur,Badarganj,25.6822,89.0762,01-04-1959,31-07-2026
+337,SW294,Kaunia,Teesta,Non-Tidal,Rangpur,Kaunia,25.7888,89.4389,15-07-1945,30-06-2026
+338,SW96.5,Mirjapur,Ghagot,Non-Tidal,Rangpur,Mithapukur,25.5487,89.4028,01-04-1998,30-06-2026
+339,SW96,Islampur,Ghagot,Non-Tidal,Rangpur,Mithapukur,25.6793,89.2736,01-06-1946,31-07-2026
+340,SW96A,Jafarganj Road Crossing,Ghagot,Non-Tidal,Rangpur,Rangpur Sadar,25.7996,89.1882,10-07-1964,30-06-2026
+341,SW61.5,Barati,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Rangpur,Taraganj,25.8109,89.0583,01-01-1996,31-07-2026
+342,SW44.1,Nizbari Road Crossing,Burikhora Chiki,Non-Tidal,Rangpur,Taraganj,25.7961,88.9558,12-07-1964,31-07-2026
+343,SW25,Chapra,Betna-Kholpetua,Tidal,Satkhira,Assasuni,22.5703,89.1874,01-04-1968,31-07-2026
+344,SW26,Protapnagar,Betna-Kholpetua,Tidal,Satkhira,Assasuni,22.3732,89.2099,01-04-1968,31-07-2026
+345,SW128,Shakra,Ichamati (Western Border),Tidal,Satkhira,Debhata,22.6173,88.9618,01-04-1968,31-07-2026
+346,SW23,Kalaroa,Betna-Kholpetua,Tidal,Satkhira,Kalaroa,22.8880,89.0412,01-04-1968,31-07-2026
+347,SW129,Basantapur,Ichamati (Western Border),Tidal,Satkhira,Kaliganj,22.4675,88.9991,01-04-1952,31-07-2026
+348,SW254.5,Elarchar,Satkhira Khal,Tidal,Satkhira,Satkhira Sadar,22.5634,89.1426,01-04-1976,31-07-2026
+349,SW24,Benarpota,Betna-Kholpetua,Tidal,Satkhira,Satkhira Sadar,22.7529,89.1012,01-04-1968,31-07-2026
+350,SW130,Kaikhali,Ichamati (Western Border),Tidal,Satkhira,Shyamnagar,22.2013,89.0731,01-04-1968,31-07-2026
+351,SW163,Tala Magura,Kobadak,Tidal,Satkhira,Tala,22.7283,89.2365,01-04-1968,31-07-2026
+352,SW277.1R,Ibrahimpur,Surma-Meghna,Tidal,Shariatpur,Bhedarganj,23.1832,90.5799,01-01-2004,31-07-2026
+353,SW329,Damudya,Damudya Khal,Tidal,Shariatpur,Damudya,23.1364,90.4433,01-08-2020,31-07-2026
+354,SW95,Sureswar,Ganges-Padma,Tidal,Shariatpur,Naria,23.3115,90.4759,01-10-1954,31-07-2026
+355,SW350,Rajnganj,Kirtinasha,Tidal,Shariatpur,Sariatpur Sadar,23.2206,90.3392,01-09-2004,31-07-2026
+356,SW34.5,Jhenaigati,Moharoshi,Non-Tidal,Sherpur,Jhenaigati,25.1828,90.0689,01-01-2026,31-07-2026
+357,SW35,Nalitabari,Bhogai-Kangsa,Non-Tidal,Sherpur,Nalitabari,25.0854,90.1953,19-04-1957,31-07-2026
+358,SW53,Bath Kuchi,Chellakhali,Non-Tidal,Sherpur,Nalitabari,25.1967,90.1765,29-04-1957,31-07-2026
+359,SW34,Nakuagaon,Bhogai-Kangsa,Non-Tidal,Sherpur,Nalitabari,25.1896,90.2158,21-04-1957,31-07-2026
+360,SW36.5,Sreebardi,Someshwari (Jhenaigati),Non-Tidal,Sherpur,Sreebardi,25.2556,89.9036,01-01-2026,31-07-2026
+361,SW49A,Kazipur,Brahmaputra-Jamuna,Non-Tidal,Sirajganj,Kazipur,24.6698,89.6491,01-04-1967,31-07-2026
+362,SW11.5,Nalkasengati,Bangali,Non-Tidal,Sirajganj,Raiganj,24.4239,89.5927,01-12-1996,30-06-2026
+363,SW151,Baghabari,Karatoa-Atrai-Gur-Gumani-Hurasagar,Non-Tidal,Sirajganj,Shahjadpur,24.1312,89.5813,01-06-1945,30-06-2026
+364,SW49,Sirajganj,Brahmaputra-Jamuna,Non-Tidal,Sirajganj,Sirajganj Sadar,24.4685,89.7196,01-06-1945,30-06-2026
+365,SW66,Ullapara_Rly_Crossing,Deonai_Charalkata_Jamuneswari_Karatoa,Non-Tidal,Sirajganj,Ullapara,24.2977,89.5940,01-04-1959,30-06-2026
+366,SW313,Nangoora Bridge,Nangoora,Non-Tidal,Sirajganj,Ullapara,24.2568,89.4888,01-04-1965,31-07-2026
+367,SW333A,Dulura,Jhalukhali,Non-Tidal,Sunamganj,Bishwamvarpur,25.1593,91.3878,01-07-1996,30-06-2026
+368,SW33,Gobindaganj,Bhattakhal,Tidal,Sunamganj,Chhatak,24.9403,91.6900,16-10-1958,30-09-2000
+369,SW315,Chhatak,Madhabpur Khal,Non-Tidal,Sunamganj,Chhatak,25.1012,91.6500,09-06-1966,31-08-1977
+370,SW268,Chhatak,Surma-Meghna,Non-Tidal,Sunamganj,Chhatak,25.0367,91.6626,01-04-1949,30-06-2026
+371,SW269.5,Derai_on Kalni,Surma-Meghna,Non-Tidal,Sunamganj,Derai,24.7982,91.3538,01-04-1996,30-06-2026
+372,SW263.2,Madhanagar,Someswari,Non-Tidal,Sunamganj,Dharampasha,25.0495,90.9960,01-03-2018,30-06-2026
+373,SW337,Urargaon,Noyagang,Non-Tidal,Sunamganj,Dowarabazar,25.1209,91.5936,28-07-1988,30-06-2026
+374,SW341,Chella Sonapur,Omayan Chella,Non-Tidal,Sunamganj,Dowarabazar,25.1301,91.6685,03-05-1989,30-06-2026
+375,SW352,Jagonathpur,Naljar,Non-Tidal,Sunamganj,Jagannathpur,24.7639,91.5514,01-03-2012,30-06-2026
+376,SW345,Durlavpur,Surma-Noya,Non-Tidal,Sunamganj,Jamalganj,24.9983,91.2579,01-07-1996,30-06-2026
+377,SW72B,Sukdebpur,Dhanu-Baulai-Ghorautra,Non-Tidal,Sunamganj,Jamalganj,24.8795,91.1627,01-04-1982,30-06-2026
+378,SW351,Akther Para,Mohasingh,Non-Tidal,Sunamganj,South Sunamganj,24.8779,91.4879,01-03-2018,30-06-2026
+379,SW333,Muslimpur,Jhalukhali,Non-Tidal,Sunamganj,Sunamganj Sadar,25.1109,91.3914,01-04-1988,30-06-2026
+380,SW269,Sunamganj,Surma-Meghna,Non-Tidal,Sunamganj,Sunamganj Sadar,25.0792,91.4121,01-04-1949,30-06-2026
+381,SW131.5,Laurergarh Saktiarkhola,Jadukata,Non-Tidal,Sunamganj,Tahirpur,25.1891,91.2508,01-04-1993,14-07-2026
+382,SW131,Saktiarkhola,Jadukata,Tidal,Sunamganj,Tahirpur,25.1884,91.2500,01-04-1964,31-03-1992
+383,SW354,Salemanpur (South Sreepur),Patnai,Non-Tidal,Sunamganj,Tahirpur,25.0926,91.1192,01-03-2018,30-06-2026
+384,SW173A,Sheola,Kushiyara,Non-Tidal,Sylhet,Beanibazar,24.9073,92.1500,01-04-1962,31-08-1977
+385,SW173,Sheola,Kushiyara,Non-Tidal,Sylhet,Beanibazar,24.8911,92.1915,09-06-1949,30-06-2026
+386,SW234,Companiganj,Piyan,Non-Tidal,Sylhet,Companiganj,25.0890,91.7601,01-01-1959,30-06-2026
+387,SW332,Islampur,Dhala,Non-Tidal,Sylhet,Companiganj,25.1302,91.7538,01-04-1988,31-07-2026
+388,SW265,Jaldhup,Sonai-Bardal,Non-Tidal,Sylhet,Fenchuganj,24.7738,92.1729,16-04-1957,30-06-2026
+389,SW174,Fenchuganj,Kushiyara,Non-Tidal,Sylhet,Fenchuganj,24.7023,91.9414,26-05-1948,31-07-2026
+390,SW252,Gowainghat,Sari-Gowain,Non-Tidal,Sylhet,Gowainghat,25.0886,91.9809,01-01-1951,14-07-2026
+391,SW233,Ratnar bhanga(Piyan gang),Piyan,Non-Tidal,Sylhet,Gowainghat,25.1624,91.9670,01-04-1959,30-06-2026
+392,SW251,Sarighat,Sari-Gowain,Non-Tidal,Sylhet,Jaintiapur,25.0939,92.1173,01-05-1951,31-07-2026
+393,SW233A,Jaflong_Spill,Piyan,Non-Tidal,Sylhet,Jaintiapur,25.1568,92.0167,01-04-1996,13-07-2026
+394,SW326A,Borogram,Lubachara,Non-Tidal,Sylhet,Kanairghat,25.0540,92.3374,01-07-1996,30-06-2026
+395,SW266,Kanairghat,Surma-Meghna,Non-Tidal,Sylhet,Kanairghat,24.9980,92.2594,01-06-1952,30-06-2026
+396,SW326,Lubachara,Lubachara,Non-Tidal,Sylhet,Kanairghat,25.0515,92.3085,01-04-1982,30-06-2026
+397,SW175.5,Sherpur,Kushiyara,Non-Tidal,Sylhet,Osmani Nagar,24.6303,91.6813,01-04-1982,30-06-2026
+398,SW6,Off take of Surma,Bahia,Tidal,Sylhet,Sylhet Sadar,24.9063,91.8200,08-07-1960,03-11-1976
+399,SW267,Sylhet,Surma-Meghna,Non-Tidal,Sylhet,Sylhet Sadar,24.8879,91.8680,01-01-1938,14-07-2026
+400,SW252.1,Salutikar,Sari-Gowain,Non-Tidal,Sylhet,Sylhet Sadar,24.9916,91.8522,01-04-1964,30-06-2026
+401,SW172,Amalshid,Kushiyara,Non-Tidal,Sylhet,Zakiganj,24.8732,92.4861,17-04-1951,31-07-2026
+402,SW172.5,Amalshid,Kushiyara,Non-Tidal,Sylhet,Zakiganj,24.8784,92.4900,01-04-1993,31-12-2017
+403,SW343.5,Bhuiyanpur d/s,Futikjani,Non-Tidal,Tangail,Bhuapur,24.4688,89.8753,01-04-1999,18-01-2023
+404,SW68A,Elashin,Dhaleswari,Non-Tidal,Tangail,Delduar,24.1187,89.8877,01-07-1996,30-06-2026
+405,SW342,Nolsafa,Futikjani,Non-Tidal,Tangail,Ghatail,24.4887,89.9000,01-07-1996,31-07-2026
+406,SW134,Jukerchar,Jhenai,Non-Tidal,Tangail,Kalihati,24.3779,89.8526,01-08-1958,30-06-2026
+407,SW12,Madhupur,Bangshi,Non-Tidal,Tangail,Madhupur,24.6058,90.0289,01-08-1957,30-06-2026
+408,SW14,Mirzapur_Bangshi,Bangshi,Non-Tidal,Tangail,Mirzapur,24.1096,90.0974,01-07-1945,31-07-2026
+409,SW13,Kawaljani,Bangshi,Non-Tidal,Tangail,Tangail Sadar,24.2990,90.0583,01-04-1959,30-06-2026
+410,SW50,Porabari,Brahmaputra-Jamuna,Non-Tidal,Tangail,Tangail Sadar,24.3011,89.7970,01-04-1940,30-06-2026
+411,SW186,Jugini,Lohajang,Non-Tidal,Tangail,Tangail Sadar,24.2904,89.8746,01-07-1945,14-01-2023
+412,SW335,Bhutdangi,Kulik,Non-Tidal,Thakurgaon,Haripur,25.8207,88.2407,01-04-1988,31-07-2026
+413,SW336,Bujruk,Nagar (NW border),Non-Tidal,Thakurgaon,Haripur,25.8725,88.1053,01-04-1988,31-07-2026
+414,SW285,Thakurgaon,Tangon,Non-Tidal,Thakurgaon,Thakurgaon,26.0359,88.4569,01-04-1960,31-07-2026
+415,SW284,Raniganj,Tangon,Non-Tidal,Thakurgaon,Thakurgaon,26.1839,88.4014,01-01-1960,30-06-2026
