@@ -9,7 +9,7 @@ RAW = Path("data/countries/bd/raw")
 OUTPUT = RAW / "water-bodies.csv"
 
 HEADERS = [
-    "record_type", "name_en", "name_bn", "water_body_type", "river_type", "body_type",
+    "name_en", "name_bn", "water_body_type",
     "district", "upazila", "latitude", "longitude", "area_monsoon_sqkm",
     "area_dry_sqkm", "water_volume_est", "origin_source", "division_traversed",
     "districts_traversed", "length_km_bd", "avg_width_m", "max_depth_m",
@@ -67,12 +67,9 @@ def read_rows(path):
 
 def merge_row(source, record_type, water_body_type):
     row = {header: "" for header in HEADERS}
-    row["record_type"] = record_type
     row["name_en"] = source.get("name_en", source.get("river_name_en", ""))
     row["name_bn"] = source.get("name_bn", source.get("river_name_bn", ""))
     row["water_body_type"] = water_body_type
-    row["river_type"] = source.get("river_type", "")
-    row["body_type"] = source.get("body_type", "")
     for field in (
         "district", "upazila", "latitude", "longitude", "area_monsoon_sqkm",
         "area_dry_sqkm", "water_volume_est", "origin_source", "division_traversed",

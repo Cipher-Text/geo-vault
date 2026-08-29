@@ -6,13 +6,11 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 5,Alai Kumari (Burail),NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 6,Amari Khal,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 7,Andhar Manik,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-8,Arial Khan,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 9,Arial Khan (Narsingdi),NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 10,Arpangasia,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 11,Arshi-Nalia,SE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 12,Atai,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 13,Atharabaki,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-14,Atrai,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 15,Atrai (Dinajpur),NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 16,Atrai (Naogaon-Natore),NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 17,Atrai (Pabna),NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -22,16 +20,11 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 21,Badai,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 22,Badurgacha,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 23,Bajja Medhua,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-24,Bakkhali,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 25,Baksatra,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-26,Baleshwar,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 27,Baloi,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-28,Balu,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 29,Balua,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 30,Banar Lower,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 31,Banar Upper,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-32,Bangali,NW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-33,Bangshi,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 34,Bangshi (Savar),NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 35,Banni,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 36,Baragang,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -64,7 +57,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 63,Bibiyana,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 64,Bijna-Gungaijuri,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 65,Bisharkand-Bagda Khal,SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-66,Bishkhali,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 67,Bizni,SE,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 68,Bogy,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 69,Boiran,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -75,7 +67,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 74,Bura Matamuhuri,SE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 75,Burail,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 76,Buri,SE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-77,Buriganga,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 78,Burikhora,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 79,Burishwar-pyra,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 80,Buritista,NW,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -119,21 +110,17 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 118,Dhala,NE,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 119,Dhalai (Maulvibazar),NE,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 120,Dhalai-Bisnai,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-121,Dhaleshwari,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 122,Dhanagoda,SE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 123,Dhanu,NE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-124,Dharla,NW,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 125,Dhepa,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 126,Dhum,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 127,Dolta,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 128,Dudhda,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-129,Dudhkumar,NW,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 130,Eidgaon,EH,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 131,Elishmari,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 132,Elongjani,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 133,Fakirnee,NW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 134,Fatki,SE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-135,Feni,SE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 136,Fullkumar,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 137,Gadai,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 138,Galghesia (Gutia khali),SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -162,7 +149,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 161,Gumai,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 162,Gumti,SE,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 163,Gunakhali,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-164,Halda,SE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 165,Hamkura,SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 166,Haparkhali,SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 167,Harabati,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -218,7 +204,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 217,Karna-Balja,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 218,Karnafuli,SE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 219,Karnajhara,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-220,Kasalong,EH,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 221,Kasti,SE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 222,Katakhal (Tungipara),NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 223,Katakhali,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
@@ -234,8 +219,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 233,Khiro (Bhaluka),NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 234,Khiro (Trishal),NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 235,Kholpettua,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-236,Khowai,NE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-237,Kirtankhola,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 238,Kobadak,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 239,Koira,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 240,Korangi,NE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
@@ -245,7 +228,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 244,Kumar (Upper),SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 245,Kurulia,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 246,Kurum,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-247,Kushiyara,NE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 248,Labundha,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 249,Lahar,SE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 250,Langa,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -271,11 +253,9 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 270,Maldah,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 271,Malijee,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 272,Manosh,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-273,Manu,NE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 274,Mara Jinjiram,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 275,Mara Surma,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 276,Marirchap-Labongabati,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-277,Matamuhuri,SE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 278,Mathabhaga,SW,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 279,Meghna (lower),SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 280,Meghna (upper),SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
@@ -284,11 +264,8 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 283,Minikhali,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 284,Mirgee,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 285,Mongla,NE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-286,Muhuri,SE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 287,Mukteshwari Teka,SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 288,Musakhan,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-289,Nabaganga,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-290,Naf,SE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 291,Nagar Lower (Bogra-Natore),NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 292,Nagar Upper,NW,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 293,Nagda Khal,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -308,12 +285,10 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 307,Nunda-Utra,SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 308,Nungla,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 309,Nungli,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-310,Old Brahmaputra,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 311,Old Dhaleshwari,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 312,Old Pashur,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 313,Old Surma,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 314,Pabijuri-Kushi Gang Kushiya,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-315,Padma,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 316,Pagaria-shila,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 317,Pagla,NW,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 318,Paharia,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
@@ -331,7 +306,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 330,Piyain (Sylhet-Sunamganj),NE,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 331,Polymari,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 332,Pora Khal - Khaiya,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-333,Punarbhaba,NW,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 334,Pungli,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 335,Puttymari,SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 336,Rabnabad,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
@@ -347,7 +321,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 346,Saldah,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 347,Salta,SW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 348,Sandhya,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-349,Sangu,SE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 350,Sapmara-Habra (Khutik Khali),SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 351,Sari Gowain,NE,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 352,Satar khali,NE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
@@ -377,8 +350,6 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 376,Sonakhali Khal,SE,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 377,Sugandha,SW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 378,Sui,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-379,Surma,MJ,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-380,Sutang,NE,Yes,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 381,Suteea,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 382,Suti,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 383,Talma,NW,Yes,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
@@ -393,12 +364,10 @@ bwdb_serial,river_name_en,bwdb_zone,border_river,flow_type,source
 392,Tirnoi (Panchagarh),NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 393,Tisra,NW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 394,Tisra (Panchagarh),NW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
-395,Titas,NE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 396,Titas (Narsingdi Sadar-Bancharampur),NW,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 397,Tongi Khal,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 398,Tulsi Ganga,NW,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
 399,Tulsikhali Khal,NC,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
-400,Turag,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 401,Umium,NC,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 402,Upadakhali,NE,No,PERENNIAL,https://en.bwdb.gov.bd/rivers-information
 403,Varuakhali Khal,EH,No,SEASONAL,https://en.bwdb.gov.bd/rivers-information
