@@ -1,0 +1,117 @@
+id,name_en,query,status,result_type,formatted_address,place_id,latitude,longitude,applied
+BD-WB-0026,Kasalong,"Kasalong, River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0027,Bangshi,"Bangshi, River, Bangladesh",OK,establishment|natural_feature,"Bangshi River, Bangladesh",ChIJt7-tYbcgVjcRb6kV_NB4yVc,24.48845939593953,90.02805149450391,yes
+BD-WB-0028,Dharla,"Dharla, River, Bangladesh",OK,establishment|natural_feature,"Dharla, Bangladesh",ChIJ8dg13-e14jkRbvYbH_C5CEY,25.87514905436399,89.58960924617882,yes
+BD-WB-0029,Dudhkumar,"Dudhkumar, River, Bangladesh",OK,establishment|natural_feature,Dudhkumor River,ChIJO7IUKQvt4jkROxQhGZ3_toE,26.19175675152409,89.67690541695315,yes
+BD-WB-0030,Kangsha,"Kangsha, River, Bangladesh",OK,establishment|natural_feature,"Kangsa River, Bangladesh",ChIJqd3VF3m2VzcRBTyC2-1MDmc,24.97417921307164,90.56506423922853,yes
+BD-WB-0031,Sutang,"Sutang, River, Bangladesh",OK,establishment|natural_feature,"Sutang River, Bangladesh",ChIJGQQbBr1aUTcRrgB7ofJ6iK0,24.3062402,91.37839059999999,yes
+BD-WB-0032,Halda,"Halda, River, Bangladesh",OK,establishment|natural_feature,"Halda River, Bangladesh",ChIJbwaXp4QorTAR0W22xElk0bM,22.52593392085843,91.84164021423024,yes
+BD-WB-0033,Titas,"Titas, River, Bangladesh",OK,establishment|natural_feature,"Titas River, Bangladesh",ChIJm3AhEHJHVDcRff_NLpClTOA,23.80129124979716,90.83895306446271,yes
+BD-WB-0034,Karatoa (North & South),"Karatoa (North & South), River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0035,Atrai,"Atrai, River, Bangladesh",OK,establishment|natural_feature,Atrai River,ChIJvYseG3Iu_DkRVEUgY3XzKV8,25.06584030550964,89.01649379445296,yes
+BD-WB-0036,Jadukata,"Jadukata, River, Bangladesh",OK,establishment|natural_feature,Jadukata River,ChIJP2znYzTuUDcR1QsuzjSJQHo,25.12018382699828,91.67728875603717,yes
+BD-WB-0037,Khowai,"Khowai, River, Bangladesh",OK,establishment|natural_feature,Khowai River,ChIJWTvVdDjbUzcROpVDEIb6Sns,24.10919282523134,91.48787511354486,yes
+BD-WB-0038,Mahananda,"Mahananda, River, Bangladesh",OK,establishment|natural_feature,Mahananda River,ChIJK9PfeUdB5DkRzf8-G5NYvmE,26.47742598506915,88.15737139870716,yes
+BD-WB-0039,Manu,"Manu, River, Bangladesh",OK,establishment|natural_feature,Manu River,ChIJLy293UUMUTcR5Z4m4GqEv2w,24.45338475768452,91.85644952527058,yes
+BD-WB-0040,Piyain,"Piyain, River, Bangladesh",OK,establishment|natural_feature,"Piyain River, Bangladesh",ChIJuVBaPv3QVjcR27Zkys3rfb4,24.7683391,91.09554729999999,yes
+BD-WB-0041,Punarbhaba,"Punarbhaba, River, Bangladesh",OK,establishment|natural_feature,"Punarbhaba River, Bangladesh",ChIJ3ePSOm9N-zkRtb6LcmIycWA,25.61172107965042,88.60240532561627,yes
+BD-WB-0042,Sari-Goyain,"Sari-Goyain, River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0043,Someswari,"Someswari, River, Bangladesh",OK,establishment|natural_feature,Someshwari River,ChIJr87_pQgHVzcRj_dHA28cHVY,25.11046911586802,90.64886056155642,yes
+BD-WB-0044,Arial Khan,"Arial Khan, River, Bangladesh",OK,establishment|natural_feature,"Arial Khan River, Bangladesh",ChIJ1yaKDb-DVTcReQYTrWjMzAE,23.13184157854557,90.25321491262896,yes
+BD-WB-0045,Bhairab,"Bhairab, River, Bangladesh",OK,establishment|natural_feature,"Bhairab River, Bangladesh",ChIJHwCEL-II_zkRmOw9nbXgnIU,23.10063039966696,89.29328012974105,yes
+BD-WB-0046,Chitra,"Chitra, River, Bangladesh",OK,establishment|natural_feature,"Chitra River, Bangladesh",ChIJRfx3qwml_zkRLpIkRpt_8cY,23.15536547162542,89.52144038131443,yes
+BD-WB-0047,Dhaleshwari,"Dhaleshwari, River, Bangladesh",OK,establishment|natural_feature,"Dhaleshwari River, Bangladesh",ChIJEfx3UYa7VTcRsW2k9-W3fe8,23.62629639145374,90.38935889756674,yes
+BD-WB-0048,Gorai,"Gorai, River, Bangladesh",OK,establishment|natural_feature,"Madhumati River, Bangladesh",ChIJXxLg1fKX_jkRosqr8vXE1Cc,23.45216245500611,89.43493576077148,yes
+BD-WB-0049,Kopotakho (Kabadak),"Kopotakho (Kabadak), River, Bangladesh",OK,establishment|natural_feature,"Kopotakkho River, Bangladesh",ChIJF5XiRpNo_zkRSuM_i54JQXA,22.871482,89.1283158,yes
+BD-WB-0050,Mathabhanga,"Mathabhanga, River, Bangladesh",OK,political|sublocality|sublocality_level_1,"Mathabhanga, Khulna, Bangladesh",ChIJnd-MnpOP_zkR7ftvbvufMeo,22.7816528,89.5627331,yes
+BD-WB-0051,Nabaganga,"Nabaganga, River, Bangladesh",OK,establishment|natural_feature,"Nabaganga River, Bangladesh",ChIJ75LoFqqr_zkRuM9cWMIaSaM,23.3277415026448,89.43563191241512,yes
+BD-WB-0052,Old Brahmaputra,"Old Brahmaputra, River, Bangladesh",OK,establishment|natural_feature,"Old Brahmaputra River, Bangladesh",ChIJrQ8PU1YZVDcRFoDp2gEznw0,24.0369155,90.9800813,yes
+BD-WB-0053,Bangali,"Bangali, River, Bangladesh",OK,establishment|natural_feature,"Bangali River, Bangladesh",ChIJi5h8c0-x_TkRMA7fvUYDJjw,24.68009569735841,89.45965234888291,yes
+BD-WB-0054,Buriganga,"Buriganga, River, Bangladesh",OK,establishment|natural_feature,"Buriganga River, Bangladesh",ChIJo3yQHbywVTcRPGTQT9FflvY,23.70325755377805,90.39846432602914,yes
+BD-WB-0055,Shitalakshya,"Shitalakshya, River, Bangladesh",OK,establishment|natural_feature,"Shitalakshya River, Bangladesh",ChIJ1wUg52SxVTcRyhvmc1Th6W8,23.92286230370932,90.58264810231825,yes
+BD-WB-0056,Turag,"Turag, River, Bangladesh",OK,establishment|natural_feature,"Turag River, Bangladesh",ChIJi20FuUHEVTcRL-D4cg5-T18,23.89231669009527,90.34189978608009,yes
+BD-WB-0057,Kushiyara,"Kushiyara, River, Bangladesh",OK,establishment|natural_feature,Kushiyara River,ChIJlwWHCD6vUTcRM0jTVvAnWks,24.76056895921016,92.10747489518872,yes
+BD-WB-0058,Surma,"Surma, River, Bangladesh",OK,establishment|natural_feature,Surma River,ChIJA7FQ_mwrVzcRBniwbjsSv7c,24.9886970798154,91.8176469249846,yes
+BD-WB-0059,Begabati,"Begabati, River, Magura, Magura Sadar, Bangladesh",OK,locality|political,"Magura, Bangladesh",ChIJBUa9dHJW_jkRi6Y1N-qnsrk,23.4857953,89.41900849999999,yes
+BD-WB-0060,Bhadra,"Bhadra, River, Jessore; Khulna, Keshabpur; Dacope; Dumuria, Bangladesh",OK,establishment|natural_feature,"Bhadra River, Bangladesh",ChIJaeTSu29u_zkRYGnW0Y4v7A4,22.88467384021408,89.23482640480334,yes
+BD-WB-0061,Dhala,"Dhala, River, Sylhet, Companiganj, Bangladesh",OK,establishment|natural_feature,"Dhalai River, Bangladesh",ChIJefC1oPadUTcRuckSjkkimE8,24.4047773868517,91.83671674962861,yes
+BD-WB-0062,Dhepa,"Dhepa, River, Dinajpur, Kaharole, Bangladesh",OK,establishment|natural_feature,"Dhepa River, Bangladesh",ChIJR4FhUOGt5DkRkkydXKSqLA8,25.76622585516166,88.67231821757346,yes
+BD-WB-0063,Ghoramara,"Ghoramara, River, Panchagarh, Panchagarh Sadar, Bangladesh",OK,locality|political,"Panchagarh, Bangladesh",ChIJ15yg-eKL5DkRb57QA0NjUg0,26.3339777,88.5548408,yes
+BD-WB-0064,Hawrah,"Hawrah, River, Brahmanbaria, Akhaura, Bangladesh",OK,locality|political,"Akhaura, Bangladesh",ChIJdTWuwf0JVDcRFV0W1m9Olt4,23.8673991,91.2081173,yes
+BD-WB-0065,Jhenai,"Jhenai, River, Jamalpur; Tangail, Melandaha; Sarishabari; Kalihati, Bangladesh",OK,locality|political,"Melandaha, Bangladesh",ChIJP0W64jh3_TkRCkyQjODkWnQ,24.9817005,89.8291768,yes
+BD-WB-0066,Kakri,"Kakri, River, Cumilla, Chauddagram, Bangladesh",OK,establishment|natural_feature,"Kakri River, Bangladesh",ChIJaR7k5y5_UzcRIy0Oietn10E,23.33551760129697,91.25333155662278,yes
+BD-WB-0067,Nitai,"Nitai, River, Mymensingh, Dhobaura, Bangladesh",OK,establishment|natural_feature,"Nitai River, Bangladesh",ChIJNQ4DfzukVzcRKH5si35RX_o,25.09594593740226,90.55418941405124,yes
+BD-WB-0068,Pagla,"Pagla, River, Nawabganj, Shibganj, Bangladesh",OK,administrative_area_level_3|political,"Shibganj Upazila, Bangladesh",ChIJQWKRZadS-jkRZAPxUUlehr0,24.6837815,88.15721370000001,yes
+BD-WB-0069,Sonai-Bardal,"Sonai-Bardal, River, Sylhet, Fenchuganj, Bangladesh",OK,locality|political,"Fenchuganj, Bangladesh",ChIJbzhhlH-lUTcRHfBN54AG7MA,24.69583,91.944132,yes
+BD-WB-0070,Tangon,"Tangon, River, Dinajpur; Thakurgaon, Bochaganj; Thakurgaon, Bangladesh",OK,locality|political,"Bochaganj, Bangladesh",ChIJO6MNpDXI5DkR68oRQbl4df0,25.7997217,88.46218909999999,yes
+BD-WB-0071,Tongi Khal,"Tongi Khal, River, Dhaka, Uttara, Bangladesh",OK,political|sublocality|sublocality_level_1,"Uttara, Dhaka, Bangladesh",ChIJ3XRwXtDFVTcRxwCfBAOIxdE,23.8758547,90.3795438,yes
+BD-WB-0072,Brahmaputra-Jamuna,"Brahmaputra-Jamuna, River, Bogura; Gaibandha; Jamalpur; Kurigram; Manikganj; Pabna; Sirajganj; Tangail, Shariakandi; Fulchhari; Saghatta; Islampur; Sarishabari; Chilmari; Kurigram Sadar; Ulipur; Shivalaya; Bera; Kazipur; Sirajganj Sadar; Tangail Sadar, Bangladesh",OK,administrative_area_level_3|political,"Tangail Sadar Upazila, Bangladesh",ChIJwa3ux0T7_TkR-s5WozfUNQY,24.2510087,89.9169233,yes
+BD-WB-0073,Dakatia,"Dakatia, River, Chandpur, Hajiganj, Bangladesh",OK,locality|political,"Haziganj, Bangladesh",ChIJuQS7jrjzVDcRjm_2Bhtd-A0,23.2508859,90.8498709,yes
+BD-WB-0074,Dhanagoda,"Dhanagoda, River, Chandpur, Matlab Uttar, Bangladesh",OK,route,"Dhanagoda, Bangladesh",ChIJJRxINUtRVDcRMG2ZVdOoAX8,23.4762156,90.6930898,yes
+BD-WB-0075,Ganges (Padma),"Ganges (Padma), River, Kushtia; Manikganj; Munshiganj; Nawabganj; Pabna; Rajbari; Rajshahi; Shariatpur, Mirpur; Harirampur; Lohajang; Sreenagar; Shibganj; Ishwardi; Goalandaghat; Pangsha; Rajbari Sadar; Boalia; Charghat; Naria, Bangladesh",OK,locality|political,"Louhajang, Bangladesh",ChIJ9WrW04qhVTcR7RKhjWLZXbI,23.4743053,90.32072989999999,yes
+BD-WB-0076,Ichamati (Rangamati),"Ichamati (Rangamati), River, Chattogram, Rangunia, Bangladesh",OK,political|sublocality|sublocality_level_1,"Ichamati, Rangunia, Bangladesh",ChIJae9tvSw3rTAR-ck9g_db4Cc,22.4562012,92.06774530000001,yes
+BD-WB-0077,Juri,"Juri, River, Moulvibazar, Juri; Moulvibazar Sadar, Bangladesh",OK,establishment|natural_feature,Juri River,ChIJgbh-UYq_UTcRO5lViK8vM8s,24.52430232763391,92.11805851126867,yes
+BD-WB-0078,Karnafuli,"Karnafuli, River, Chattogram; Rangamati, Chittagong Sadar; Barkal, Bangladesh",OK,locality|political,"Chattogram, Bangladesh",ChIJ09-VQKbYrDAR2QVpy1vMFVA,22.3752075,91.8348606,yes
+BD-WB-0079,Katakhali,"Katakhali, River, Gaibandha, Gobindaganj, Bangladesh",OK,establishment|lodging|point_of_interest,"49JQ+RCM, Gobindogonj, Bangladesh",ChIJB9ia7sPj_DkRvt74PYsSi64,25.1320842,89.3885318,yes
+BD-WB-0080,Kobadak,"Kobadak, River, Chuadanga; Jessore; Khulna; Satkhira, Jjbannagar; Chaugachha; Jhikargachha; Koyra; Paikgachha; Tala, Bangladesh",OK,establishment|natural_feature,"Kopotakkho River, Bangladesh",ChIJ42ORdINq_zkRA1war9lWOR4,22.96442606357401,89.10387381058271,yes
+BD-WB-0081,Korangi,"Korangi, River, Habiganj, Bahubal, Bangladesh",OK,establishment|natural_feature,"Korangi - River, Bangladesh",ChIJEbCE1j9oUTcRQKZqYpiqDCE,24.3504446,91.53712980000002,yes
+BD-WB-0082,Lohalia,"Lohalia, River, Barisal, Bakerganj, Bangladesh",OK,administrative_area_level_4|political,"Lohalia, Bangladesh",ChIJHwSv9MnFqjAR85dPekI16fw,22.3988562,90.3983829,yes
+BD-WB-0083,Pathraj,"Pathraj, River, Panchagarh, Boda, Bangladesh",OK,establishment|natural_feature,"Pathraj River, Bangladesh",ChIJFSzZPB-S5DkRkueeWjSlL-s,26.17902862652909,88.56135655136417,yes
+BD-WB-0084,Salda,"Salda, River, Cumilla, Brahmanpara, Bangladesh",OK,establishment|natural_feature,"Salda River, Bangladesh",ChIJdVWGoqhzVDcRJYw7k7lC8sc,23.6877892469967,91.13186491951822,yes
+BD-WB-0085,Sari Gowain,"Sari Gowain, River, Sylhet, Gowainghat; Jaintiapur; Sylhet Sadar, Bangladesh",OK,locality|political,"Jaintapur, Bangladesh",ChIJxSV_EAlHUDcRqL9Oez0OMq4,25.1349003,92.1223018,yes
+BD-WB-0086,Selonia,"Selonia, River, Feni, Chhagalnaiya; Parshuram, Bangladesh",OK,establishment|natural_feature,Selonia River,ChIJ3-oYbJxBUzcRzy-n6hrpjuY,23.00655963632969,91.4434865702616,yes
+BD-WB-0087,Sonai,"Sonai, River, Habiganj, Madhabpur, Bangladesh",OK,locality|political,"Madhabpur, Bangladesh",ChIJrUPH49b9UzcRYJuEWGzVq9Y,24.0998223,91.2963269,yes
+BD-WB-0088,Talma,"Talma, River, Panchagarh, Panchagarh Sadar, Bangladesh",OK,establishment|point_of_interest,"8HPR+36P, Panchagarh - Tunirhat Rd, Pachagarth, Bangladesh",ChIJGavFUEKJ5DkRaBZanK5x3N4,26.3379192,88.5667458,yes
+BD-WB-0089,Bakkhali,"Bakkhali, River, Bangladesh",OK,establishment|natural_feature,"Bakkhali River, Bangladesh",ChIJzTaiCALBrTARjkR1XvlEnko,21.50286117974938,92.17949108408844,yes
+BD-WB-0090,Feni,"Feni, River, Bangladesh",OK,establishment|natural_feature,Feni River,ChIJg9d_vm5GUzcRr4t_I0n9Ccc,22.91565053814577,91.60849138085604,yes
+BD-WB-0091,Karnaphuli,"Karnaphuli, River, Bangladesh",OK,establishment|natural_feature,"Karnaphuli River, Bangladesh",ChIJj3devbdOrTARaMeSC4NkEDE,22.58188252047576,92.1068557263428,yes
+BD-WB-0092,Matamuhuri,"Matamuhuri, River, Bangladesh",OK,establishment|natural_feature,"Matamuhuri River, Bangladesh",ChIJFzimeVSKrTARIwrb4QfByjk,21.6031593666061,92.20251546878258,yes
+BD-WB-0093,Muhuri,"Muhuri, River, Bangladesh",OK,establishment|natural_feature,Muhuri River,ChIJOcvU8oJxUzcRan-gvBbacZ4,23.08956283119754,91.55016705744943,yes
+BD-WB-0094,Sangu,"Sangu, River, Bangladesh",OK,establishment|natural_feature,"Sangu River, Bangladesh",ChIJ-8fAH3UerTARouPt9gEgH_k,21.75577457278723,92.24523675851756,yes
+BD-WB-0095,Baleshwar,"Baleshwar, River, Bangladesh",OK,establishment|natural_feature,"Baleshwari River, Zianagar, Bangladesh",ChIJdaTJHA4HADoR78IK5ee28ow,22.4884777,89.976072,yes
+BD-WB-0096,Bishkhali,"Bishkhali, River, Bangladesh",OK,establishment|natural_feature,"Bishkhali River, Bangladesh",ChIJ2RxUZY6eqjARHW5YjzbxxCo,22.16088351197326,90.03737472631653,yes
+BD-WB-0097,Kirtankhola,"Kirtankhola, River, Bangladesh",OK,establishment|natural_feature,"Kirtankhola River, Bangladesh",ChIJmUbbVV8xVTcR1sYfago-jBw,22.69688232810897,90.37489071534773,yes
+BD-WB-0098,Payra (Burishwar),"Payra (Burishwar), River, Bangladesh",OK,neighborhood|political,"Burishwar, Bangladesh",ChIJhf1bC7BUUTcRJ3tVm0zoHgY,24.2207917,91.22294780000001,yes
+BD-WB-0099,Rupsa-Pasur,"Rupsa-Pasur, River, Bangladesh",OK,establishment|natural_feature,"Pasur River, Bangladesh",ChIJV_xgldr7ADoRmkrmLXkyW8U,21.7502997,89.50146579999999,yes
+BD-WB-0100,Naf,"Naf, River, Bangladesh",OK,establishment|natural_feature,Naf River,ChIJXzYfpt8IrjARQabsRCP_X-I,21.0056928,92.26673219999999,yes
+BD-WB-0101,Balu,"Balu, River, Bangladesh",OK,establishment|natural_feature,"Balu River, Bangladesh",ChIJxcgjE0-2VTcRDwifB9_8R20,23.77737989374433,90.48563427424182,yes
+BD-WB-0102,Teesta,"Teesta, River, Bangladesh",OK,establishment|natural_feature,Teesta River,ChIJYdb7_wk95DkRgYkECDSxcnA,26.57695556933984,89.0127980340611,yes
+BD-WB-0103,Jamuna,"Jamuna, River, Bangladesh",OK,establishment|natural_feature,Jamuna River,ChIJfx5_t8pU4zkRKiSmv4zh8OM,25.42119045665531,88.91239572365043,yes
+BD-WB-0104,Meghna (Upper & Lower),"Meghna (Upper & Lower), River, Bangladesh",OK,establishment|natural_feature,"Meghna River, Bangladesh",ChIJI-rxP-83VDcRxpq2QD02mEs,23.25946634887056,90.76400456898428,yes
+BD-WB-0105,Padma,"Padma, River, Bangladesh",OK,establishment|natural_feature,Padma River,ChIJbYmxhjdK-jkRWdCaPmXfo0A,23.92325433428013,89.34457595499026,yes
+BD-WB-0106,Madhumati,"Madhumati, River, Bangladesh",OK,establishment|natural_feature,"Madhumati River, Bangladesh",ChIJXxLg1fKX_jkRosqr8vXE1Cc,23.45216245500611,89.43493576077148,yes
+BD-WB-0107,Baral,"Baral, River, Bangladesh",OK,establishment|natural_feature,"Baral River, Bangladesh",ChIJfQrZUscX_DkRznNTRxyxDj4,24.33130159962144,89.03289559783643,yes
+BD-WB-0108,Gumti,"Gumti, River, Cumilla, Bangladesh",OK,establishment|natural_feature,Gomati,ChIJ8yo1orCZUzcRVWGEQRJBcIw,23.5368015989702,91.25456901605803,yes
+BD-WB-0109,Dhanu,"Dhanu, River, Bangladesh",OK,establishment|natural_feature,"Danu River, Bangladesh",ChIJsZPqUAa7VjcR3mdClx6VmOE,24.61527278411843,91.08744479370975,yes
+BD-WB-0110,Kalni,"Kalni, River, Bangladesh",OK,establishment|natural_feature,"Kalni River, Bangladesh",ChIJ04fjNA1GUTcRVZx2YstREok,24.42449712662809,91.358241145361,yes
+BD-WB-0111,Tentulia,"Tentulia, River, Bangladesh",OK,establishment|natural_feature,"Tentulia River, Bangladesh",ChIJ53ajH9DVqjARzdjUy29W8LU,22.5174148,90.606207,yes
+BD-WB-0112,Kumar,"Kumar, River, Bangladesh",OK,establishment|natural_feature,"Kumar River, Bangladesh",ChIJ_UXuGoy4_jkR9ArbJvGJfsY,23.64245543860489,89.2078021022346,yes
+BD-WB-0113,Ichamati-Kalindi,"Ichamati-Kalindi, River, Bangladesh",OK,establishment|natural_feature,Ichamati River,ChIJXwQclABY_zkRvQzeUUC6kYc,22.6178904,88.9425836,yes
+BD-WB-0114,Raimangal,"Raimangal, River, Bangladesh",OK,establishment|natural_feature,"Raimangal River, Bangladesh",ChIJIVghwgULAToR763WSQfBlzw,21.79491458963236,89.12289811411134,yes
+BD-WB-0115,Pashur,"Pashur, River, Bangladesh",OK,establishment|natural_feature,"Pashur River, Bangladesh",ChIJDUKFJepQADoRGadF_eP96aE,22.21393976916782,89.58740977901867,yes
+BD-WB-0116,Andhar Manik,"Andhar Manik, River, Patuakhali, Bangladesh",OK,establishment|point_of_interest,"X6PJ+3C7, Kalapara, Bangladesh",ChIJPbE4RwCNqjARm3iD4mqSitc,21.9851561,90.23105559999999,yes
+BD-WB-0117,Betna,"Betna, River, Bangladesh",OK,establishment|natural_feature,Betna River,ChIJGYnEbQs5_zkRVT3UJhs9ibo,22.90274918874813,89.02469050823333,yes
+BD-WB-0118,Ghaghat,"Ghaghat, River, Bangladesh",OK,establishment|natural_feature,"Ghaghat River, Bangladesh",ChIJ99uoeWPU_DkRk9IxQgYWF5Y,25.64327196727139,89.35975113801771,yes
+BD-WB-0119,Chandana-Barasia,"Chandana-Barasia, River, Bangladesh",OK,establishment|natural_feature,"Barashiah River, Bangladesh",ChIJBXX1uC_I_zkRdZETN7AFRZQ,23.26818520369524,89.7191950784388,yes
+BD-WB-0120,Little Feni,"Little Feni, River, Bangladesh",OK,establishment|natural_feature,"Little Feni River, Bangladesh",ChIJuYVNYcJPUzcR4oALxgj33eU,22.7796301,91.37856769999999,yes
+BD-WB-0121,Kacha,"Kacha, River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0122,Sandhya,"Sandhya, River, Bangladesh",OK,establishment|natural_feature,"Sandha River, Bangladesh",ChIJR0O_239OVTcRgWwwBozgKck,22.65560649944598,90.0583447145824,yes
+BD-WB-0123,Panguchi,"Panguchi, River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0124,Rabnabad,"Rabnabad, River, Bangladesh",OK,establishment|natural_feature,"Khairābād Nadi, Bangladesh",ChIJQTlowBXJqjARKOV81DFOUg0,22.4957226,90.3547269,yes
+BD-WB-0125,Bhogai-Kangsha,"Bhogai-Kangsha, River, Bangladesh",OK,locality|political,"Bhogai, Bangladesh",ChIJSWwErVKZVDcR0AffEcpTsQk,23.0848425,91.1351443,yes
+BD-WB-0126,Hurasagar,"Hurasagar, River, Bangladesh",OK,establishment|natural_feature,"হুরাসাগর নদী, Bangladesh",ChIJXbnsWi1y_jkRs5p2rfLJXYY,23.9999515,89.6340867,yes
+BD-WB-0127,Kaliganga (Manikganj),"Kaliganga (Manikganj), River, Bangladesh",OK,establishment|natural_feature,"Kaliganga River, Bangladesh",ChIJ6fhmXXiTVTcRol4Gbix_-_s,23.85828249836724,90.01876902090483,yes
+BD-WB-0128,Shibsa,"Shibsa, River, Bangladesh",OK,establishment|natural_feature,"Shibsa River, Bangladesh",ChIJaQQAZPhJADoRCIl7h4IOIB0,22.26727579805228,89.4741457568276,yes
+BD-WB-0129,Kholpetua,"Kholpetua, River, Bangladesh",OK,establishment|natural_feature,"Kholpetua River, Bangladesh",ChIJgciQlhrIAToRI0v9ub4JMck,22.39149325904194,89.24190295658153,yes
+BD-WB-0130,Sugandha,"Sugandha, River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0131,Narasunda,"Narasunda, River, Bangladesh",OK,establishment|natural_feature,"Narashunda River, Bangladesh",ChIJXT0MFiWSVjcRJS7YHiZxFTU,24.43612026470998,90.78954290295479,yes
+BD-WB-0132,Jingiram,"Jingiram, River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0133,Chengi,"Chengi, River, Bangladesh",OK,establishment|natural_feature,"Chengi River, Bangladesh",ChIJnUecpizoUjcRO5I4WvtyMIs,23.19116621648088,91.96869051468124,yes
+BD-WB-0134,Maini,"Maini, River, Bangladesh",OK,country|political,Bangladesh,ChIJp4vhgO2qrTARa_zhxOAoLQ8,23.684994,90.356331,yes
+BD-WB-0135,Atharabanki,"Atharabanki, River, Bangladesh",OK,administrative_area_level_5|political,"Athara Banki, Bangladesh",ChIJrc8baPlI_TkRcToV9cDlvv8,25.5123652,89.7409297,yes
+BD-WB-0136,Arial Khan (Narsingdi),"Arial Khan (Narsingdi), River, Bangladesh",OK,establishment|natural_feature,"Arial Khan River, Bangladesh",ChIJ8zSHruMgVDcRGCf1EK9gMBw,24.07987508553222,90.8532170851439,yes
+BD-WB-0137,Ghaghar,"Ghaghar, River, Bangladesh",OK,establishment|natural_feature,"Ghagar River, Bangladesh",ChIJ2yeR_9FhVTcRi6At4S85SYE,23.03991787209658,90.00000000000001,yes
+BD-WB-0138,Banar,"Banar, River, Bangladesh",OK,establishment|natural_feature,"Banar River, Bangladesh",ChIJBb5OlgwrVDcRwtOZezU1OEc,24.0728887,90.63386840000001,yes
+BD-WB-0139,Mongla,"Mongla, River, Bangladesh",OK,establishment|natural_feature,"Mongla River, Bangladesh",ChIJfzhIRCEiADoRDb2up4Kl67U,22.51816407837504,89.68150786376819,yes
+BD-WB-0140,Agunmukha,"Agunmukha, River, Bangladesh",OK,establishment|natural_feature,"Agunmukha River, Bangladesh",ChIJDwQ8MOX6qjARYk6DdG382Uk,21.95094726537947,90.49625522577217,yes
+BD-WB-0141,Shahbazpur Channel,"Shahbazpur Channel, River, Bangladesh",OK,establishment|natural_feature,"Shahbazpur Channel, Bangladesh",ChIJqSomL7kTqzARvtUy3i2PJVg,22.23619063388623,90.88669476163244,yes
