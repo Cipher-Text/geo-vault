@@ -1,16 +1,82 @@
 [
-{"type":"header","version":"4.8.5","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"bd_geo_code"},
-{"type":"table","name":"divisions","database":"bd_geo_code","data":
-[
-{"id":"1","name":"Chattagram","bn_name":"চট্টগ্রাম","url":"www.chittagongdiv.gov.bd"},
-{"id":"2","name":"Rajshahi","bn_name":"রাজশাহী","url":"www.rajshahidiv.gov.bd"},
-{"id":"3","name":"Khulna","bn_name":"খুলনা","url":"www.khulnadiv.gov.bd"},
-{"id":"4","name":"Barisal","bn_name":"বরিশাল","url":"www.barisaldiv.gov.bd"},
-{"id":"5","name":"Sylhet","bn_name":"সিলেট","url":"www.sylhetdiv.gov.bd"},
-{"id":"6","name":"Dhaka","bn_name":"ঢাকা","url":"www.dhakadiv.gov.bd"},
-{"id":"7","name":"Rangpur","bn_name":"রংপুর","url":"www.rangpurdiv.gov.bd"},
-{"id":"8","name":"Mymensingh","bn_name":"ময়মনসিংহ","url":"www.mymensinghdiv.gov.bd"}
-]
-}
+  {
+    "type": "header",
+    "version": "4.8.5",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  {
+    "type": "database",
+    "name": "bd_geo_code"
+  },
+  {
+    "type": "table",
+    "name": "divisions",
+    "database": "bd_geo_code",
+    "data": [
+      {
+        "id": "1",
+        "name": "Chattagram",
+        "bn_name": "চট্টগ্রাম",
+        "url": "www.chittagongdiv.gov.bd",
+        "area_sqkm": "32833.07733648",
+        "population": "33202357"
+      },
+      {
+        "id": "2",
+        "name": "Rajshahi",
+        "bn_name": "রাজশাহী",
+        "url": "www.rajshahidiv.gov.bd",
+        "area_sqkm": "18255.46189267",
+        "population": "20353116"
+      },
+      {
+        "id": "3",
+        "name": "Khulna",
+        "bn_name": "খুলনা",
+        "url": "www.khulnadiv.gov.bd",
+        "area_sqkm": "22584.72427649",
+        "population": "17415924"
+      },
+      {
+        "id": "4",
+        "name": "Barisal",
+        "bn_name": "বরিশাল",
+        "url": "www.barisaldiv.gov.bd",
+        "area_sqkm": "12693.47055445",
+        "population": "9100104"
+      },
+      {
+        "id": "5",
+        "name": "Sylhet",
+        "bn_name": "সিলেট",
+        "url": "www.sylhetdiv.gov.bd",
+        "area_sqkm": "12373.31177366",
+        "population": "11034952"
+      },
+      {
+        "id": "6",
+        "name": "Dhaka",
+        "bn_name": "ঢাকা",
+        "url": "www.dhakadiv.gov.bd",
+        "area_sqkm": "20426.53173259",
+        "population": "44215759"
+      },
+      {
+        "id": "7",
+        "name": "Rangpur",
+        "bn_name": "রংপুর",
+        "url": "www.rangpurdiv.gov.bd",
+        "area_sqkm": "16282.75269198",
+        "population": "17610955"
+      },
+      {
+        "id": "8",
+        "name": "Mymensingh",
+        "bn_name": "ময়মনসিংহ",
+        "url": "www.mymensinghdiv.gov.bd",
+        "area_sqkm": "10512.77412986",
+        "population": "12225449"
+      }
+    ]
+  }
 ]

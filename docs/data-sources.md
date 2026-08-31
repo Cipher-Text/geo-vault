@@ -45,7 +45,17 @@ These fields are derived from repository data:
 - `upazila_count`
 - `union_count`
 
-Population has not been added yet. Add it only from a source with clear census year, licensing, and upazila-level identifiers or parent district fields suitable for a reliable join.
+### Population
+
+Division, district, and upazila `population` fields use the enumerated total population from the Bangladesh Bureau of Statistics (BBS) Population and Housing Census 2022. The census year and provenance are retained on each record as `population_year` and `population_source`.
+
+- Source: BBS Population and Housing Census 2022, National Report (Volume I), Table P35 and linked census tables
+- Official source page: https://bbs.portal.gov.bd/pages/static-pages/6922e073933eb65569e27220
+- Reference year: 2022
+- Population measure: enumerated total, including all population scopes in the administrative unit
+- Join key: BBS administrative p-code, with documented spelling/renaming aliases for legacy repository names
+
+The matching division, district, and upazila exports under `data/countries/bd/formats/` also carry `area_sqkm` and `population`. The consolidated upazila CSV leaves these fields blank for city/thana rows that do not correspond to a rural upazila record.
 
 ## Countries
 
