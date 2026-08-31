@@ -82,8 +82,10 @@ The U.S. county and place exports are generated from the U.S. Census Bureau's 20
 - Source page: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2025.html
 - County output: `data/countries/us/counties.{json,csv,sql}`
 - Place output: `data/countries/us/places.{json,csv,sql}`
+- County subdivision output: `data/countries/us/county-subdivisions.{json,csv,sql}`
+- ZCTA output: `data/countries/us/zctas.{json,csv,sql}`
 
-The records retain Census GEOIDs, state postal codes, state FIPS codes, names, land and water area in square miles, and representative latitude/longitude coordinates. County records use `admin_level: "admin2"`; place records use `admin_level: "place"`. The Census Gazetteer Files cover the 50 states, the District of Columbia, and Puerto Rico. The import is reproducible with `scripts/import-census-us.mjs`.
+The records retain Census GEOIDs, state postal codes and state FIPS codes where provided, names, functional status where provided, land and water area in square miles, and representative latitude/longitude coordinates. County records use `admin_level: "admin2"`; county subdivision records use `admin_level: "admin3"`; place records use `admin_level: "place"`; and ZCTA records use `admin_level: "zcta"`. The Census Gazetteer Files cover the 50 states, the District of Columbia, and Puerto Rico. The import is reproducible with `scripts/import-census-us.mjs`.
 
 ### India Districts
 
