@@ -1,8 +1,21 @@
-# Geo Vault
+# Geo Vault — Bangladesh Geographic and Administrative Data
 
-A curated collection of geolocation datasets organized by country.
+Geo Vault is an open geographic data repository with structured country, city, and administrative-boundary datasets. It includes Bangladesh geographic data—divisions, districts, upazilas (উপজেলা), unions, city/thana records, p-codes, latitude/longitude coordinates, areas, and GeoJSON boundaries—alongside datasets for other countries.
 
-Geo Vault provides structured geolocation data for administrative regions, cities, coordinates, and related metadata. Data is organized per country under ISO 3166-1 alpha-2 codes, with a master country list at the root.
+The repository is useful for Bangladesh maps, location search, address forms, geocoding, GIS applications, data analysis, administrative lookups, and country-level geographic APIs. Data is organized per country under ISO 3166-1 alpha-2 codes, with a master country list at the root.
+
+## Bangladesh Geographic Dataset
+
+Bangladesh is the deepest-covered country in this repository. The dataset includes all 8 divisions, 64 districts (জেলা), 494 rural upazilas, 4,540 unions, and a consolidated upazila export containing IDs 1–596, including city/thana records. Rural upazilas include administrative p-codes, center latitude and longitude, area, government URLs, and nested unions. City/thana records include Google Maps geocoded coordinates where available.
+
+Key Bangladesh files:
+
+- [`data/countries/bd/administrative.json`](data/countries/bd/administrative.json) — nested divisions, districts, rural upazilas, unions, and city corporations.
+- [`data/countries/bd/formats/upazilas/upazilas.csv`](data/countries/bd/formats/upazilas/upazilas.csv) — CSV export of upazila and city/thana records with district IDs, names, coordinates, and `is_city`.
+- [`data/countries/bd/formats/upazilas/upazilas.json`](data/countries/bd/formats/upazilas/upazilas.json) — JSON export for applications and APIs.
+- [`data/countries/bd/formats/upazilas/upazilas.sql`](data/countries/bd/formats/upazilas/upazilas.sql) — MySQL-compatible SQL dump.
+- [`data/countries/bd/formats/upazilas/upazilas-495-596-with-district.csv`](data/countries/bd/formats/upazilas/upazilas-495-596-with-district.csv) — consolidated upazila list with district names, Bengali names, and coordinates.
+- [`data/geojson/`](data/geojson/) — boundary geometries where available.
 
 ## Countries
 
@@ -23,20 +36,16 @@ Geo Vault provides structured geolocation data for administrative regions, citie
 geo-vault/
 ├── data/
 │   ├── countries.json          Master list of 252 countries
-│   ├── administrative/           Global Admin-1 through Admin-4 datasets
+│   ├── administrative/          Global Admin-1 through Admin-4 datasets
 │   ├── continents.json           Continent reference records
 │   ├── regions.json              Region reference records
 │   ├── currencies.json           Currency reference records
 │   ├── languages.json            Language reference records
 │   ├── timezones.json            Partial IANA timezone reference records
-│   ├── countries/                Country-specific datasets
+│   ├── countries/                Country-specific datasets by ISO2 code
 │   ├── cities/                   Country-keyed city collections
 │   ├── geojson/                  Boundary geometries
 │   └── historical/               Historical geographic and political records
-│   ├── countries/                Country-specific datasets by ISO2 code
-│   ├── administrative/           Global Admin-1 through Admin-4 datasets
-│   ├── cities/                   Country-keyed city collections
-│   └── geojson/                  Boundary geometries
 ├── schemas/
 │   ├── country.schema.json
 │   ├── admin1.schema.json
