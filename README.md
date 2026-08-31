@@ -22,7 +22,7 @@ Key Bangladesh files:
 | Code | Country | Admin Levels | Cities | Notes |
 | --- | --- | --- | --- | --- |
 | `bd` | Bangladesh | 4 (divisions, districts, upazilas, unions) | 137 | Deep coverage with p-codes, area, coordinates, GeoJSON |
-| `us` | United States | 1 (states) | 3,399 | |
+| `us` | United States | 2 (states, counties) plus places | 3,399 cities; 32,350 Census places | States, counties, places, FIPS/GEOIDs, areas, coordinates |
 | `in` | India | 2 (states/UTs, districts) | 3,776 | |
 | `pk` | Pakistan | 1 (provinces, territories) | 363 | |
 | `cn` | China | 1 (provinces, municipalities, autonomous regions) | 2,093 | |
@@ -68,12 +68,16 @@ Every country folder under `data/countries/` follows the same pattern:
 | `admin1.json` | First-level divisions for countries using the generic flat layout. |
 | `states.json` | India-specific state and union-territory records. |
 | `districts.json` | India-specific district/zila records. |
+| `counties.json` | U.S. Census counties and county-equivalent areas. |
+| `places.json` | U.S. Census incorporated places and census-designated places. |
 | `data/cities/{cc}.json` | GeoNames populated places with population greater than 15,000. |
 | `data/geojson/` | Boundary geometries, if available. |
 
 Some country records may include an optional `metadata` object for country-specific enrichment. The USA, India, China, and Pakistan records currently include population, language, time-zone, and country-identifier metadata.
 
 India uses country-specific administrative filenames: `states.json` and `districts.json`.
+
+The United States uses Census Bureau geographic files: `counties.json` contains county and county-equivalent Admin-2 records, while `places.json` contains incorporated places and census-designated places with Census GEOIDs, FIPS/state references, areas, and representative coordinates. Matching CSV and MySQL-compatible SQL exports are provided beside each JSON file.
 
 ## Data Shape
 

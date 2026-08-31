@@ -73,6 +73,18 @@ The optional `metadata` block in `data/countries/us/country.json` adds current U
 
 The existing `population` and `area_sqkm` fields remain unchanged because they are sourced from GeoNames countryInfo.
 
+### United States Counties and Places
+
+The U.S. county and place exports are generated from the U.S. Census Bureau's 2025 Gazetteer Files:
+
+- County source: National Counties Gazetteer File (`2025_Gaz_counties_national.txt`)
+- Place source: National Places Gazetteer File (`2025_Gaz_place_national.txt`)
+- Source page: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2025.html
+- County output: `data/countries/us/counties.{json,csv,sql}`
+- Place output: `data/countries/us/places.{json,csv,sql}`
+
+The records retain Census GEOIDs, state postal codes, state FIPS codes, names, land and water area in square miles, and representative latitude/longitude coordinates. County records use `admin_level: "admin2"`; place records use `admin_level: "place"`. The Census Gazetteer Files cover the 50 states, the District of Columbia, and Puerto Rico. The import is reproducible with `scripts/import-census-us.mjs`.
+
 ### India Districts
 
 `data/countries/in/districts.json` contains 763 GeoNames administrative-level-2 records representing Indian districts and district-equivalent areas. Records retain GeoNames identifiers, state and district codes, coordinates, population, time zone, and source modification dates.
