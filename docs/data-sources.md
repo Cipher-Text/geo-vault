@@ -9,6 +9,8 @@ Included data:
 - Bangladesh administrative hierarchy (`data/countries/bd/administrative.json`)
 - City corporations are maintained as a separate urban local-government collection within the hierarchy file, based on the Local Government Division's city-corporation list.
 - District GeoJSON boundaries (`data/geojson/bd/districts.geojson`)
+- Division, district, and upazila GeoJSON boundaries (`data/geojson/bd/{divisions,districts,upazilas}.geojson`)
+- Union and pourashava boundary GeoJSON (`data/geojson/bd/unions.geojson`)
 - Alternate dataset formats: CSV, SQL, JSON, PHP, and XML (`data/countries/bd/formats/`)
 
 The original project states that information, content, and spelling were collected from:
@@ -18,6 +20,16 @@ The original project states that information, content, and spelling were collect
 - Google Maps
 
 ### P-Codes, Area, and Center Coordinates
+
+### Boundary GeoJSON
+
+The division, district, and upazila boundary layers are derived from the Bangladesh COD-AB files published through HDX and retain the source p-codes, area, center coordinates, and version metadata. Geo Vault IDs and Bengali names are joined from the repository's Bangladesh administrative hierarchy.
+
+The ADM4 layer is the simplified Bangladesh ADM4 dataset from geoBoundaries. Its source `shapeID` and `shapeName` are retained; because the source does not provide the repository's union p-codes, ADM4 features are labelled `union_or_pourashava` and are not silently assigned to a union record.
+
+- COD-AB source: https://data.humdata.org/dataset/cod-ab-bgd
+- geoBoundaries source: https://www.geoboundaries.org/
+- Reproducible importer: `scripts/import-bd-boundaries.mjs`
 
 Division, district, and upazila p-code, area, and center coordinate fields were joined from the HDX Bangladesh COD-AB gazetteer:
 

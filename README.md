@@ -15,7 +15,9 @@ Key Bangladesh files:
 - [`data/countries/bd/formats/upazilas/upazilas.json`](data/countries/bd/formats/upazilas/upazilas.json) — JSON export for applications and APIs.
 - [`data/countries/bd/formats/upazilas/upazilas.sql`](data/countries/bd/formats/upazilas/upazilas.sql) — MySQL-compatible SQL dump.
 - [`data/countries/bd/formats/upazilas/upazilas-495-596-with-district.csv`](data/countries/bd/formats/upazilas/upazilas-495-596-with-district.csv) — consolidated upazila list with district names, Bengali names, and coordinates.
-- [`data/geojson/`](data/geojson/) — boundary geometries where available.
+- [`data/geojson/bd/`](data/geojson/bd/) — Bangladesh division, district, upazila, and ADM4 union/pourashava boundary geometries.
+
+Boundary layers contain 8 divisions, 64 districts, 507 ADM3 features, and 5,160 ADM4 features. The 494 repository upazila p-codes are all matched; the ADM3 source also retains 13 additional urban/legacy features.
 
 ## Countries
 

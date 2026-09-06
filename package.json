@@ -4,6 +4,7 @@
     "import:admin1": "node scripts/import-natural-earth-admin1.mjs",
     "import:admin2": "node scripts/import-geonames-admin2.mjs",
     "import:admin3-4": "node scripts/import-geonames-admin3-4.mjs",
+    "import:bd-boundaries": "node scripts/import-bd-boundaries.mjs",
     "generate:references": "node scripts/generate-reference-data.mjs"
   },
   "dependencies": {
